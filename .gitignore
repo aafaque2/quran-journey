@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# Local runtime data (issue reports in dev / self-hosted mode)
+.data/
+
+# Env files (keep the example)
+.env
+.env.*
+!.env.example
+
+*.log
+
+# Private planning documents: kept on this machine, never committed
+docs/product-spec.md
+docs/implementation-guide.md
+docs/opencode-prompts.md
+docs/launch.md
+.DS_Store
+Thumbs.db

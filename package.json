@@ -1,0 +1,24 @@
+{
+  "name": "quran-journey",
+  "private": true,
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @quran-journey/web dev",
+    "build": "pnpm --filter @quran-journey/web build",
+    "start": "pnpm --filter @quran-journey/web start",
+    "raw:fetch": "tsx apps/pipeline/src/fetch-raw.ts",
+    "schema:validate": "tsx apps/pipeline/src/validate.ts",
+    "content:status": "tsx apps/pipeline/src/status.ts",
+    "test": "vitest run",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}

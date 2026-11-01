@@ -1,0 +1,6 @@
+# Text files are stored with LF line endings.
+* text=auto eol=lf
+
+# The raw layer is verbatim source data, pinned by sha256 in content/raw/manifest.json.
+# Never convert line endings there: a single changed byte fails validation.
+content/raw/** -text
