@@ -1,0 +1,14 @@
+{
+  "name": "@quran-journey/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@quran-journey/content": "workspace:*",
+    "@quran-journey/schema": "workspace:*",
+    "zod": "^4.6.7"
+  }
+}
