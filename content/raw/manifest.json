@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "id": "tanzil-uthmani",
+      "kind": "quran_text",
+      "name": "Tanzil Quran Text (Uthmani)",
+      "publisher": "Tanzil Project",
+      "version": "1.1",
+      "license": "Creative Commons Attribution 3.0. Verbatim copies only: changing the text is not allowed. The source (Tanzil Project) must be clearly indicated with a link to tanzil.net, and the copyright notice kept with the text (it is retained inside the stored file).",
+      "attribution": "Qur'an text: Tanzil Project, Uthmani text v1.1",
+      "attributionUrl": "https://tanzil.net",
+      "files": [
+        {
+          "path": "tanzil/quran-uthmani.xml",
+          "sha256": "5ea5cbab9b4d031613a819a70822aff75e7c4500dea4946fc554b1bf84b7468a",
+          "bytes": 1529315,
+          "sourceUrl": "https://tanzil.net/pub/download/index.php?quranType=uthmani&outType=xml&marks=true&sajdah=true&agree=true",
+          "retrievedAt": "2026-11-13T15:07:58.184Z"
+        }
+      ]
+    },
+    {
+      "id": "tanzil-metadata",
+      "kind": "quran_metadata",
+      "name": "Tanzil Quran Metadata",
+      "publisher": "Tanzil Project",
+      "license": "Tanzil metadata (license declared inside the stored file). Credit Tanzil Project with a link to tanzil.net.",
+      "attribution": "Qur'an structure metadata: Tanzil Project",
+      "attributionUrl": "https://tanzil.net",
+      "files": [
+        {
+          "path": "tanzil/quran-data.xml",
+          "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+          "bytes": 77234,
+          "sourceUrl": "https://tanzil.net/res/text/metadata/quran-data.xml",
+          "retrievedAt": "2026-11-13T15:07:58.536Z"
+        }
+      ]
+    },
+    {
+      "id": "quranenc-english-saheeh",
+      "kind": "translation",
+      "name": "Saheeh International (English)",
+      "publisher": "Noor International Center, via QuranEnc.com",
+      "version": "1.1.2",
+      "license": "QuranEnc.com republishing terms: no modification, addition or deletion; clearly credit the publisher and the source (QuranEnc.com) and mention the version number; keep the translation updated to the latest version; notify QuranEnc of any notes on the translation; no inappropriate advertisements alongside it. Commercial use is not addressed by these terms.",
+      "attribution": "Translation of the meaning: Saheeh International (Noor International Center), via QuranEnc.com, v1.1.2",
+      "attributionUrl": "https://quranenc.com/en/browse/english_saheeh",
+      "files": [
+        {
+          "path": "quranenc/english_saheeh/001.json",
+          "sha256": "f0387d3784cf0fb0027f827e64091ab2850c536a9a0a08d3d4d5185c3f71b34e",
+          "bytes": 4322,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/english_saheeh/1",
+          "retrievedAt": "2026-11-13T15:07:59.287Z"
+        },
+        {
+          "path": "quranenc/english_saheeh/002.json",
+          "sha256": "449ec8c41b347bf88c5d3450db43304cb0603f11c4420f9cac584a22a012a302",
+          "bytes": 411147,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/english_saheeh/2",
+          "retrievedAt": "2026-11-13T15:07:59.767Z"
+        }
+      ]
+    }
+  ]
+}
