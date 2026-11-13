@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0001",
+  "partNumber": 1,
+  "surah": 1,
+  "startAyah": 1,
+  "endAyah": 7,
+  "title": "The Opening: A Prayer for Guidance",
+  "subtitle": "Praise, a promise of worship, and the one request at the heart of every prayer",
+  "estimatedMinutes": 12,
+  "learningObjectives": [
+    "See how Al-Fatihah moves from praising Allah, to a promise, to a request.",
+    "Understand what 'You alone we worship and You alone we ask for help' commits us to.",
+    "Know what 'the straight path' means, and whose path it is."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "Al-Fatihah is a prayer in three movements. It opens by praising Allah: His lordship over everything, His mercy, and His ownership of the Day of Recompense (1:1–4). It then turns to address Him directly with a promise: You alone we worship, and You alone we ask for help (1:5). It ends with the one request it makes: guide us to the straight path, the path of those You have favoured, not of those who earned anger or went astray (1:6–7).",
+    "sources": [
+      { "work": "quran", "locator": "1:1-7" },
+      { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 2", "note": "describes the character of the surah as that of a prayer" }
+    ]
+  },
+  "context": [
+    {
+      "id": "names-of-al-fatihah",
+      "category": "scholarly_interpretation",
+      "text": "Its name means 'the Opening': the written Qur'an opens with it, and recitation in the prayer begins with it. A hadith that al-Tirmidhi graded authentic also calls it Umm al-Qur'an ('the Mother of the Qur'an') and al-Sab' al-Mathani ('the Seven Oft-Repeated Verses').",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:1 (introduction to the surah)",
+          "excerpt": "يقال لها : الفاتحة ، أي فاتحة الكتاب خطا ، وبها تفتح القراءة في الصلاة"
+        },
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:1 (introduction to the surah)",
+          "excerpt": "وقد ثبت في [ الحديث ] الصحيح عند الترمذي وصححه عن أبي هريرة قال : قال رسول الله صلى الله عليه وسلم : الحمد لله أم القرآن",
+          "note": "quoting the hadith of Abu Hurayrah with al-Tirmidhi's grading"
+        },
+        { "work": "jami-al-tirmidhi", "locator": "as quoted by Ibn Kathir in his introduction to Al-Fatihah" }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "makki-or-madani",
+      "category": "scholarly_disagreement",
+      "text": "Scholars differ on where Al-Fatihah was revealed. Ibn Kathir considers Makkah the more likely, pointing to 15:87, which already speaks of 'seven of the oft-repeated verses'.",
+      "sources": [{ "work": "quran", "locator": "15:87" }],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas, Qatadah and Abu al-'Aliyah",
+          "text": "It was revealed in Makkah.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 1:1 (introduction to the surah)", "excerpt": "وهي مكية ، قاله ابن عباس وقتادة وأبو العالية" }
+          ]
+        },
+        {
+          "holder": "Abu Hurayrah, Mujahid, 'Ata' ibn Yasar and al-Zuhri",
+          "text": "It was revealed in Madinah.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 1:1 (introduction to the surah)", "excerpt": "وقيل مدنية ، قاله أبو هريرة ومجاهد وعطاء بن يسار والزهري" }
+          ]
+        },
+        {
+          "holder": "Others, as reported by Ibn Kathir",
+          "text": "It was revealed twice: once in Makkah and once in Madinah.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 1:1 (introduction to the surah)",
+              "excerpt": "ويقال : نزلت مرتين : مرة بمكة ، ومرة بالمدينة ، والأول أشبه لقوله تعالى : ( ولقد آتيناك سبعا من المثاني ) [ الحجر : 87 ]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectionToPrevious": null,
+  "connectionToNext": {
+    "id": "next-the-book-as-answer",
+    "category": "editorial_synthesis",
+    "text": "Al-Fatihah ends with a request: guide us to the straight path (1:6). The very next passage presents 'the Book' as guidance for the God-conscious (2:2). Tafheem-ul-Qur'an describes this request as the prayer a person makes as they begin to study the Qur'an, and the journey continues with what comes in reply.",
+    "sources": [
+      { "work": "quran", "locator": "1:6" },
+      { "work": "quran", "locator": "2:2" },
+      { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 8" }
+    ]
+  },
+  "tafsirInsights": [
+    {
+      "id": "basmala-as-a-verse",
+      "category": "scholarly_disagreement",
+      "text": "Is 'In the name of Allah, the Entirely Merciful, the Especially Merciful' itself a verse of Al-Fatihah? Ibn Kathir records three positions. The text shown in this app follows the Kufan count, in which it is verse 1.",
+      "sources": [],
+      "views": [
+        {
+          "holder": "Most of the Kufan reciters, with a group of Companions and Successors",
+          "text": "It is an independent verse at the start of the surah.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 1:1 (introduction to the surah)",
+              "excerpt": "هل هي آية مستقلة من أولها كما هو عند جمهور قراء الكوفة وقول الجماعة من الصحابة والتابعين وخلق من الخلف"
+            }
+          ]
+        },
+        {
+          "holder": "Some scholars",
+          "text": "It is part of a verse.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 1:1 (introduction to the surah)" }]
+        },
+        {
+          "holder": "The reciters and jurists of Madinah",
+          "text": "It is not counted as a verse of the surah at all.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 1:1 (introduction to the surah)",
+              "excerpt": "أو بعض آية أو لا تعد من أولها بالكلية ، كما هو قول أهل المدينة من القراء والفقهاء"
+            }
+          ]
+        }
+      ],
+      "sensitive": ["fiqh"]
+    },
+    {
+      "id": "praise-before-asking",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di explains al-hamd as praising Allah for His perfect attributes and for His acts, which are always either generosity or justice. Tafheem-ul-Qur'an adds that we praise for two reasons, excellence itself and gratitude to a benefactor, and that Allah deserves praise on both counts. It also points out the order: the prayer praises before it asks, because a respectful petitioner does not simply blurt out a request.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 1:2" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 2" }
+      ]
+    },
+    {
+      "id": "rabb-who-nurtures",
+      "category": "scholarly_interpretation",
+      "text": "Rabb means more than 'Lord'. Al-Sa'di explains it as the One who nurtures all the worlds (everything other than Allah) through creation, provision and guidance. He distinguishes a general nurturing given to all creation from a special nurturing of those close to Him, whom He grows in faith and shields from what would turn them away, and suggests this is why most of the prophets' prayers in the Qur'an begin with 'My Lord'. Tafheem-ul-Qur'an lists three senses of Rabb (master, sustainer and sovereign) and says all three apply here.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 1:2" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 3" }
+      ]
+    },
+    {
+      "id": "mercy-and-judgement",
+      "category": "scholarly_interpretation",
+      "text": "Straight after mercy (1:3) comes 'Master of the Day of Recompense' (1:4). Tafheem-ul-Qur'an reads the pairing as a balance: love Allah for His mercy, and hold Him in awe for His justice. Al-Sa'di explains why that Day is singled out when Allah owns every day: on it His complete sovereignty and justice become fully manifest, and every human claim to ownership ends, kings and subjects alike.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 5" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:4" }
+      ]
+    },
+    {
+      "id": "you-alone",
+      "category": "scholarly_interpretation",
+      "text": "In 'iyyaka na'budu wa iyyaka nasta'in', the word 'You' (iyyaka) is placed before each verb, which in Arabic signals exclusivity: we worship You and no one else; we seek help from You and no one else. Al-Sa'di explains why worship comes first: it is Allah's right and the goal, while help is what the servant needs in order to fulfil it. Tafheem-ul-Qur'an notes that 'ibadah here carries three senses at once: adoration, obedience and service.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:5",
+          "excerpt": "وقدم المفعول وهو إياك ، وكرر ؛ للاهتمام والحصر ، أي : لا نعبد إلا إياك ، ولا نتوكل إلا عليك"
+        },
+        { "work": "tafsir-al-sadi", "locator": "on 1:5" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 6" }
+      ]
+    },
+    {
+      "id": "why-ask-for-guidance",
+      "category": "scholarly_interpretation",
+      "text": "Why would people who are already Muslim, even prophets, keep asking to be guided? Ma'arif al-Qur'an answers by distinguishing degrees of guidance: a general guidance given to everything that exists, the guidance of prophets and revealed books offered to every person, and a special guidance (tawfiq) that Allah grants believers, making it easier to accept and act on the truth. Al-Sa'di likewise distinguishes being guided to the path (holding to Islam) from being guided within it, in every detail of knowledge and practice.",
+      "sources": [
+        { "work": "maarif-ul-quran", "locator": "on 1:6 ('The Meaning of Hidayah or Guidance')" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:6" }
+      ]
+    },
+    {
+      "id": "the-straight-path",
+      "category": "scholarly_interpretation",
+      "text": "Early commentators described the straight path as Islam, as the Qur'an, as the truth, or as following the Prophet ﷺ and his two successors, Abu Bakr and 'Umar. Ibn Kathir concludes that all of these are correct and entail one another: whoever follows the Prophet follows the truth, which is Islam, which is the Qur'an. Verse 7 then defines the path by its people, 'those You have favoured', whom 4:69 names as the prophets, the truthful, the martyrs and the righteous.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 1:6", "excerpt": "وكل هذه الأقوال صحيحة ، وهي متلازمة" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 1:7", "excerpt": "هم المذكورون في سورة النساء" },
+        { "work": "quran", "locator": "4:69" }
+      ]
+    },
+    {
+      "id": "two-paths-to-avoid",
+      "category": "scholarly_interpretation",
+      "text": "The prayer ends by naming two paths to avoid. Ibn Kathir explains them by what each lacks: the believers' path joins knowing the truth with acting on it; those who 'earned anger' knew the truth but abandoned acting on it, while those who 'went astray' acted without knowledge. He names the Jews and the Christians as the historical examples, citing a hadith that al-Tirmidhi graded hasan gharib. Al-Sa'di defines the two by the same traits and adds 'and those like them', so the description applies to anyone who shares those traits. Tafheem-ul-Qur'an adds that 'favour' here means lasting divine approval, not worldly success.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:7",
+          "excerpt": "فإن طريقة أهل الإيمان مشتملة على العلم بالحق والعمل به ، واليهود فقدوا العمل ، والنصارى فقدوا العلم"
+        },
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:7",
+          "excerpt": "ورواه الترمذي ، من حديث سماك بن حرب ، وقال : حسن غريب لا نعرفه إلا من حديثه",
+          "note": "the hadith of 'Adi ibn Hatim"
+        },
+        { "work": "jami-al-tirmidhi", "locator": "as quoted by Ibn Kathir on 1:7", "note": "graded hasan gharib by al-Tirmidhi" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:7" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 10" }
+      ],
+      "sensitive": ["interfaith", "hadith"]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "two-halves",
+      "category": "scholarly_interpretation",
+      "text": "In a hadith qudsi recorded by Muslim, Allah says He has divided 'the prayer' (Al-Fatihah) between Himself and His servant into two halves, and He responds to each verse as it is recited. The opening verses are praise of Him; of 'You alone we worship and You alone we ask for help' He says, 'This is between Me and My servant, and My servant shall have what he asked for'; and the closing request belongs to the servant.",
+      "sources": [
+        { "work": "sahih-muslim", "locator": "hadith 395" },
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:1 (introduction to the surah)",
+          "excerpt": "قال : هذا بيني وبين عبدي ، ولعبدي ما سأل",
+          "note": "quoted through Muslim's chain of narration"
+        }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "turning-to-address-him",
+      "category": "scholarly_interpretation",
+      "text": "Verses 1–4 speak about Allah; verse 5 suddenly speaks to Him: 'You'. Ibn Kathir explains the turn: having praised Allah, the servant has, as it were, drawn near and come into His presence, so he now addresses Him directly.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:5",
+          "excerpt": "وتحول الكلام من الغيبة إلى المواجهة بكاف الخطاب ، وهو مناسبة ، لأنه لما أثنى على الله فكأنه اقترب وحضر بين يدي الله تعالى"
+        }
+      ]
+    },
+    {
+      "id": "secret-of-the-quran",
+      "category": "scholarly_interpretation",
+      "text": "Ibn Kathir quotes an early scholar: 'Al-Fatihah is the secret of the Qur'an, and its secret is this phrase: You alone we worship and You alone we ask for help.' The first half frees a person from worshipping anything else; the second frees them from relying on their own strength, entrusting their affairs to Allah.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 1:5",
+          "excerpt": "قال بعض السلف : الفاتحة سر القرآن ، وسرها هذه الكلمة : ( إياك نعبد وإياك نستعين ) [ الفاتحة : 5 ] فالأول تبرؤ من الشرك ، والثاني تبرؤ من الحول والقوة"
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-praise-first",
+      "category": "editorial_synthesis",
+      "text": "Begin with praise before asking: the surah praises Allah for four verses before it makes a single request.",
+      "sources": [
+        { "work": "quran", "locator": "1:1-6" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 2" }
+      ]
+    },
+    {
+      "id": "takeaway-you-alone",
+      "category": "established",
+      "text": "Worship and asking for help belong to Allah alone (1:5).",
+      "sources": [{ "work": "quran", "locator": "1:5" }]
+    },
+    {
+      "id": "takeaway-ask-for-guidance",
+      "category": "editorial_synthesis",
+      "text": "The request the surah makes is guidance, both to the path and along it, and it is worth meaning it every time.",
+      "sources": [
+        { "work": "quran", "locator": "1:6" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:6" }
+      ]
+    },
+    {
+      "id": "takeaway-know-and-act",
+      "category": "editorial_synthesis",
+      "text": "Guidance needs both knowledge and action: knowing without doing, and doing without knowing, are the two ways to lose the path.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 1:7" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:7" }
+      ]
+    }
+  ],
+  "commonMisunderstandings": [],
+  "reflectionQuestions": [
+    "When you next pray, which verse of Al-Fatihah will you slow down on, and why?",
+    "'You alone we ask for help': what are you currently relying on more than Allah?",
+    "Where in your life do you know the right thing but find it hard to act on it?"
+  ],
+  "segmentationRationale": {
+    "text": "Al-Fatihah is a complete surah of seven verses and a single prayer from beginning to end: praise (1:1–4), commitment (1:5) and request (1:6–7). It is studied as one unit, and the hadith qudsi recorded by Muslim treats the whole surah as one 'prayer' shared between Allah and His servant.",
+    "basis": "classical",
+    "sources": [
+      { "work": "quran", "locator": "1:1-7" },
+      { "work": "sahih-muslim", "locator": "hadith 395" },
+      { "work": "tafheem-ul-quran", "locator": "Al-Fatihah, note 2" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-13T15:30:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Sa'di and Ma'arif al-Qur'an (via quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

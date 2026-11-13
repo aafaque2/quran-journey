@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0003",
+  "partNumber": 3,
+  "surah": 2,
+  "startAyah": 6,
+  "endAyah": 7,
+  "title": "Those Who Reject Guidance",
+  "subtitle": "Why a warning makes no difference to some, and what the Qur'an means by a 'seal' on the heart",
+  "estimatedMinutes": 8,
+  "learningObjectives": [
+    "Understand who 2:6 describes, and how early scholars differed about it.",
+    "Understand what the 'seal' on hearts in 2:7 means, and what it does not mean.",
+    "See how these verses console the Prophet ﷺ and anyone who invites others to the truth."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "In two verses the passage turns to those who have settled on rejecting the truth: for them it is the same whether they are warned or not; they will not believe (2:6). Allah has set a seal on their hearts and on their hearing, and over their sight is a covering; theirs is a great punishment (2:7).",
+    "sources": [{ "work": "quran", "locator": "2:6-7" }]
+  },
+  "context": [
+    {
+      "id": "who-does-2-6-describe",
+      "category": "scholarly_disagreement",
+      "text": "Who does 2:6 describe? Ibn Kathir records three early explanations and considers the first the most apparent, since it matches other verses with the same meaning, such as 10:96–97.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:6",
+          "excerpt": "والمعنى الذي ذكرناه أولا وهو المروي عن ابن عباس في رواية علي بن أبي طلحة ، أظهر"
+        },
+        { "work": "quran", "locator": "10:96-97" }
+      ],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas (via 'Ali ibn Abi Talhah)",
+          "text": "It is general. The Prophet ﷺ was eager for everyone to believe, and Allah told him that only those for whom faith had been written would believe.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:6",
+              "excerpt": "كان رسول الله صلى الله عليه وسلم يحرص أن يؤمن جميع الناس ويتابعوه على الهدى ، فأخبره الله تعالى أنه لا يؤمن إلا من سبق له من الله السعادة في الذكر الأول"
+            }
+          ]
+        },
+        {
+          "holder": "Ibn 'Abbas (via Ibn Ishaq)",
+          "text": "It refers to those who claimed to believe in earlier revelation yet rejected what was revealed to the Prophet ﷺ, denying what their own scriptures said about him.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:6", "excerpt": "إنهم قد كفروا بما عندهم من ذكرك ، وجحدوا ما أخذ عليهم من الميثاق" }
+          ]
+        },
+        {
+          "holder": "Abu al-'Aliyah",
+          "text": "These two verses were revealed about the leaders of the Confederates (al-Ahzab).",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:6", "excerpt": "عن أبي العالية ، قال : نزلت هاتان الآيتان في قادة الأحزاب" }]
+        }
+      ],
+      "sensitive": ["sabab_al_nuzul", "aqeedah"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-the-contrast",
+    "category": "editorial_synthesis",
+    "text": "Part 2 described those who take guidance and end 'upon guidance' (2:5). Now comes the contrast: people for whom a warning changes nothing (2:6). In Mujahid's division of the opening, these are the two verses on the disbelievers, between four on the believers and thirteen on the hypocrites.",
+    "sources": [
+      { "work": "quran", "locator": "2:5-6" },
+      { "work": "tafsir-al-qurtubi", "locator": "on 2:8" }
+    ]
+  },
+  "connectionToNext": {
+    "id": "next-the-hypocrites",
+    "category": "editorial_synthesis",
+    "text": "Open rejection gets two verses. The next passage turns to a harder case, people who say 'we believe' but do not (2:8), and gives them thirteen.",
+    "sources": [
+      { "work": "quran", "locator": "2:8" },
+      { "work": "tafsir-al-tabari", "locator": "on 2:8" }
+    ]
+  },
+  "tafsirInsights": [
+    {
+      "id": "kufr-as-covering",
+      "category": "scholarly_interpretation",
+      "text": "The word for disbelief, kufr, carries the sense of covering: Ibn Kathir explains 'those who disbelieve' as those who covered and concealed the truth. Al-Sa'di adds that the verse describes people for whom rejection has become a settled trait that no admonition reaches.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:6", "excerpt": "أي : غطوا الحق وستروه" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:6" }
+      ]
+    },
+    {
+      "id": "consolation",
+      "category": "scholarly_interpretation",
+      "text": "The verse also consoles the Prophet ﷺ. Ibn Kathir explains that his task is to convey the message: whoever responds gains the greatest share, and he should not grieve over whoever turns away, as 13:40 says, 'Your duty is only to convey, and Ours is the account.' Al-Sa'di adds that the call still establishes the proof, even where it does not bring belief.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:6",
+          "excerpt": "وبلغهم الرسالة ، فمن استجاب لك فله الحظ الأوفر ، ومن تولى فلا تحزن عليهم"
+        },
+        { "work": "quran", "locator": "13:40" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:6" }
+      ]
+    },
+    {
+      "id": "seal-and-covering",
+      "category": "scholarly_interpretation",
+      "text": "Ibn Kathir points out where the sentence breaks: the seal is on their hearts and their hearing, and 'over their sight is a covering' is a new sentence. A seal for the heart and the hearing, a covering for the eyes. He reports this reading from Ibn 'Abbas and Ibn Mas'ud via al-Suddi.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:7",
+          "excerpt": "واعلم أن الوقف التام على قوله تعالى : ( ختم الله على قلوبهم وعلى سمعهم ) ، وقوله ( وعلى أبصارهم غشاوة ) جملة تامة"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "proportions",
+      "category": "editorial_synthesis",
+      "text": "Notice the proportions in the opening of the surah: four verses for the believers, two for open rejecters, thirteen for the hypocrites. The open rejecter is described briefly, because his position is plain; the next Part explains why the hidden case gets the longest treatment.",
+      "sources": [
+        {
+          "work": "tafsir-al-qurtubi",
+          "locator": "on 2:8",
+          "excerpt": "روى ابن جريج عن مجاهد قال : نزلت أربع آيات من سورة البقرة في المؤمنين ، واثنتان في نعت الكافرين ، وثلاث عشرة في المنافقين"
+        },
+        { "work": "quran", "locator": "2:2-20" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-convey",
+      "category": "editorial_synthesis",
+      "text": "Convey the truth sincerely; turning hearts is Allah's, not ours to force.",
+      "sources": [
+        { "work": "quran", "locator": "13:40" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:6" }
+      ]
+    },
+    {
+      "id": "takeaway-hardening",
+      "category": "editorial_synthesis",
+      "text": "Persistently rejecting a truth you have recognised can close the heart to it.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:7" },
+        { "work": "quran", "locator": "6:110" }
+      ]
+    },
+    {
+      "id": "takeaway-respond-early",
+      "category": "editorial_synthesis",
+      "text": "Guard your own heart: respond to the truth when it becomes clear, rather than postponing it.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:7" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 10" }
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "seal-means-no-choice",
+      "misreading": "Allah sealed their hearts first, so they never had a choice, and they are punished for something they could not help.",
+      "clarification": {
+        "id": "seal-is-a-consequence",
+        "category": "scholarly_interpretation",
+        "text": "The commentators read the sequence the other way round. Tafheem-ul-Qur'an: the sealing does not cause their rejection; it is the consequence of their deliberate decision to reject the truth. Ma'arif al-Qur'an, reading 2:7 together with 83:14 ('what they used to earn has rusted their hearts'), says they destroyed their own capacity to accept the truth by their choices, so the objection that they were helpless does not arise. Al-Sa'di likewise says the doors of faith were closed to them because of their stubbornness after the truth had become clear to them, citing 6:110.",
+        "sources": [
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 10" },
+          { "work": "maarif-ul-quran", "locator": "on 2:7 ('A doubt is removed')" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:7" },
+          { "work": "quran", "locator": "83:14" },
+          { "work": "quran", "locator": "6:110" }
+        ],
+        "sensitive": ["aqeedah"]
+      },
+      "addressedBy": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 10", "note": "opens by stating what the verse does not mean" },
+        { "work": "maarif-ul-quran", "locator": "on 2:7 ('A doubt is removed')", "note": "raises and answers this exact objection" }
+      ]
+    }
+  ],
+  "reflectionQuestions": [
+    "Is there a truth you have recognised but keep postponing acting on? What is in the way?",
+    "When someone rejects good advice you gave, how do you usually react? What would 'convey, then leave the result to Allah' look like?"
+  ],
+  "segmentationRationale": {
+    "text": "These two verses form a single, compact contrast to the believers of 2:2–5. Mujahid's division of the surah's opening, reported by al-Qurtubi, assigns exactly two verses to the disbelievers before the passage on the hypocrites begins at 2:8 with 'And among the people are some who say…'.",
+    "basis": "classical",
+    "sources": [
+      {
+        "work": "tafsir-al-qurtubi",
+        "locator": "on 2:8",
+        "excerpt": "روى ابن جريج عن مجاهد قال : نزلت أربع آيات من سورة البقرة في المؤمنين ، واثنتان في نعت الكافرين ، وثلاث عشرة في المنافقين"
+      },
+      { "work": "quran", "locator": "2:8" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-13T15:30:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Tabari, al-Qurtubi, al-Sa'di and Ma'arif al-Qur'an (via quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

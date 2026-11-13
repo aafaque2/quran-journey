@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "works": [
+    {
+      "id": "quran",
+      "kind": "quran",
+      "title": "The Qur'an",
+      "shortTitle": "Qur'an",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Cited by verse reference. The Arabic text displayed in the app comes verbatim from the raw layer (Tanzil Project).",
+      "url": "https://tanzil.net"
+    },
+    {
+      "id": "tafsir-ibn-kathir",
+      "kind": "tafsir",
+      "title": "Tafsir Ibn Kathir",
+      "shortTitle": "Ibn Kathir",
+      "titleOriginal": "تفسير القرآن العظيم",
+      "author": "Isma'il ibn Kathir",
+      "authorDied": "774 AH / 1373 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Fourteenth-century Arabic text, in the public domain. Excerpts are quoted from the Arabic original, never from a modern (copyrighted) translation.",
+      "accessedVia": "quran.com API v4, resource 14 (Arabic)",
+      "url": "https://quran.com"
+    },
+    {
+      "id": "tafsir-al-tabari",
+      "kind": "tafsir",
+      "title": "Tafsir al-Tabari",
+      "shortTitle": "al-Tabari",
+      "titleOriginal": "جامع البيان عن تأويل آي القرآن",
+      "author": "Muhammad ibn Jarir al-Tabari",
+      "authorDied": "310 AH / 923 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Tenth-century Arabic text, in the public domain. Excerpts are quoted from the Arabic original.",
+      "accessedVia": "quran.com API v4, resource 15 (Arabic)",
+      "url": "https://quran.com"
+    },
+    {
+      "id": "tafsir-al-qurtubi",
+      "kind": "tafsir",
+      "title": "Tafsir al-Qurtubi",
+      "shortTitle": "al-Qurtubi",
+      "titleOriginal": "الجامع لأحكام القرآن",
+      "author": "Abu 'Abdullah al-Qurtubi",
+      "authorDied": "671 AH / 1273 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Thirteenth-century Arabic text, in the public domain. Excerpts are quoted from the Arabic original.",
+      "accessedVia": "quran.com API v4, resource 90 (Arabic)",
+      "url": "https://quran.com"
+    },
+    {
+      "id": "tafsir-al-sadi",
+      "kind": "tafsir",
+      "title": "Tafsir al-Sa'di",
+      "shortTitle": "al-Sa'di",
+      "titleOriginal": "تيسير الكريم الرحمن في تفسير كلام المنان",
+      "author": "'Abd al-Rahman ibn Nasir al-Sa'di",
+      "authorDied": "1376 AH / 1956 CE",
+      "language": "ar",
+      "rights": "copyrighted",
+      "rightsNote": "The author died in 1956. That makes the text public domain in some countries (e.g. Saudi Arabia, India) but not yet in others, so it is treated as copyrighted: cited and summarized in our own words, never excerpted.",
+      "accessedVia": "quran.com API v4, resource 91 (Arabic)",
+      "url": "https://quran.com"
+    },
+    {
+      "id": "tafheem-ul-quran",
+      "kind": "tafsir",
+      "title": "Tafheem-ul-Qur'an (Towards Understanding the Qur'an)",
+      "shortTitle": "Tafheem-ul-Qur'an",
+      "titleOriginal": "تفہیم القرآن",
+      "author": "Sayyid Abul A'la Maududi",
+      "authorDied": "1399 AH / 1979 CE",
+      "language": "en",
+      "rights": "copyrighted",
+      "rightsNote": "English translation by Zafar Ishaq Ansari, published by the Islamic Foundation (UK). Cited and summarized only; written permission is needed before quoting it in a public launch.",
+      "accessedVia": "islamicstudies.info (published there with permission of the Islamic Foundation UK)",
+      "url": "https://www.islamicstudies.info/tafheem.php"
+    },
+    {
+      "id": "maarif-ul-quran",
+      "kind": "tafsir",
+      "title": "Ma'arif al-Qur'an",
+      "shortTitle": "Ma'arif al-Qur'an",
+      "titleOriginal": "معارف القرآن",
+      "author": "Mufti Muhammad Shafi",
+      "authorDied": "1396 AH / 1976 CE",
+      "language": "en",
+      "rights": "copyrighted",
+      "rightsNote": "English translation by Muhammad Hasan Askari and Muhammad Shamim (Maktaba-e-Darul-Uloom, Karachi). Cited and summarized only.",
+      "accessedVia": "quran.com API v4, resource 168 (English)",
+      "url": "https://quran.com"
+    },
+    {
+      "id": "sahih-muslim",
+      "kind": "hadith_collection",
+      "title": "Sahih Muslim",
+      "shortTitle": "Sahih Muslim",
+      "author": "Muslim ibn al-Hajjaj",
+      "authorDied": "261 AH / 875 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Classical hadith collection. Numbering follows Muhammad Fu'ad 'Abd al-Baqi."
+    },
+    {
+      "id": "sahih-al-bukhari",
+      "kind": "hadith_collection",
+      "title": "Sahih al-Bukhari",
+      "shortTitle": "Sahih al-Bukhari",
+      "author": "Muhammad ibn Isma'il al-Bukhari",
+      "authorDied": "256 AH / 870 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Classical hadith collection. Numbering follows the widely used Fath al-Bari numbering."
+    },
+    {
+      "id": "jami-al-tirmidhi",
+      "kind": "hadith_collection",
+      "title": "Jami' al-Tirmidhi",
+      "shortTitle": "al-Tirmidhi",
+      "author": "Abu 'Isa al-Tirmidhi",
+      "authorDied": "279 AH / 892 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Classical hadith collection. Cited here as quoted, with al-Tirmidhi's own grading, by Ibn Kathir."
+    }
+  ]
+}

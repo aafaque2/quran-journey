@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "title": "The Qur'an Journey",
+  "scope": "Pilot: Al-Fatihah and Al-Baqarah 2:1–20",
+  "quranTextDataset": "tanzil-uthmani",
+  "quranMetadataDataset": "tanzil-metadata",
+  "translationDataset": "quranenc-english-saheeh",
+  "parts": ["part-0001", "part-0002", "part-0003", "part-0004"]
+}

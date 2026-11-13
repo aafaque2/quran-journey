@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0004",
+  "partNumber": 4,
+  "surah": 2,
+  "startAyah": 8,
+  "endAyah": 20,
+  "title": "The Hypocrites: Saying Without Believing",
+  "subtitle": "Thirteen verses on people who say 'we believe' but don't, closing with two parables of light and darkness",
+  "estimatedMinutes": 16,
+  "learningObjectives": [
+    "Recognise the traits of hypocrisy the passage describes, in words and in deeds.",
+    "Understand the difference between hypocrisy of belief and hypocrisy of action.",
+    "Unpack the two closing parables: the fire that goes out, and the storm in the dark."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "This is the longest portrait in the surah's opening. It describes people who say 'We believe in Allah and the Last Day' while not believing (2:8); who try to deceive Allah and the believers but deceive only themselves (2:9–10); who call their corruption 'reform' (2:11–12); who mock sincere believers as fools (2:13); and who speak one way to the believers and another to their own leaders (2:14–15). They have traded guidance for error (2:16). Two parables close the passage: a fire whose light is taken away (2:17–18), and people caught in a dark storm who move only when the lightning flashes (2:19–20).",
+    "sources": [{ "work": "quran", "locator": "2:8-20" }]
+  },
+  "context": [
+    {
+      "id": "why-madinah",
+      "category": "scholarly_interpretation",
+      "text": "Descriptions of hypocrites appear in the Madinan surahs, not the Makkan ones. Ibn Kathir explains why: in Makkah the situation was the reverse, and some believers had to hide their faith under pressure. In Madinah, after the Battle of Badr gave Islam strength, some who resented it professed Islam outwardly; Ibn Kathir names 'Abdullah ibn Ubayy ibn Salul among them. Al-Sa'di gives the same account: some professed Islam out of fear, to protect their lives and property.",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:8",
+          "excerpt": "وإنما نزلت صفات المنافقين في السور المدنية ؛ لأن مكة لم يكن فيها نفاق ، بل كان خلافه ، من الناس من كان يظهر الكفر مستكرها ، وهو في الباطن مؤمن"
+        },
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:8",
+          "excerpt": "فلما كانت وقعة بدر قال : هذا أمر قد توجه ، فأظهر الدخول في الإسلام",
+          "note": "on 'Abdullah ibn Ubayy ibn Salul"
+        },
+        { "work": "tafsir-al-sadi", "locator": "on 2:8" }
+      ],
+      "sensitive": ["historical"]
+    },
+    {
+      "id": "who-they-were",
+      "category": "scholarly_interpretation",
+      "text": "Ibn 'Abbas, as reported by Ibn Ishaq, said these verses refer to the hypocrites among the Aws and the Khazraj (the two Arab tribes of Madinah) and those who followed their way. Abu al-'Aliyah, al-Hasan, Qatadah and al-Suddi also explained them as the hypocrites.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:8", "excerpt": "يعني : المنافقين من الأوس والخزرج ومن كان على أمرهم" }],
+      "sensitive": ["historical"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-third-group",
+    "category": "editorial_synthesis",
+    "text": "After the believers (2:2–5) and the open rejecters (2:6–7) comes the third group: people who claim faith with their tongues (2:8). Mujahid counted thirteen verses for them, more than the other two groups combined.",
+    "sources": [
+      { "work": "quran", "locator": "2:8" },
+      { "work": "tafsir-al-tabari", "locator": "on 2:8", "excerpt": "عن مجاهد, قال: هذه الآية إلى ثلاث عشرة، في نَعت المنافقين" },
+      { "work": "tafsir-al-qurtubi", "locator": "on 2:8" }
+    ]
+  },
+  "connectionToNext": {
+    "id": "next-o-mankind",
+    "category": "editorial_synthesis",
+    "text": "Having described all three groups, the surah now addresses everyone directly for the first time: 'O mankind, worship your Lord' (2:21). That call opens the next passage.",
+    "sources": [{ "work": "quran", "locator": "2:21" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "two-kinds-of-hypocrisy",
+      "category": "scholarly_interpretation",
+      "text": "Ibn Kathir defines hypocrisy (nifaq) as showing good while hiding evil, and distinguishes two kinds: hypocrisy of belief, which places a person outside faith (the kind these verses describe), and hypocrisy of action, a grave sin. Al-Sa'di illustrates the second with the hadith: 'The signs of a hypocrite are three: when he speaks he lies, when he promises he breaks it, and when he is trusted he betrays.'",
+      "sources": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:8",
+          "excerpt": "النفاق : هو إظهار الخير وإسرار الشر ، وهو أنواع : اعتقادي ، وهو الذي يخلد صاحبه في النار ، وعملي وهو من أكبر الذنوب"
+        },
+        { "work": "tafsir-al-sadi", "locator": "on 2:8" },
+        { "work": "sahih-al-bukhari", "locator": "hadith 33" },
+        { "work": "sahih-muslim", "locator": "hadith 59" }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "deceiving-themselves",
+      "category": "scholarly_interpretation",
+      "text": "'They deceive only themselves' (2:9). Al-Sa'di points out how strange this is: a deceiver normally either gains or breaks even, but their deception harms no one except themselves, since Allah cannot be harmed and the believers lose nothing. Tafheem-ul-Qur'an adds that hypocrisy is eventually seen through in this world, and is worthless in the next.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:9" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 11" }
+      ]
+    },
+    {
+      "id": "disease-in-the-heart",
+      "category": "scholarly_interpretation",
+      "text": "'In their hearts is a disease, so Allah has increased their disease' (2:10). Al-Sa'di explains that hearts suffer two diseases, false doubts and destructive desires, and hypocrisy belongs to the first. He reads the increase as a pattern: the punishment of a sin is a further sin, just as one reward of a good deed is a further good deed. Tafheem-ul-Qur'an adds a different angle: Allah does not punish them at once, and the apparent success of their schemes deepens their hypocrisy.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:10" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 12" }
+      ]
+    },
+    {
+      "id": "corruption-called-reform",
+      "category": "scholarly_interpretation",
+      "text": "Told not to spread corruption, they reply, 'We are only reformers' (2:11). Al-Sa'di explains the corruption as disobedience, including betraying the believers' secrets to their enemies, and notes why the reply makes it worse: someone who sins knowing it is a sin is closer to safety and more likely to return than someone who calls wrongdoing 'reform'.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:11" }]
+    },
+    {
+      "id": "who-are-the-fools",
+      "category": "scholarly_interpretation",
+      "text": "They dismiss sincere believers as 'fools' (2:13). Tafheem-ul-Qur'an explains their reasoning: to them, accepting hostility and hardship for the sake of truth seemed sheer folly. The verse turns the word back on them. Al-Sa'di defines real foolishness as ignorance of one's own true interests, which fits them, not the believers; what counts is character and evidence, not bare claims.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 14" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:13" }
+      ]
+    },
+    {
+      "id": "two-faces",
+      "category": "scholarly_interpretation",
+      "text": "With the believers they say 'we believe'; alone with their 'devils' they say 'we are with you, we were only mocking' (2:14). Al-Sa'di and Tafheem-ul-Qur'an both explain these 'devils' as their human ringleaders. Tafheem notes that 'shaytan' means the rebellious and headstrong, and is used for humans as well as jinn.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:14" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 15" }
+      ]
+    },
+    {
+      "id": "allah-mocks-them",
+      "category": "scholarly_interpretation",
+      "text": "'Allah mocks them' (2:15) is explained by Ibn Kathir as a requital matching what they did. Al-Sa'di gives examples: their condition is made to seem fine to them for a while, and on the Day of Judgement they will be given a light alongside the believers that is then put out, leaving them in darkness, the scene described in 57:13–14.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:15" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:15" },
+        { "work": "quran", "locator": "57:13-14" }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "a-losing-trade",
+      "category": "scholarly_interpretation",
+      "text": "They 'bought error in exchange for guidance' (2:16). Al-Sa'di unpacks the image: guidance, the best thing a person could have, became the price they paid, and error the goods they bought. If giving a gold coin for a silver one is a loss, what of giving up a jewel?",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:16" }]
+    },
+    {
+      "id": "the-two-parables",
+      "category": "scholarly_disagreement",
+      "text": "Do the two parables, the fire (2:17–18) and the rainstorm (2:19–20), describe one group of hypocrites or two?",
+      "sources": [],
+      "views": [
+        {
+          "holder": "Ibn Jarir al-Tabari and many commentators",
+          "text": "Both parables describe the same hypocrites; the 'or' joining them means 'and', or offers a choice of comparisons.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:20",
+              "excerpt": "وذهب ابن جرير الطبري ومن تبعه من كثير من المفسرين أن هذين المثلين مضروبان لصنف واحد من المنافقين"
+            }
+          ]
+        },
+        {
+          "holder": "Ibn Kathir",
+          "text": "They describe two kinds: the outright hypocrite, and one with a strain of hypocrisy. The rainstorm is 'another kind of hypocrite: people to whom the truth appears at times, and who doubt at other times'. He compares the two parables for two kinds of disbelievers in 24:39–40.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:19",
+              "excerpt": "وهذا مثل آخر ضربه الله تعالى لضرب آخر من المنافقين ، وهم قوم يظهر لهم الحق تارة ، ويشكون تارة أخرى"
+            },
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:20",
+              "excerpt": "وأن المنافقين - أيضا - صنفان : منافق خالص ، ومنافق فيه شعبة من نفاق"
+            },
+            { "work": "quran", "locator": "24:39-40" }
+          ]
+        },
+        {
+          "holder": "Sayyid Abul A'la Maududi (Tafheem-ul-Qur'an)",
+          "text": "Also two kinds: the fire describes those who disbelieved completely but joined Islam for worldly gain; the storm, those whose faith was weak and wavering. He reads the storm itself as Islam, a blessing, and its darkness, thunder and lightning as the trials that came with it: such people move forward when things go well and stop when difficulties come.",
+          "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 19" }]
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "why-so-long",
+      "category": "scholarly_interpretation",
+      "text": "Why is this the longest of the three portraits? Ibn Kathir explains that Allah drew attention to the hypocrites' traits so that believers would not be deceived by their outward appearance, and he counts thinking well of the corrupt among the gravest dangers.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:8", "excerpt": "ولهذا نبه الله - سبحانه - على صفات المنافقين لئلا يغتر بظاهر أمرهم المؤمنون" }
+      ]
+    },
+    {
+      "id": "light-and-darkness",
+      "category": "editorial_synthesis",
+      "text": "Light and darkness tie the opening together. The believers are 'upon guidance from their Lord' (2:5); the hypocrites are left 'in darknesses, unable to see' (2:17), and the storm parable ends with people who walk only while the lightning flashes (2:20). Al-Sa'di notes that the fire in the first parable was kindled from others: the hypocrites borrowed the light of faith from the believers, and it was never their own.",
+      "sources": [
+        { "work": "quran", "locator": "2:5" },
+        { "work": "quran", "locator": "2:17" },
+        { "work": "quran", "locator": "2:20" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:17" }
+      ]
+    },
+    {
+      "id": "knew-then-left",
+      "category": "editorial_synthesis",
+      "text": "A thread back to Al-Fatihah: al-Sa'di explains 'they will not return' (2:18) by saying they left the truth after knowing it, unlike someone who left it out of ignorance, who is closer to coming back. It is the same distinction he drew in 1:7 between abandoning truth one knows and straying without knowledge.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:18" },
+        { "work": "tafsir-al-sadi", "locator": "on 1:7" },
+        { "work": "quran", "locator": "1:7" },
+        { "work": "quran", "locator": "2:18" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-heart-and-tongue",
+      "category": "editorial_synthesis",
+      "text": "True faith is where the heart and the tongue agree (2:8).",
+      "sources": [
+        { "work": "quran", "locator": "2:8" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:8" }
+      ]
+    },
+    {
+      "id": "takeaway-reform-claims",
+      "category": "editorial_synthesis",
+      "text": "Calling wrongdoing 'reform' is a warning sign, in others and in ourselves.",
+      "sources": [
+        { "work": "quran", "locator": "2:11-12" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:11" }
+      ]
+    },
+    {
+      "id": "takeaway-signs",
+      "category": "editorial_synthesis",
+      "text": "Watch for hypocrisy of action in yourself: lying, breaking promises, betraying trust.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:8" },
+        { "work": "sahih-al-bukhari", "locator": "hadith 33" }
+      ]
+    },
+    {
+      "id": "takeaway-dont-trade-guidance",
+      "category": "editorial_synthesis",
+      "text": "Guidance is light; trading it for short-term gain leaves you in the dark (2:16–17).",
+      "sources": [{ "work": "quran", "locator": "2:16-17" }]
+    }
+  ],
+  "commonMisunderstandings": [],
+  "reflectionQuestions": [
+    "Where do your private self and your public self differ most? What is one step that would bring them closer?",
+    "In the storm parable, people walk while the lightning flashes and stop when it goes dark (2:20). When does your own commitment flicker like that?",
+    "Is there anything you justify as 'fixing things' that might actually be doing harm?"
+  ],
+  "segmentationRationale": {
+    "text": "Mujahid described these thirteen verses (2:8–20) as one description of the hypocrites, as reported by al-Tabari and al-Qurtubi. The passage is long for one sitting, but it is kept whole because it builds to the two parables (2:17–20), which only make sense alongside the portrait before them. It ends where the surah turns to address all people directly: 'O mankind, worship your Lord' (2:21).",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "tafsir-al-tabari", "locator": "on 2:8", "excerpt": "عن مجاهد, قال: هذه الآية إلى ثلاث عشرة، في نَعت المنافقين" },
+      { "work": "tafsir-al-qurtubi", "locator": "on 2:8" },
+      { "work": "quran", "locator": "2:21" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-13T15:30:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Tabari, al-Qurtubi, al-Sa'di (via quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

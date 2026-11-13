@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0002",
+  "partNumber": 2,
+  "surah": 2,
+  "startAyah": 1,
+  "endAyah": 5,
+  "title": "The Book, and Those Who Benefit From It",
+  "subtitle": "The Qur'an introduces itself as guidance, and describes the people who are able to take it",
+  "estimatedMinutes": 12,
+  "learningObjectives": [
+    "See how the opening of Al-Baqarah answers the request at the end of Al-Fatihah.",
+    "Know the qualities of the God-conscious described in 2:3–4.",
+    "Understand why scholars say guidance is offered to all but benefits those with taqwa."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "Al-Baqarah opens with three separate letters, then introduces the Qur'an itself: a Book free of doubt, and guidance for the God-conscious (2:1–2). It describes who they are: people who believe in the unseen, establish prayer, spend from what they have been given, believe in everything revealed to the Prophet ﷺ and before him, and are certain of the Hereafter (2:3–4). It closes with their outcome: they are upon guidance from their Lord, and they are the successful (2:5).",
+    "sources": [{ "work": "quran", "locator": "2:1-5" }]
+  },
+  "context": [
+    {
+      "id": "al-baqarah-is-madinan",
+      "category": "scholarly_interpretation",
+      "text": "Al-Baqarah, the second surah, is Madinan in its entirety 'without disagreement', as Ibn Kathir notes: it was revealed after the Prophet ﷺ had migrated to Madinah.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:1 (introduction to the surah)", "excerpt": "والبقرة جميعها مدنية بلا خلاف" }]
+    },
+    {
+      "id": "three-groups",
+      "category": "scholarly_interpretation",
+      "text": "The surah's opening describes three kinds of people in turn. The early exegete Mujahid summarised it: four verses about the believers, two about the disbelievers and thirteen about the hypocrites (2:2–20). This Part covers the first group.",
+      "sources": [
+        {
+          "work": "tafsir-al-qurtubi",
+          "locator": "on 2:8",
+          "excerpt": "روى ابن جريج عن مجاهد قال : نزلت أربع آيات من سورة البقرة في المؤمنين ، واثنتان في نعت الكافرين ، وثلاث عشرة في المنافقين"
+        },
+        {
+          "work": "tafsir-al-tabari",
+          "locator": "on 2:8",
+          "excerpt": "عن مجاهد, قال: هذه الآية إلى ثلاث عشرة، في نَعت المنافقين",
+          "note": "reported from Mujahid via Ibn Abi Najih"
+        }
+      ]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-guide-us",
+    "category": "editorial_synthesis",
+    "text": "Al-Fatihah ended with a request: guide us to the straight path (1:6). Al-Baqarah opens by presenting this Book as that guidance (2:2), and its first portrait is of people who end 'upon guidance from their Lord' (2:5).",
+    "sources": [
+      { "work": "quran", "locator": "1:6" },
+      { "work": "quran", "locator": "2:2" },
+      { "work": "quran", "locator": "2:5" }
+    ]
+  },
+  "connectionToNext": {
+    "id": "next-those-who-reject",
+    "category": "editorial_synthesis",
+    "text": "Having described those who benefit from guidance, the passage turns to people for whom a warning makes no difference (2:6–7), the second of Mujahid's three groups.",
+    "sources": [
+      { "work": "quran", "locator": "2:6-7" },
+      { "work": "tafsir-al-qurtubi", "locator": "on 2:8" }
+    ]
+  },
+  "tafsirInsights": [
+    {
+      "id": "alif-lam-mim",
+      "category": "scholarly_disagreement",
+      "text": "What do the letters Alif-Lam-Mim mean? They are among the 'disjointed letters' (al-huruf al-muqatta'at) that open 29 surahs, and scholars hold several views about them.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:1" }],
+      "views": [
+        {
+          "holder": "Many early scholars (reported from Abu Bakr, 'Umar, 'Uthman, 'Ali and Ibn Mas'ud)",
+          "text": "Their meaning is knowledge Allah has kept to Himself, so they are not interpreted. Al-Sa'di considers it safest not to assign them a meaning without evidence, while affirming that Allah did not reveal them without wisdom. Ma'arif al-Qur'an reports this as the view preferred by most of the Companions, the Successors and later scholars.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:1", "excerpt": "فمنهم من قال : هي مما استأثر الله بعلمه ، فردوا علمها إلى الله ، ولم يفسروها" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:1" },
+            { "work": "maarif-ul-quran", "locator": "on 2:1" }
+          ]
+        },
+        {
+          "holder": "'Abd al-Rahman ibn Zayd ibn Aslam; al-Zamakhshari says most scholars hold it",
+          "text": "They are the names of the surahs they open.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:1", "excerpt": "قال عبد الرحمن بن زيد بن أسلم : إنما هي أسماء السور" }]
+        },
+        {
+          "holder": "Others, whose view Ibn Kathir develops",
+          "text": "They point to the Qur'an's inimitability: it is made of the very letters its audience spoke with, yet no one could produce its like. Ibn Kathir observes that every surah opening with these letters goes on to speak about the Qur'an itself, as 2:2 does here.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:1",
+              "excerpt": "ولهذا كل سورة افتتحت بالحروف فلا بد أن يذكر فيها الانتصار للقرآن وبيان إعجازه وعظمته ، وهذا معلوم بالاستقراء ، وهو الواقع في تسع وعشرين سورة"
+            }
+          ]
+        },
+        {
+          "holder": "Sayyid Abul A'la Maududi (Tafheem-ul-Qur'an)",
+          "text": "At the time of revelation, opening with such letters was a well-known literary device of poets and orators, with examples surviving in pre-Islamic Arabic literature.",
+          "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 1" }]
+        }
+      ]
+    },
+    {
+      "id": "no-doubt-in-it",
+      "category": "scholarly_interpretation",
+      "text": "'There is no doubt in it': Ibn Kathir reports this explanation (no doubt) from many early authorities, adding that Ibn Abi Hatim knew of no disagreement about it. Tafheem-ul-Qur'an gives two readings: that the Book is undoubtedly from God, and that nothing it contains is open to doubt. Al-Sa'di draws out a principle: when the Qur'an praises something by negating a flaw, it affirms the opposite perfection, so 'no doubt' means the Book is full of certainty.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:2", "excerpt": "وقال ابن أبي حاتم : لا أعلم في هذا خلافا" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 2" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:2" }
+      ]
+    },
+    {
+      "id": "guidance-for-the-god-conscious",
+      "category": "scholarly_interpretation",
+      "text": "Why is the Qur'an 'guidance for the God-conscious' here, when elsewhere it is 'guidance for mankind' (2:185)? Al-Sa'di explains that guidance is of two kinds: explanation, which the Qur'an offers to everyone, and enabling (tawfiq) to act on it, which those with taqwa receive, so they are the ones who actually benefit. Tafheem-ul-Qur'an makes the same point: the Book is potentially for all, but only those with certain qualities draw benefit from it.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:2" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 3" },
+        { "work": "quran", "locator": "2:185" }
+      ]
+    },
+    {
+      "id": "what-is-taqwa",
+      "category": "scholarly_interpretation",
+      "text": "What is taqwa? Al-Sa'di defines it as protecting oneself from Allah's displeasure by obeying His commands and avoiding what He forbids. Ibn Kathir relates, introducing it with 'it has been said', that 'Umar asked Ubayy ibn Ka'b about taqwa. Ubayy asked whether he had ever walked a thorny path. 'What did you do?' 'I gathered up my garment and took great care.' 'That is taqwa.'",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:2" },
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:2",
+          "excerpt": "وقد قيل : إن عمر بن الخطاب رضي الله عنه ، سأل أبي بن كعب عن التقوى ، فقال له : أما سلكت طريقا ذا شوك ؟ قال : بلى قال : فما عملت ؟ قال : شمرت واجتهدت ، قال : فذلك التقوى"
+        }
+      ]
+    },
+    {
+      "id": "unseen-prayer-spending",
+      "category": "scholarly_interpretation",
+      "text": "The first marks of the God-conscious combine inner conviction with outward practice. Belief in the unseen (al-ghayb), in what we cannot perceive but accept on the word of Allah and His Messenger, is what al-Sa'di says truly distinguishes faith. They 'establish' prayer rather than merely perform it: complete in its outward form and attentive within. And they spend 'from' what they have been given: a part, not all of it, from provision that was Allah's gift in the first place.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:3" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 4" }
+      ]
+    },
+    {
+      "id": "prerequisites-for-benefit",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an reads 2:2–4 as a list of prerequisites for benefiting from the Qur'an: God-consciousness, belief in the unseen, prayer that turns belief into practical obedience, willingness to spend, belief in all revealed scripture, and certainty about the Hereafter.",
+      "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, notes 3–8" }]
+    },
+    {
+      "id": "upon-guidance",
+      "category": "scholarly_interpretation",
+      "text": "They are 'upon' ('ala) guidance (2:5). Al-Sa'di notes the Qur'an's choice of preposition: those with guidance are upon it, raised up by it, while those in error are 'in' it, sunk within it, as 34:24 contrasts 'upon guidance' with 'in clear error'.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:5" },
+        { "work": "quran", "locator": "34:24" }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "prayer-and-charity",
+      "category": "scholarly_interpretation",
+      "text": "Faith here is never only private: of the qualities listed, prayer and spending are actions. Al-Sa'di observes that the Qur'an often pairs prayer with charity because one is sincerity towards Allah and the other is kindness towards His creation, and that the mark of a person's happiness is having both.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:3" },
+        { "work": "quran", "locator": "2:3" }
+      ]
+    },
+    {
+      "id": "all-revelation",
+      "category": "scholarly_interpretation",
+      "text": "Believing in 'what was revealed before you' (2:4) means believing in all the earlier scriptures and all the messengers without distinguishing between them. Al-Sa'di calls this a defining trait of the believers.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:4" },
+        { "work": "quran", "locator": "2:4" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-taqwa-unlocks",
+      "category": "editorial_synthesis",
+      "text": "The Qur'an is guidance for everyone, but taqwa is what lets a person actually benefit from it.",
+      "sources": [
+        { "work": "quran", "locator": "2:2" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:2" }
+      ]
+    },
+    {
+      "id": "takeaway-trust-the-unseen",
+      "category": "editorial_synthesis",
+      "text": "Faith begins with trusting what you cannot see (2:3).",
+      "sources": [{ "work": "quran", "locator": "2:3" }]
+    },
+    {
+      "id": "takeaway-establish-prayer",
+      "category": "editorial_synthesis",
+      "text": "Establish prayer, don't just perform it: complete outwardly, present inwardly.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:3" }]
+    },
+    {
+      "id": "takeaway-give-from-gifts",
+      "category": "editorial_synthesis",
+      "text": "Give from what you have been given; it was a gift to begin with.",
+      "sources": [
+        { "work": "quran", "locator": "2:3" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:3" }
+      ]
+    },
+    {
+      "id": "takeaway-certainty-drives-action",
+      "category": "editorial_synthesis",
+      "text": "Certainty about the Hereafter is meant to drive action, not only belief.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:4" }]
+    }
+  ],
+  "commonMisunderstandings": [],
+  "reflectionQuestions": [
+    "Which of the qualities in 2:3–4 comes most naturally to you, and which is hardest right now?",
+    "Ubayy compared taqwa to walking carefully along a thorny path. What are the 'thorns' on your path this week?",
+    "Is your prayer closer to 'performing' or 'establishing' it? What is one small change that would move it?"
+  ],
+  "segmentationRationale": {
+    "text": "The opening letters (2:1) introduce the Book, and 2:2–5 form one portrait: the God-conscious and the guidance they receive. The early exegete Mujahid described these four verses (2:2–5) as being about the believers, before two verses on the disbelievers and thirteen on the hypocrites. Al-Tabari and al-Qurtubi both report his division.",
+    "basis": "classical",
+    "sources": [
+      {
+        "work": "tafsir-al-qurtubi",
+        "locator": "on 2:8",
+        "excerpt": "روى ابن جريج عن مجاهد قال : نزلت أربع آيات من سورة البقرة في المؤمنين ، واثنتان في نعت الكافرين ، وثلاث عشرة في المنافقين"
+      },
+      { "work": "tafsir-al-tabari", "locator": "on 2:8", "note": "reported from Mujahid via Ibn Abi Najih" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-13T15:30:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Tabari, al-Qurtubi, al-Sa'di and Ma'arif al-Qur'an (via quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}
