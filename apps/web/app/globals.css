@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* ── Design tokens ─────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: light;
+  --paper: #f6f2ea;
+  --surface: #fffdf8;
+  --surface-2: #efe8dc;
+  --ink: #1e1c18;
+  --ink-2: #4a443a;
+  --ink-3: #7b7364;
+  --line: #e2d9c8;
+  --accent: #1d5a4e;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2eeea;
+  --gold: #a07a2c;
+  --quran-bg: #fbf6ec;
+  --quran-line: #e5d6b6;
+  --warn: #8a4b12;
+  --warn-bg: #fbefdc;
+
+  /* Claim categories (AGENTS.md rule 3) */
+  --c-established: #2c6a3a;
+  --c-established-bg: #e5f0e3;
+  --c-interp: #1d5c78;
+  --c-interp-bg: #e2edf3;
+  --c-disagree: #91561a;
+  --c-disagree-bg: #f5eadb;
+  --c-editorial: #4a4e7c;
+  --c-editorial-bg: #e9eaf4;
+  --c-reflect: #87395b;
+  --c-reflect-bg: #f5e6ed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #12110e;
+    --surface: #1a1915;
+    --surface-2: #23211c;
+    --ink: #ece6da;
+    --ink-2: #c6bead;
+    --ink-3: #91897a;
+    --line: #2f2c25;
+    --accent: #7cc2af;
+    --accent-ink: #0c1d19;
+    --accent-soft: #1a2a26;
+    --gold: #d4b26b;
+    --quran-bg: #191710;
+    --quran-line: #3b3424;
+    --warn: #f0b878;
+    --warn-bg: #2c2115;
+
+    --c-established: #92d19b;
+    --c-established-bg: #1b2a1e;
+    --c-interp: #8fc5de;
+    --c-interp-bg: #16242c;
+    --c-disagree: #e9b06d;
+    --c-disagree-bg: #2d2216;
+    --c-editorial: #b6b9e8;
+    --c-editorial-bg: #1f2034;
+    --c-reflect: #e6a7c3;
+    --c-reflect-bg: #2d1b24;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-read), ui-serif, Georgia, serif;
+  --font-quran: var(--font-quran-face), "Amiri Quran", "Scheherazade New", serif;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+::selection {
+  background: color-mix(in oklab, var(--accent) 25%, transparent);
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ── Qur'an text and translation: always visually distinct ─────────────────── */
+
+.quran-panel {
+  background: var(--quran-bg);
+  border: 1px solid var(--quran-line);
+}
+.quran-text {
+  font-family: var(--font-quran);
+  font-size: calc(1.9rem * var(--ar-scale, 1));
+  line-height: 2.4;
+  text-align: right;
+  color: var(--ink);
+}
+.translation-text {
+  font-family: var(--font-serif);
+  font-size: calc(1.0625rem * var(--tr-scale, 1));
+  line-height: 1.75;
+  color: var(--ink-2);
+}
+.ayah-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.55em;
+  height: 1.55em;
+  margin-inline: 0.3em;
+  padding-inline: 0.2em;
+  border: 1.5px solid var(--gold);
+  border-radius: 999px;
+  font-size: 0.6em;
+  line-height: 1;
+  color: var(--gold);
+  vertical-align: middle;
+}
+.verse {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.75rem 2.5rem;
+}
+@media (min-width: 1024px) {
+  [data-mode="both"] .verse {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+  [data-mode="both"] .verse .ar-col {
+    order: 2;
+  }
+}
+[data-mode="arabic"] .tr-col,
+[data-mode="translation"] .ar-col {
+  display: none;
+}
+
+/* ── Claim badges and content-type treatments ──────────────────────────────── */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+[data-cat="established"] { --cat: var(--c-established); --cat-bg: var(--c-established-bg); }
+[data-cat="scholarly_interpretation"] { --cat: var(--c-interp); --cat-bg: var(--c-interp-bg); }
+[data-cat="scholarly_disagreement"] { --cat: var(--c-disagree); --cat-bg: var(--c-disagree-bg); }
+[data-cat="editorial_synthesis"] { --cat: var(--c-editorial); --cat-bg: var(--c-editorial-bg); }
+[data-cat="reflection"] { --cat: var(--c-reflect); --cat-bg: var(--c-reflect-bg); }
+.badge[data-cat] {
+  color: var(--cat);
+  background: var(--cat-bg);
+}
+.claim {
+  border-inline-start: 3px solid var(--cat, var(--line));
+  padding-inline-start: 1rem;
+}
+.claim[data-cat="editorial_synthesis"] {
+  border-inline-start-style: dotted;
+}
+.reflect-card {
+  background: var(--c-reflect-bg);
+  border: 1px dashed color-mix(in oklab, var(--c-reflect) 45%, transparent);
+}
+
+/* ── Source chips ──────────────────────────────────────────────────────────── */
+
+.citation > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.citation > summary::-webkit-details-marker {
+  display: none;
+}
+.citation[open] {
+  flex-basis: 100%;
+}
+.excerpt {
+  font-family: var(--font-quran);
+  font-size: 1.15rem;
+  line-height: 2;
+}
+
+/* ── Story Mode ────────────────────────────────────────────────────────────── */
+
+dialog.story {
+  max-width: 100vw;
+  max-height: 100dvh;
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+dialog.story::backdrop {
+  background: color-mix(in oklab, #0b0a08 88%, transparent);
+}
+dialog.modal::backdrop {
+  background: color-mix(in oklab, #0b0a08 55%, transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    animation: fade-in 420ms ease-out both;
+  }
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
