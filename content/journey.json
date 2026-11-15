@@ -1,9 +1,45 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "title": "The Qur'an Journey",
   "scope": "Pilot: Al-Fatihah and Al-Baqarah 2:1–20",
-  "quranTextDataset": "tanzil-uthmani",
   "quranMetadataDataset": "tanzil-metadata",
-  "translationDataset": "quranenc-english-saheeh",
+  "scripts": [
+    {
+      "dataset": "tanzil-uthmani",
+      "label": "Uthmani",
+      "description": "The Qur'an's traditional (Uthmani) spelling, as in the Madinah Mushaf."
+    },
+    {
+      "dataset": "tanzil-simple",
+      "label": "Simple",
+      "description": "Standard modern Arabic spelling, fully vowelled. Often easier for learners."
+    }
+  ],
+  "translations": [
+    {
+      "dataset": "quranenc-english-saheeh",
+      "label": "Saheeh International",
+      "languageName": "English",
+      "description": "Close to the Arabic, in clear modern English. Words added for clarity are shown in [brackets]."
+    },
+    {
+      "dataset": "quranenc-english-rwwad",
+      "label": "Rowwad Translation Center",
+      "languageName": "English",
+      "description": "A recent translation in plain, contemporary English, with explanatory footnotes."
+    },
+    {
+      "dataset": "quranenc-urdu-junagarhi",
+      "label": "Muhammad Junagarhi",
+      "languageName": "Urdu",
+      "description": "A widely read Urdu translation, with explanatory footnotes."
+    },
+    {
+      "dataset": "quranenc-hindi-omari",
+      "label": "Azizul Haq al-Omari",
+      "languageName": "Hindi",
+      "description": "A Hindi translation in Devanagari script, with explanatory footnotes."
+    }
+  ],
   "parts": ["part-0001", "part-0002", "part-0003", "part-0004"]
 }

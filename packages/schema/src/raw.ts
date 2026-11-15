@@ -16,11 +16,16 @@ export type RawFile = z.infer<typeof RawFile>;
  * Layer: raw. User-visible as attribution.
  */
 export const RawDataset = z.object({
-  id: z.string().min(1),
+  /** Lowercase kebab-case: it is also used as a CSS attribute value and a preference key. */
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   kind: z.enum(["quran_text", "quran_metadata", "translation"]),
   name: z.string().min(1),
   publisher: z.string().min(1),
   version: z.string().optional(),
+  /** BCP 47 language of the text, as the source declares it ("ar", "en", "ur"…). Raw; drives lang/font. */
+  language: z.string().min(2).optional(),
+  /** Writing direction of the text. Raw; drives dir. */
+  direction: z.enum(["ltr", "rtl"]).optional(),
   /** License terms as we understand them. */
   license: z.string().min(1),
   /** Attribution line shown in the app. User-visible. */
@@ -37,19 +42,37 @@ export const RawManifest = z.object({
 });
 export type RawManifest = z.infer<typeof RawManifest>;
 
+/** One verse in one Arabic script, verbatim from Tanzil. Layer: raw. User-visible. */
+export interface ScriptText {
+  text: string;
+  /** Basmala preceding ayah 1 (all surahs except 1 and 9). */
+  bismillah?: string;
+}
+
+/** One verse in one translation, verbatim (including [n] footnote markers). Layer: raw. User-visible. */
+export interface TranslationText {
+  text: string;
+  /** Translator footnotes, verbatim. */
+  footnotes?: string;
+}
+
 /** A verse as the app sees it after joining raw datasets. Layer: raw (verbatim). User-visible. */
 export interface RawVerse {
   surah: number;
   ayah: number;
   key: string;
-  /** Uthmani Arabic, verbatim from Tanzil. Raw; user-visible. */
+  /** Arabic in the journey's default script (the first in journey.json). */
   arabic: string;
-  /** Basmala preceding ayah 1 (all surahs except 1 and 9), verbatim from Tanzil. Raw; user-visible. */
+  /** Basmala in the default script, before ayah 1 of every surah except 1 and 9. */
   bismillah?: string;
-  /** Translation of the meaning, verbatim (including [n] footnote markers). Raw; user-visible. */
+  /** The journey's default translation (the first in journey.json), verbatim. */
   translation: string;
-  /** Translator footnotes, verbatim. Raw; user-visible. */
+  /** Footnotes of the default translation, verbatim. */
   footnotes?: string;
+  /** Every script readers can choose, keyed by raw dataset id (the default included). */
+  scripts: Record<string, ScriptText>;
+  /** Every translation readers can choose, keyed by raw dataset id (the default included). */
+  translations: Record<string, TranslationText>;
 }
 
 /** Surah-level structural metadata, verbatim from Tanzil's quran-data.xml. Layer: raw. User-visible. */

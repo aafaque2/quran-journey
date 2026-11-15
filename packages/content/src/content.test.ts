@@ -32,9 +32,38 @@ describe("the shipped content", () => {
     expect(baqarah1?.bismillah?.startsWith("بِسْمِ")).toBe(true);
     expect(baqarah1?.translation).toContain("Alif");
   });
+
+  it("offers every script and translation in journey.json, the first of each as the default", () => {
+    const v = content.verse(1, 2);
+    const scripts = content.journey.scripts.map((s) => s.dataset);
+    const translations = content.journey.translations.map((t) => t.dataset);
+    expect(Object.keys(v?.scripts ?? {}).sort()).toEqual([...scripts].sort());
+    expect(Object.keys(v?.translations ?? {}).sort()).toEqual([...translations].sort());
+    expect(v?.arabic).toBe(v?.scripts[scripts[0]!]?.text);
+    expect(v?.translation).toBe(v?.translations[translations[0]!]?.text);
+    // Uthmani and Simple spell the same verse differently, so a mix-up would show here.
+    expect(v?.scripts["tanzil-uthmani"]?.text).not.toBe(v?.scripts["tanzil-simple"]?.text);
+    expect(content.verse(2, 1)?.scripts["tanzil-simple"]?.bismillah?.startsWith("بِسْمِ")).toBe(true);
+  });
 });
 
 describe("cross-file rules", () => {
+  it("rejects a translation readers can choose that is missing verses of a Part", () => {
+    const broken: LoadedContent = {
+      ...content,
+      coverage: (id, s, a) => (id === "quranenc-hindi-omari" && s === 2 && a === 9 ? false : content.coverage(id, s, a)),
+    };
+    const messages = errors(broken).map((e) => `${e.where}: ${e.message}`);
+    expect(messages.some((m) => m.startsWith("part-0004: quranenc-hindi-omari has no text for 2:9"))).toBe(true);
+  });
+
+  it("rejects a dataset offered as the wrong kind", () => {
+    const broken: LoadedContent = {
+      ...content,
+      journey: { ...content.journey, scripts: [...content.journey.scripts, { dataset: "quranenc-english-rwwad", label: "Oops", description: "A translation offered as a script." }] },
+    };
+    expect(errors(broken).some((e) => e.message.includes("is a translation, but it is offered as a quran_text"))).toBe(true);
+  });
 
   it("rejects gaps between Parts", () => {
     const broken = withPart("part-0003", (p) => ({ ...p, startAyah: 7 }));

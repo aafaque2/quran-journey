@@ -51,6 +51,16 @@ export function validateContent(content: LoadedContent): Issue[] {
 
   content.integrity.forEach((p) => err("raw", p));
 
+  // The scripts and translations journey.json offers must be raw datasets of the right kind.
+  const offered: Array<{ id: string; kind: "quran_text" | "translation" }> = [
+    ...content.journey.scripts.map((s) => ({ id: s.dataset, kind: "quran_text" as const })),
+    ...content.journey.translations.map((t) => ({ id: t.dataset, kind: "translation" as const })),
+  ];
+  for (const { id, kind } of offered) {
+    const ds = content.manifest.datasets.find((d) => d.id === id);
+    if (ds && ds.kind !== kind) err("journey.json", `dataset "${id}" is a ${ds.kind}, but it is offered as a ${kind}`);
+  }
+
   // Journey ↔ Part files.
   const byId = new Map(content.parts.map((p) => [p.id, p]));
   content.journey.parts.forEach((id, i) => {
@@ -66,11 +76,17 @@ export function validateContent(content: LoadedContent): Issue[] {
     if (!surah) return err(part.id, `unknown surah ${part.surah}`);
     if (part.endAyah > surah.ayahs) err(part.id, `endAyah ${part.endAyah} exceeds ${surah.tname}'s ${surah.ayahs} verses`);
 
-    // Raw text must exist for every verse (Arabic + the chosen translation).
+    // Raw text must exist for every verse, in every script and translation readers can choose.
     const expected = part.endAyah - part.startAyah + 1;
     const found = content.verses(part.surah, part.startAyah, part.endAyah).length;
     if (found !== expected)
       err(part.id, `raw layer has ${found}/${expected} verses for ${part.surah}:${part.startAyah}-${part.endAyah}; run \`pnpm raw:fetch --suras=${part.surah}\``);
+    for (const { id } of offered) {
+      const gaps: number[] = [];
+      for (let a = part.startAyah; a <= Math.min(part.endAyah, surah.ayahs); a++) if (!content.coverage(id, part.surah, a)) gaps.push(a);
+      if (gaps.length)
+        err(part.id, `${id} has no text for ${part.surah}:${gaps.join(", ")}; run \`pnpm raw:fetch --suras=${part.surah}\` (journey.json offers it to readers)`);
+    }
 
     // Contiguity: the journey never skips or repeats verses.
     const prev = ordered[i - 1];

@@ -7,6 +7,8 @@
       "name": "Tanzil Quran Text (Uthmani)",
       "publisher": "Tanzil Project",
       "version": "1.1",
+      "language": "ar",
+      "direction": "rtl",
       "license": "Creative Commons Attribution 3.0. Verbatim copies only: changing the text is not allowed. The source (Tanzil Project) must be clearly indicated with a link to tanzil.net, and the copyright notice kept with the text (it is retained inside the stored file).",
       "attribution": "Qur'an text: Tanzil Project, Uthmani text v1.1",
       "attributionUrl": "https://tanzil.net",
@@ -42,8 +44,10 @@
       "id": "quranenc-english-saheeh",
       "kind": "translation",
       "name": "Saheeh International (English)",
-      "publisher": "Noor International Center, via QuranEnc.com",
+      "publisher": "Saheeh International (Noor International Center), via QuranEnc.com",
       "version": "1.1.2",
+      "language": "en",
+      "direction": "ltr",
       "license": "QuranEnc.com republishing terms: no modification, addition or deletion; clearly credit the publisher and the source (QuranEnc.com) and mention the version number; keep the translation updated to the latest version; notify QuranEnc of any notes on the translation; no inappropriate advertisements alongside it. Commercial use is not addressed by these terms.",
       "attribution": "Translation of the meaning: Saheeh International (Noor International Center), via QuranEnc.com, v1.1.2",
       "attributionUrl": "https://quranenc.com/en/browse/english_saheeh",
@@ -61,6 +65,111 @@
           "bytes": 411147,
           "sourceUrl": "https://quranenc.com/api/v1/translation/sura/english_saheeh/2",
           "retrievedAt": "2026-11-13T15:07:59.767Z"
+        }
+      ]
+    },
+    {
+      "id": "tanzil-simple",
+      "kind": "quran_text",
+      "name": "Tanzil Quran Text (Simple)",
+      "publisher": "Tanzil Project",
+      "version": "1.1",
+      "language": "ar",
+      "direction": "rtl",
+      "license": "Creative Commons Attribution 3.0. Verbatim copies only: changing the text is not allowed. The source (Tanzil Project) must be clearly indicated with a link to tanzil.net, and the copyright notice kept with the text (it is retained inside the stored file).",
+      "attribution": "Qur'an text: Tanzil Project, Simple text v1.1",
+      "attributionUrl": "https://tanzil.net",
+      "files": [
+        {
+          "path": "tanzil/quran-simple.xml",
+          "sha256": "31b1acbc88f12802a5ec88e5022450a4ae11a274249b05092678cc6e915f4450",
+          "bytes": 1496527,
+          "sourceUrl": "https://tanzil.net/pub/download/index.php?quranType=simple&outType=xml&marks=true&sajdah=true&agree=true",
+          "retrievedAt": "2026-11-13T20:25:40.604Z"
+        }
+      ]
+    },
+    {
+      "id": "quranenc-english-rwwad",
+      "kind": "translation",
+      "name": "Rowwad Translation Center (English)",
+      "publisher": "Rowwad Translation Center, via QuranEnc.com",
+      "version": "1.0.21",
+      "language": "en",
+      "direction": "ltr",
+      "license": "QuranEnc.com republishing terms: no modification, addition or deletion; clearly credit the publisher and the source (QuranEnc.com) and mention the version number; keep the translation updated to the latest version; notify QuranEnc of any notes on the translation; no inappropriate advertisements alongside it. Commercial use is not addressed by these terms.",
+      "attribution": "Translation of the meaning: Rowwad Translation Center, via QuranEnc.com, v1.0.21",
+      "attributionUrl": "https://quranenc.com/en/browse/english_rwwad",
+      "files": [
+        {
+          "path": "quranenc/english_rwwad/001.json",
+          "sha256": "bccd8aee1cc7059a59676033dc589d9fd6f06b4664e2780e72dbda4487bacf17",
+          "bytes": 3685,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/english_rwwad/1",
+          "retrievedAt": "2026-11-13T20:25:41.376Z"
+        },
+        {
+          "path": "quranenc/english_rwwad/002.json",
+          "sha256": "47f02172681149ec9a8ad63c768dccabaafd6f07d8d14741b24ce6a2f7fddad0",
+          "bytes": 416398,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/english_rwwad/2",
+          "retrievedAt": "2026-11-13T20:25:41.772Z"
+        }
+      ]
+    },
+    {
+      "id": "quranenc-urdu-junagarhi",
+      "kind": "translation",
+      "name": "Muhammad Junagarhi (Urdu)",
+      "publisher": "Muhammad Ibrahim Junagarhi, developed under the supervision of the Rowwad Translation Center, via QuranEnc.com",
+      "version": "1.1.3",
+      "language": "ur",
+      "direction": "rtl",
+      "license": "QuranEnc.com republishing terms: no modification, addition or deletion; clearly credit the publisher and the source (QuranEnc.com) and mention the version number; keep the translation updated to the latest version; notify QuranEnc of any notes on the translation; no inappropriate advertisements alongside it. Commercial use is not addressed by these terms.",
+      "attribution": "Translation of the meaning: Muhammad Ibrahim Junagarhi, developed under the supervision of the Rowwad Translation Center, via QuranEnc.com, v1.1.3",
+      "attributionUrl": "https://quranenc.com/en/browse/urdu_junagarhi",
+      "files": [
+        {
+          "path": "quranenc/urdu_junagarhi/001.json",
+          "sha256": "5524bbfdf7b33a8dbc0e5a81be5bb37216b7393b181aed9413fb852e9f9bfe76",
+          "bytes": 57411,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/urdu_junagarhi/1",
+          "retrievedAt": "2026-11-13T20:25:42.534Z"
+        },
+        {
+          "path": "quranenc/urdu_junagarhi/002.json",
+          "sha256": "7fad292df81669fd8bb61220dba5de8fe40c0abde987eb133ce8a556ba60c9a2",
+          "bytes": 1521103,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/urdu_junagarhi/2",
+          "retrievedAt": "2026-11-13T20:25:43.299Z"
+        }
+      ]
+    },
+    {
+      "id": "quranenc-hindi-omari",
+      "kind": "translation",
+      "name": "Azizul Haq al-Omari (Hindi)",
+      "publisher": "Azizul Haq al-Omari, via QuranEnc.com",
+      "version": "1.1.5",
+      "language": "hi",
+      "direction": "ltr",
+      "license": "QuranEnc.com republishing terms: no modification, addition or deletion; clearly credit the publisher and the source (QuranEnc.com) and mention the version number; keep the translation updated to the latest version; notify QuranEnc of any notes on the translation; no inappropriate advertisements alongside it. Commercial use is not addressed by these terms.",
+      "attribution": "Translation of the meaning: Azizul Haq al-Omari, via QuranEnc.com, v1.1.5",
+      "attributionUrl": "https://quranenc.com/en/browse/hindi_omari",
+      "files": [
+        {
+          "path": "quranenc/hindi_omari/001.json",
+          "sha256": "ba87aafed7f263ded78544844918d4950a26830125f5fd4643ddd609d314f37f",
+          "bytes": 15200,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/hindi_omari/1",
+          "retrievedAt": "2026-11-13T20:25:44.037Z"
+        },
+        {
+          "path": "quranenc/hindi_omari/002.json",
+          "sha256": "a1649a4ce1f8d6aa6ff10c15504059fd5876914c425ea29e9bd98971b65c31d2",
+          "bytes": 796034,
+          "sourceUrl": "https://quranenc.com/api/v1/translation/sura/hindi_omari/2",
+          "retrievedAt": "2026-11-13T20:25:44.509Z"
         }
       ]
     }

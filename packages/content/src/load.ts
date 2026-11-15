@@ -7,7 +7,9 @@ import {
   WorksFile,
   type RawManifest,
   type RawVerse,
+  type ScriptText,
   type SurahInfo,
+  type TranslationText,
   type Work,
 } from "@quran-journey/schema";
 import { contentDir } from "./paths";
@@ -34,6 +36,8 @@ export interface LoadedContent {
   integrity: string[];
   verse(surah: number, ayah: number): RawVerse | undefined;
   verses(surah: number, from: number, to: number): RawVerse[];
+  /** Whether a raw text dataset (a script or a translation) has this verse. */
+  coverage(datasetId: string, surah: number, ayah: number): boolean;
 }
 
 export class ContentError extends Error {
@@ -90,19 +94,43 @@ export function loadContent(dir: string = contentDir()): LoadedContent {
   }
   if (problems.length || !journey || !worksFile) throw new ContentError("Content failed schema validation:", problems);
 
-  // Raw layer: Arabic (Tanzil), structure (Tanzil metadata), translation (QuranEnc).
+  // Every dataset journey.json offers must have been fetched (`pnpm raw:fetch`).
+  const offered = [journey.quranMetadataDataset, ...journey.scripts.map((s) => s.dataset), ...journey.translations.map((t) => t.dataset)];
+  const missing = offered.filter((id) => !manifest.datasets.some((d) => d.id === id));
+  if (missing.length)
+    throw new ContentError("journey.json offers raw datasets that are not in content/raw/manifest.json (run `pnpm raw:fetch`):", missing);
+
+  // Raw layer: Arabic scripts (Tanzil), structure (Tanzil metadata), translations (QuranEnc).
   const read = (datasetId: string) =>
     findDataset(manifest, datasetId).files.map((f) => ({ path: f.path, text: fs.readFileSync(/*turbopackIgnore: true*/ path.join(/*turbopackIgnore: true*/ rawDir, f.path), "utf8") }));
 
-  const arabic = parseTanzilQuranXml(read(journey.quranTextDataset)[0]?.text ?? "");
   const { surahs, rukuStarts } = parseTanzilMetadataXml(read(journey.quranMetadataDataset)[0]?.text ?? "");
-  const translation = new Map<string, { translation: string; footnotes?: string }>();
-  for (const f of read(journey.translationDataset)) for (const [k, v] of parseQuranEncSura(f.text)) translation.set(k, v);
+  const scriptTexts = new Map<string, Map<string, ScriptText>>();
+  for (const s of journey.scripts) scriptTexts.set(s.dataset, parseTanzilQuranXml(read(s.dataset)[0]?.text ?? ""));
+  const translationTexts = new Map<string, Map<string, TranslationText>>();
+  for (const t of journey.translations) {
+    const texts = new Map<string, TranslationText>();
+    for (const f of read(t.dataset))
+      for (const [k, v] of parseQuranEncSura(f.text)) texts.set(k, v.footnotes ? { text: v.translation, footnotes: v.footnotes } : { text: v.translation });
+    translationTexts.set(t.dataset, texts);
+  }
+  const defaultScript = journey.scripts[0]?.dataset ?? "";
+  const defaultTranslation = journey.translations[0]?.dataset ?? "";
 
   const verse = (surah: number, ayah: number): RawVerse | undefined => {
     const key = `${surah}:${ayah}`;
-    const ar = arabic.get(key);
-    const tr = translation.get(key);
+    const scripts: Record<string, ScriptText> = {};
+    for (const [id, texts] of scriptTexts) {
+      const v = texts.get(key);
+      if (v) scripts[id] = v;
+    }
+    const translations: Record<string, TranslationText> = {};
+    for (const [id, texts] of translationTexts) {
+      const v = texts.get(key);
+      if (v) translations[id] = v;
+    }
+    const ar = scripts[defaultScript];
+    const tr = translations[defaultTranslation];
     if (!ar || !tr) return undefined;
     return {
       surah,
@@ -110,8 +138,10 @@ export function loadContent(dir: string = contentDir()): LoadedContent {
       key,
       arabic: ar.text,
       ...(ar.bismillah ? { bismillah: ar.bismillah } : {}),
-      translation: tr.translation,
+      translation: tr.text,
       ...(tr.footnotes ? { footnotes: tr.footnotes } : {}),
+      scripts,
+      translations,
     };
   };
 
@@ -126,6 +156,10 @@ export function loadContent(dir: string = contentDir()): LoadedContent {
     rukuStarts,
     integrity,
     verse,
+    coverage(datasetId, surah, ayah) {
+      const key = `${surah}:${ayah}`;
+      return Boolean(scriptTexts.get(datasetId)?.has(key) || translationTexts.get(datasetId)?.has(key));
+    },
     verses(surah, from, to) {
       const out: RawVerse[] = [];
       for (let a = from; a <= to; a++) {

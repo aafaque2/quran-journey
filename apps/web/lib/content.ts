@@ -61,6 +61,6 @@ export function getPartView(partNumber: number) {
     next: parts[index + 1] ?? null,
     total: content.journey.parts.length,
     works: content.works,
-    translation: content.manifest.datasets.find((d) => d.id === content.journey.translationDataset),
+    translation: content.manifest.datasets.find((d) => d.id === content.journey.translations[0]?.dataset),
   };
 }
