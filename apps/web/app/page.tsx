@@ -3,7 +3,8 @@ import { CONTENT_CATEGORIES } from "@quran-journey/schema";
 import { CategoryBadge, StatusBadge } from "@/components/badges";
 import { ArrowRightIcon } from "@/components/icons";
 import { CompletionMark, JourneyProgress, type PartSummary } from "@/components/progress";
-import { getContent, getVisibility, visibleParts } from "@/lib/content";
+import { depthMinutes, getContent, getVisibility, visibleParts } from "@/lib/content";
+import { DEPTHS } from "@/lib/reading-prefs";
 import { CATEGORY, surahName, verseRange } from "@/lib/format";
 import { SITE } from "@/lib/site";
 
@@ -67,7 +68,14 @@ export default function JourneyPage() {
                       <span className="min-w-0 flex-1 pt-0.5">
                         <span className="block font-serif text-lg font-semibold leading-snug text-ink">{s.title}</span>
                         <span className="mt-1 block text-sm text-ink-3">
-                          {s.range} · ~{s.minutes} min
+                          {s.range}
+                          {part &&
+                            DEPTHS.map((d) => (
+                              <span key={d.id} data-show-depth={d.id}>
+                                {" "}
+                                · ~{depthMinutes(part, content.verses(part.surah, part.startAyah, part.endAyah))[d.id]} min
+                              </span>
+                            ))}
                         </span>
                         <span className="mt-2 flex flex-wrap items-center gap-2">
                           {part && <StatusBadge status={part.status} />}
@@ -94,6 +102,24 @@ export default function JourneyPage() {
               </p>
             </div>
           )}
+          <div className="rounded-2xl border border-line bg-surface p-5">
+            <p className="text-xs uppercase tracking-wider text-ink-3">Reading as</p>
+            {DEPTHS.map((d) => (
+              <div key={d.id} data-show-depth={d.id}>
+                <p className="mt-2 font-serif text-xl font-semibold">{d.label}</p>
+                <p className="mt-1 text-sm leading-relaxed text-ink-2">{d.includes}</p>
+              </div>
+            ))}
+            <p className="mt-3 text-sm">
+              <Link href="/settings" className="text-accent underline-offset-2 hover:underline">
+                Settings
+              </Link>
+              <span className="text-ink-3"> · </span>
+              <Link href="/welcome" className="text-accent underline-offset-2 hover:underline">
+                Run the setup again
+              </Link>
+            </p>
+          </div>
           <div className="rounded-2xl border border-line bg-surface p-5">
             <p className="text-xs uppercase tracking-wider text-ink-3">Every statement is labelled</p>
             <ul className="mt-3 space-y-3">

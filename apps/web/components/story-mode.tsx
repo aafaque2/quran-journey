@@ -3,14 +3,16 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { StorySegment } from "@/lib/story";
 import { CATEGORY, arabicDigits } from "@/lib/format";
+import { chosenScript, chosenTranslations, usePrefs } from "@/lib/prefs-client";
+import { depthInfo, inDepth } from "@/lib/reading-prefs";
 import { ChevronLeftIcon, ChevronRightIcon, CloseIcon, HeadphonesIcon, PauseIcon, PlayIcon } from "./icons";
 
 const words = (s: string) => s.split(/\s+/).filter(Boolean).length;
 
 /** How long a screen stays up when no audio drives it: ~180 wpm for English, slower for Arabic. */
-function durationMs(seg: StorySegment): number {
-  if (seg.arabic) return Math.max(5000, words(seg.arabic) * 900 + 1500);
-  const w = seg.lines.reduce((n, l) => n + words(l), 0);
+function durationMs(seg: StorySegment, arabic: string | undefined, translation: string | undefined): number {
+  if (arabic) return Math.max(5000, words(arabic) * 900 + 1500);
+  const w = seg.lines.reduce((n, l) => n + words(l), 0) + (translation ? words(translation) : 0);
   return Math.min(45000, Math.max(5000, (w / 3) * 1000 + 1500));
 }
 
@@ -26,14 +28,40 @@ function audioUrl(template: string, surah: number, ayah: number) {
  * "Listen & Understand" (product spec §9.3): the Part as a guided sequence. Recitation audio comes only
  * from a configured human reciter source, never synthesized; explanations are the Part's own reviewed text.
  */
-export function StoryMode({ segments, title, audioTemplate }: { segments: StorySegment[]; title: string; audioTemplate: string | null }) {
+export function StoryMode({
+  segments: all,
+  title,
+  audioTemplate,
+  scripts,
+  translations,
+}: {
+  segments: StorySegment[];
+  title: string;
+  audioTemplate: string | null;
+  /** Script dataset ids readers can choose (first = default). */
+  scripts: string[];
+  /** Translations readers can choose (first = default), with what is needed to set lang/dir. */
+  translations: { id: string; language: string; dir: "ltr" | "rtl" }[];
+}) {
+  const prefs = usePrefs();
+  // Story Mode plays the reader's depth, in their script and their first translation.
+  const segments = useMemo(() => all.filter((s) => inDepth(s.section, prefs.depth)), [all, prefs.depth]);
+  const script = chosenScript(prefs, scripts);
+  const primaryId = chosenTranslations(
+    prefs,
+    translations.map((t) => t.id),
+  )[0];
+  const primary = translations.find((t) => t.id === primaryId) ?? translations[0];
   const dialog = useRef<HTMLDialogElement>(null);
   const audio = useRef<HTMLAudioElement>(null);
   const playButton = useRef<HTMLButtonElement>(null);
   const [open, setOpen] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [index, setIndex] = useState(0);
-  const segment = segments[index];
+  const segment = segments[Math.min(index, segments.length - 1)];
+  const arabic = segment?.arabic?.[script] ?? (segment?.arabic ? Object.values(segment.arabic)[0] : undefined);
+  const bismillah = segment?.bismillah?.[script];
+  const translation = primary ? segment?.translation?.[primary.id] : undefined;
 
   const phases = useMemo(() => {
     const seen = new Map<string, number>();
@@ -43,7 +71,7 @@ export function StoryMode({ segments, title, audioTemplate }: { segments: StoryS
     return [...seen.entries()].map(([phase, start]) => ({ phase, start }));
   }, [segments]);
 
-  const src = segment?.arabic && audioTemplate && segment.surah && segment.ayah ? audioUrl(audioTemplate, segment.surah, segment.ayah) : null;
+  const src = arabic && audioTemplate && segment?.surah && segment.ayah ? audioUrl(audioTemplate, segment.surah, segment.ayah) : null;
 
   // Moves forward one screen; at the end, playback simply stops.
   const next = useCallback(() => {
@@ -55,9 +83,9 @@ export function StoryMode({ segments, title, audioTemplate }: { segments: StoryS
   // Timed advance for screens without audio.
   useEffect(() => {
     if (!open || !playing || !segment || src) return;
-    const t = window.setTimeout(next, durationMs(segment));
+    const t = window.setTimeout(next, durationMs(segment, arabic, translation));
     return () => window.clearTimeout(t);
-  }, [open, playing, segment, src, next]);
+  }, [open, playing, segment, src, next, arabic, translation]);
 
   // Recitation audio drives its own advance.
   useEffect(() => {
@@ -111,7 +139,7 @@ export function StoryMode({ segments, title, audioTemplate }: { segments: StoryS
         <HeadphonesIcon className="h-5 w-5" />
         <span className="text-start leading-tight">
           <span className="block text-sm font-semibold">Listen &amp; Understand</span>
-          <span className="block text-[0.7rem] opacity-70">Guided read-along · narration audio coming later</span>
+          <span className="block text-[0.7rem] opacity-70">Guided read-along · follows your depth ({depthInfo(prefs.depth).label})</span>
         </span>
       </button>
 
@@ -153,21 +181,28 @@ export function StoryMode({ segments, title, audioTemplate }: { segments: StoryS
                   {segment.phase}
                   {segment.category && segment.phase !== "Recitation" ? ` · ${CATEGORY[segment.category].label}` : ""}
                 </p>
-                {segment.arabic ? (
+                {arabic ? (
                   <>
-                    {segment.bismillah && (
+                    {bismillah && (
                       <p className="mt-6 font-quran text-2xl leading-loose opacity-70" lang="ar" dir="rtl">
-                        {segment.bismillah}
+                        {bismillah}
                       </p>
                     )}
                     <p className="mt-8 font-quran text-[2.1rem] leading-[2.3] sm:text-[2.6rem]" lang="ar" dir="rtl">
-                      {segment.arabic}
+                      {arabic}
                       <span className="ayah-mark">{arabicDigits(segment.ayah ?? 0)}</span>
                     </p>
                     {!audioTemplate && (
                       <p className="mt-6 text-xs opacity-60">Reciter audio isn&apos;t set up yet. Read along at your own pace.</p>
                     )}
                   </>
+                ) : translation !== undefined && primary ? (
+                  <p className="story-translation mt-6 font-serif text-xl leading-relaxed sm:text-2xl" lang={primary.language} dir={primary.dir}>
+                    <span className="me-2 align-top font-sans text-xs text-[#d4b26b]" dir="ltr">
+                      {segment.surah}:{segment.ayah}
+                    </span>
+                    {translation}
+                  </p>
                 ) : (
                   <div className="mt-6 space-y-5">
                     {segment.lines.map((line, i) => (
@@ -179,11 +214,6 @@ export function StoryMode({ segments, title, audioTemplate }: { segments: StoryS
                             : "mx-auto max-w-2xl text-base leading-relaxed opacity-80"
                         }
                       >
-                        {segment.phase === "Translation" && segment.ayah ? (
-                          <span className="me-2 align-top text-xs text-[#d4b26b]">
-                            {segment.surah}:{segment.ayah}
-                          </span>
-                        ) : null}
                         {line}
                       </p>
                     ))}

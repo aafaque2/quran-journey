@@ -162,3 +162,71 @@ export const TextSizeIcon = icon(
     <path d="M12 4v16" />
   </>,
 );
+export const PencilIcon = icon(
+  <>
+    <path d="M17 3a2.85 2.85 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+    <path d="m15 5 4 4" />
+  </>,
+);
+export const GripIcon = icon(
+  <>
+    <circle cx="9" cy="5" r="1" />
+    <circle cx="9" cy="12" r="1" />
+    <circle cx="9" cy="19" r="1" />
+    <circle cx="15" cy="5" r="1" />
+    <circle cx="15" cy="12" r="1" />
+    <circle cx="15" cy="19" r="1" />
+  </>,
+);
+export const SunIcon = icon(
+  <>
+    <circle cx="12" cy="12" r="4" />
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+  </>,
+);
+export const MoonIcon = icon(<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />);
+export const MonitorIcon = icon(
+  <>
+    <rect x="2" y="3" width="20" height="14" rx="2" />
+    <path d="M8 21h8M12 17v4" />
+  </>,
+);
+export const SlidersIcon = icon(
+  <>
+    <path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3" />
+    <path d="M1 14h6M9 8h6M17 16h6" />
+  </>,
+);
+export const LockIcon = icon(
+  <>
+    <rect x="4" y="11" width="16" height="10" rx="2" />
+    <path d="M8 11V7a4 4 0 0 1 8 0v4" />
+  </>,
+);
+export const PlusIcon = icon(<path d="M12 5v14M5 12h14" />);
+export const ChevronDownIcon = icon(<path d="m6 9 6 6 6-6" />);
+export const ResetIcon = icon(
+  <>
+    <path d="M3 12a9 9 0 1 0 3-6.7L3 8" />
+    <path d="M3 3v5h5" />
+  </>,
+);
+export const LanguagesIcon = icon(
+  <>
+    <path d="m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1" />
+    <path d="m22 22-5-10-5 10M14 18h6" />
+  </>,
+);
+export const UsersIcon = icon(
+  <>
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+  </>,
+);
+export const LayoutIcon = icon(
+  <>
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    <path d="M3 9h18M9 21V9" />
+  </>,
+);

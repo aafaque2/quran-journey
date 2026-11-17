@@ -82,25 +82,7 @@ export const progressStore = createLocalStore<Progress>("qj.progress.v1", { comp
   };
 });
 
-// ── Reading preferences (product spec §9.4) ──
-
-export type ReadingMode = "both" | "arabic" | "translation";
-export interface ReaderPrefs {
-  mode: ReadingMode;
-  arabicSize: number;
-  translationSize: number;
+/** Clears this device's progress (Settings → Your progress). */
+export function resetProgress() {
+  progressStore.write({ completed: [], lastVisited: null });
 }
-export const SIZE_STEPS = [0.85, 1, 1.15, 1.3, 1.5] as const;
-
-const clampStep = (n: unknown) => (typeof n === "number" && n >= 0 && n < SIZE_STEPS.length ? Math.round(n) : 1);
-
-export const prefsStore = createLocalStore<ReaderPrefs>(
-  "qj.prefs.v1",
-  { mode: "both", arabicSize: 1, translationSize: 1 },
-  (v) => {
-    if (!v || typeof v !== "object") return null;
-    const o = v as Record<string, unknown>;
-    const mode = o.mode === "arabic" || o.mode === "translation" ? o.mode : "both";
-    return { mode, arabicSize: clampStep(o.arabicSize), translationSize: clampStep(o.translationSize) };
-  },
-);
