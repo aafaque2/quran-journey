@@ -118,6 +118,19 @@ export function validateContent(content: LoadedContent): Issue[] {
         const s = r ? content.surahs.get(r.surah) : undefined;
         if (!r || !s || r.to > s.ayahs) err(where, `invalid Qur'an locator "${c.locator}" (use "2:8" or "2:8-20")`);
       }
+      if (work.kind === "structure") {
+        // A ruku citation must match the raw layer: "Al-Baqarah, ruku 4 (2:21–29)" starts and ends where Tanzil's rukus do.
+        const m = c.locator.match(/(\d{1,3}):(\d{1,3})(?:\s*[–-]\s*(\d{1,3}))?/);
+        const s = m ? content.surahs.get(Number(m[1])) : undefined;
+        if (!m || !s) err(where, `a ${work.title} citation needs a verse range, e.g. "Al-Baqarah, ruku 4 (2:21–29)"`);
+        else {
+          const [surahNo, from] = [Number(m[1]), Number(m[2])];
+          const to = m[3] ? Number(m[3]) : undefined;
+          if (!content.rukuStarts.has(`${surahNo}:${from}`)) err(where, `no ruku starts at ${surahNo}:${from} in the raw metadata`);
+          if (to !== undefined && to !== s.ayahs && !content.rukuStarts.has(`${surahNo}:${to + 1}`))
+            err(where, `the ruku cited as ${surahNo}:${from}–${to} does not end at ${surahNo}:${to} in the raw metadata`);
+        }
+      }
       if (c.excerpt && work.rights !== "public_domain")
         err(where, `verbatim excerpt from "${work.title}" (${work.rights}); excerpts are allowed only from public-domain works`);
     }

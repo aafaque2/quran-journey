@@ -57,6 +57,17 @@ describe("cross-file rules", () => {
     expect(messages.some((m) => m.startsWith("part-0004: quranenc-hindi-omari has no text for 2:9"))).toBe(true);
   });
 
+  it("checks ruku citations against the raw metadata", () => {
+    const cite = (locator: string) =>
+      withPart("part-0004", (p) => {
+        p.segmentationRationale.sources = [{ work: "ruku-divisions", locator }];
+        return p;
+      });
+    expect(errors(cite("Al-Baqarah, ruku 2 (2:8–20)")).filter((e) => e.where.endsWith("#segmentation"))).toEqual([]);
+    expect(errors(cite("Al-Baqarah (2:9–20)")).some((e) => e.message.includes("no ruku starts at 2:9"))).toBe(true);
+    expect(errors(cite("Al-Baqarah (2:8–19)")).some((e) => e.message.includes("does not end at 2:19"))).toBe(true);
+  });
+
   it("rejects a dataset offered as the wrong kind", () => {
     const broken: LoadedContent = {
       ...content,

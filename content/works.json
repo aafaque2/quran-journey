@@ -12,6 +12,17 @@
       "url": "https://tanzil.net"
     },
     {
+      "id": "ruku-divisions",
+      "kind": "structure",
+      "title": "The ruku divisions of the mushaf",
+      "shortTitle": "Ruku divisions",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "The traditional division of each surah into rukus, the passages marked with ‘ع’ in the margins of South Asian mushafs. Taken from the Tanzil Project's Qur'an metadata (the raw layer) and checked against it automatically.",
+      "accessedVia": "content/raw/tanzil/quran-data.xml",
+      "url": "https://tanzil.net"
+    },
+    {
       "id": "tafsir-ibn-kathir",
       "kind": "tafsir",
       "title": "Tafsir Ibn Kathir",

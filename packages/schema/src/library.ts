@@ -6,7 +6,8 @@ import { z } from "zod";
  */
 export const Work = z.object({
   id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
-  kind: z.enum(["quran", "tafsir", "hadith_collection", "translation", "scholarship"]),
+  /** "structure": a traditional division of the text (e.g. rukus), cited as the basis of a Part boundary. */
+  kind: z.enum(["quran", "tafsir", "hadith_collection", "translation", "scholarship", "structure"]),
   title: z.string().min(1),
   /** Short name for source chips, e.g. "Ibn Kathir". User-visible. */
   shortTitle: z.string().min(1).optional(),
