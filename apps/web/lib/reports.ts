@@ -7,7 +7,7 @@ import { Report, type ReportInput } from "@quran-journey/schema";
 /**
  * Where "Report an issue" submissions are kept.
  *
- * - Supabase (Postgres), when SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are set. Needed on serverless
+ * - Supabase (Postgres), when SUPABASE_URL and SUPABASE_SECRET_KEY (or the legacy SUPABASE_SERVICE_ROLE_KEY) are set. Needed on serverless
  *   hosts such as Vercel, which have no persistent disk. Table: supabase/migrations/0001_reports.sql.
  * - Otherwise an append-only JSON-lines file under apps/web/.data (git-ignored): fine locally and
  *   on a single self-hosted server.
@@ -20,8 +20,25 @@ const FILE = path.join(process.cwd(), ".data", "reports.jsonl");
 
 function supabase(): { url: string; key: string } | null {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
   return url && key ? { url: url.replace(/\/$/, ""), key } : null;
+}
+
+/**
+ * New-style secret keys (sb_secret_…) are not JWTs: they go in the apikey header only, and Supabase
+ * rejects them in Authorization. The legacy service_role key is a JWT and goes in both.
+ */
+function authHeaders(key: string): Record<string, string> {
+  return key.startsWith("eyJ") ? { apikey: key, Authorization: `Bearer ${key}` } : { apikey: key };
+}
+
+/** One tiny read, so a free Supabase project never sits idle long enough to be paused (see /api/keepalive). */
+export async function touchReportStore(): Promise<"supabase" | "file"> {
+  const db = supabase();
+  if (!db) return "file";
+  const res = await fetch(`${db.url}/rest/v1/reports?select=id&limit=1`, { headers: authHeaders(db.key), cache: "no-store" });
+  if (!res.ok) throw new Error(`Supabase keep-alive failed: HTTP ${res.status}`);
+  return "supabase";
 }
 
 export function reportStorage(): "supabase" | "file" {
@@ -55,7 +72,7 @@ export async function saveReport(input: ReportInput): Promise<Report> {
     };
     const res = await fetch(`${db.url}/rest/v1/reports`, {
       method: "POST",
-      headers: { apikey: db.key, Authorization: `Bearer ${db.key}`, "Content-Type": "application/json", Prefer: "return=minimal" },
+      headers: { ...authHeaders(db.key), "Content-Type": "application/json", Prefer: "return=minimal" },
       body: JSON.stringify(row),
       cache: "no-store",
     });
@@ -71,7 +88,7 @@ export async function listReports(): Promise<Report[]> {
   const db = supabase();
   if (db) {
     const res = await fetch(`${db.url}/rest/v1/reports?select=*&order=created_at.desc&limit=500`, {
-      headers: { apikey: db.key, Authorization: `Bearer ${db.key}` },
+      headers: authHeaders(db.key),
       cache: "no-store",
     });
     if (!res.ok) throw new Error(`Supabase select failed: HTTP ${res.status}`);

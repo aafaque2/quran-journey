@@ -2,8 +2,8 @@
 -- or with the Supabase CLI: `supabase db push`.
 --
 -- Reports can contain a reporter's contact details, so the table is locked down:
--- RLS is on and there are NO policies, which means the public (anon) key can neither read
--- nor write it. Only the server, using the service-role key, can (apps/web/lib/reports.ts).
+-- RLS is on and there are NO policies, and only the server's secret key (the service_role
+-- role) is granted access. The public (publishable/anon) key can neither read nor write it.
 
 create table if not exists public.reports (
   id uuid primary key,
@@ -19,3 +19,8 @@ create table if not exists public.reports (
 alter table public.reports enable row level security;
 
 create index if not exists reports_created_at_idx on public.reports (created_at desc);
+
+-- New Supabase projects no longer expose tables to the Data API automatically: grant explicitly.
+-- (apps/web/lib/reports.ts inserts and lists reports; the daily keep-alive reads one row.)
+revoke all on table public.reports from anon, authenticated;
+grant select, insert on table public.reports to service_role;
