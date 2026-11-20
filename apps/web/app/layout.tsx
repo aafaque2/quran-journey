@@ -6,7 +6,7 @@ import { DepthSwitch, PrefsSync, ThemeToggle } from "@/components/header-control
 import { OctagramIcon, SlidersIcon } from "@/components/icons";
 import { getContent } from "@/lib/content";
 import { bootConfig, bootScript, DEFAULT_DEPTH } from "@/lib/reading-prefs";
-import { SITE } from "@/lib/site";
+import { SITE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 import "./personalise.css";
 
@@ -20,8 +20,12 @@ const devanagariFace = Noto_Serif_Devanagari({ weight: "400", subsets: ["devanag
 const THEME_COLORS = { light: "#f6f2ea", dark: "#12110e" };
 
 export const metadata: Metadata = {
+  ...(SITE_URL ? { metadataBase: new URL(SITE_URL) } : {}),
   title: { default: SITE.name, template: `%s · ${SITE.name}` },
   description: SITE.description,
+  applicationName: SITE.name,
+  openGraph: { type: "website", siteName: SITE.name, title: SITE.name, description: SITE.description, locale: "en" },
+  twitter: { card: "summary", title: SITE.name, description: SITE.description },
 };
 
 export const viewport: Viewport = {

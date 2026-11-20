@@ -25,6 +25,8 @@ export function ReportIssue({ partNumber, sections }: { partNumber: number; sect
       section: String(form.get("section") ?? "") || undefined,
       message: String(form.get("message") ?? ""),
       contact: String(form.get("contact") ?? "") || undefined,
+      // Honeypot: hidden from people, so only bots fill it (the server then discards the report).
+      website: String(form.get("website") ?? "") || undefined,
     };
     setState({ kind: "sending" });
     try {
@@ -85,6 +87,7 @@ export function ReportIssue({ partNumber, sections }: { partNumber: number; sect
           </div>
         ) : (
           <form onSubmit={submit} className="space-y-4 px-5 py-5">
+            <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
             <label className="block text-sm">
               <span className="mb-1 block font-medium">What kind of issue?</span>
               <select name="category" required defaultValue="" className={field}>
