@@ -134,4 +134,17 @@ describe("helpers", () => {
     expect(isVisible("APPROVED", "published")).toBe(false);
     expect(isVisible("NEEDS_REVISION", "reviewed")).toBe(false);
   });
+
+  it("reads CONTENT_VISIBILITY forgivingly, and falls back to the safe default", () => {
+    for (const value of ["drafts", " Drafts ", '"drafts"', "'DRAFTS'", "draft"]) expect(resolveVisibility(value, "production")).toBe("drafts");
+    expect(resolveVisibility("Published", "production")).toBe("published");
+    expect(resolveVisibility("", "production")).toBe("reviewed");
+    const warn = console.warn;
+    console.warn = () => undefined; // the unrecognised value below warns once, by design
+    try {
+      expect(resolveVisibility("everything", "production")).toBe("reviewed");
+    } finally {
+      console.warn = warn;
+    }
+  });
 });

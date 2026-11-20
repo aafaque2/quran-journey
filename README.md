@@ -24,7 +24,7 @@ pnpm dev            # http://localhost:3000
 | Command | What it does |
 |---|---|
 | `pnpm schema:validate` | Raw-layer integrity, schema and cross-file rules for all content |
-| `pnpm test` | 52 tests, including negative tests that prove each content rule actually fires |
+| `pnpm test` | 53 tests, including negative tests that prove each content rule actually fires |
 | `pnpm build` | Production build (shows only reviewed Parts by default, see below) |
 | `pnpm raw:fetch` | Re-download Qur'an text / translation verbatim and re-pin their hashes |
 | `pnpm content:status <part> <STATUS> --by "Name"` | Record a review step (human-only, interactive terminal) |
