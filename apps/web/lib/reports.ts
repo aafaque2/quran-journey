@@ -37,7 +37,7 @@ export async function touchReportStore(): Promise<"supabase" | "file"> {
   const db = supabase();
   if (!db) return "file";
   const res = await fetch(`${db.url}/rest/v1/reports?select=id&limit=1`, { headers: authHeaders(db.key), cache: "no-store" });
-  if (!res.ok) throw new Error(`Supabase keep-alive failed: HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`Supabase keep-alive failed: HTTP ${res.status} ${(await res.text()).slice(0, 300)}`);
   return "supabase";
 }
 
@@ -91,7 +91,7 @@ export async function listReports(): Promise<Report[]> {
       headers: authHeaders(db.key),
       cache: "no-store",
     });
-    if (!res.ok) throw new Error(`Supabase select failed: HTTP ${res.status}`);
+    if (!res.ok) throw new Error(`Supabase select failed: HTTP ${res.status} ${(await res.text()).slice(0, 300)}`);
     const rows = (await res.json()) as ReportRow[];
     return rows.flatMap((r) => {
       const parsed = Report.safeParse({

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { ReportInput } from "@quran-journey/schema";
-import { saveReport } from "@/lib/reports";
+import { reportStorage, saveReport } from "@/lib/reports";
 
 const MAX_BODY = 10_000;
 const WINDOW_MS = 10 * 60 * 1000;
@@ -52,6 +52,12 @@ export async function POST(request: Request) {
     return NextResponse.json({ id: report.id }, { status: 201 });
   } catch (error) {
     console.error("Could not store report", error);
-    return NextResponse.json({ error: "Reports can't be stored on this deployment yet." }, { status: 503 });
+    // With file storage, a failure means no database is configured (serverless file systems are
+    // read-only); a database error is more likely to be temporary.
+    const message =
+      reportStorage() === "file"
+        ? "Reports can't be stored on this deployment yet."
+        : "Your report couldn't be saved just now. Please try again in a moment.";
+    return NextResponse.json({ error: message }, { status: 503 });
   }
 }

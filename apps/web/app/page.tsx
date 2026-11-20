@@ -47,11 +47,17 @@ export default function JourneyPage() {
 
           {parts.length === 0 ? (
             <div className="mt-8 rounded-2xl border border-dashed border-line p-8 text-ink-2">
-              <p className="font-serif text-lg text-ink">No Parts have cleared review yet.</p>
+              <p className="font-serif text-lg text-ink">The first Parts are being reviewed.</p>
               <p className="mt-2 text-sm leading-relaxed">
-                Parts appear here once an editor has reviewed them (current setting: <code className="font-mono">{getVisibility()}</code>). To
-                preview unreviewed drafts in a closed pilot, set <code className="font-mono">CONTENT_VISIBILITY=drafts</code>.
+                Every Part is checked against its sources by an editor before it appears here. Please check back soon.
               </p>
+              {process.env.NODE_ENV !== "production" && (
+                <p className="mt-2 text-sm leading-relaxed">
+                  Development note: Parts appear once they reach <code className="font-mono">EDITOR_REVIEW</code> (current setting:{" "}
+                  <code className="font-mono">{getVisibility()}</code>). To preview unreviewed drafts in a closed pilot, set{" "}
+                  <code className="font-mono">CONTENT_VISIBILITY=drafts</code>.
+                </p>
+              )}
             </div>
           ) : (
             <ol className="relative mt-6 space-y-3 before:absolute before:inset-y-6 before:left-[1.375rem] before:w-px before:bg-line">
