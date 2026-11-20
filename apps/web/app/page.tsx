@@ -3,6 +3,7 @@ import { CONTENT_CATEGORIES } from "@quran-journey/schema";
 import { CategoryBadge, StatusBadge } from "@/components/badges";
 import { ArrowRightIcon } from "@/components/icons";
 import { CompletionMark, JourneyProgress, type PartSummary } from "@/components/progress";
+import { InstallHint } from "@/components/pwa";
 import { depthMinutes, getContent, getVisibility, visibleParts } from "@/lib/content";
 import { DEPTHS } from "@/lib/reading-prefs";
 import { CATEGORY, surahName, verseRange } from "@/lib/format";
@@ -93,6 +94,7 @@ export default function JourneyPage() {
 
         <aside className="space-y-6 lg:sticky lg:top-20 lg:self-start">
           {summaries.length > 0 && <JourneyProgress parts={summaries} />}
+          <InstallHint />
           {unreviewed && (
             <div className="rounded-2xl border border-warn/30 bg-warn-bg p-5 text-sm leading-relaxed text-ink-2">
               <p className="font-semibold text-warn">Pilot drafts</p>

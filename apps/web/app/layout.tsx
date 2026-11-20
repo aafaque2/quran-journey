@@ -3,6 +3,8 @@ import { Amiri_Quran, Instrument_Sans, Literata, Noto_Nastaliq_Urdu, Noto_Serif_
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { DepthSwitch, PrefsSync, ThemeToggle } from "@/components/header-controls";
+import { AppSetup } from "@/components/pwa";
+import { installPromptScript } from "@/lib/install-prompt";
 import { OctagramIcon, SlidersIcon } from "@/components/icons";
 import { getContent } from "@/lib/content";
 import { bootConfig, bootScript, DEFAULT_DEPTH } from "@/lib/reading-prefs";
@@ -24,6 +26,12 @@ export const metadata: Metadata = {
   title: { default: SITE.name, template: `%s · ${SITE.name}` },
   description: SITE.description,
   applicationName: SITE.name,
+  // Installed on an iPhone home screen: open full-screen, with this name under the icon.
+  appleWebApp: { capable: true, title: SITE.name, statusBarStyle: "default" },
+  // Next.js emits the generic mobile-web-app-capable tag; older iPhones only read Apple's own.
+  other: { "apple-mobile-web-app-capable": "yes" },
+  // Verse references such as 2:255 must never turn into phone-number links on iOS.
+  formatDetection: { telephone: false },
   openGraph: { type: "website", siteName: SITE.name, title: SITE.name, description: SITE.description, locale: "en" },
   twitter: { card: "summary", title: SITE.name, description: SITE.description },
 };
@@ -64,10 +72,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: bootScript(cfg) }} />
+        <script dangerouslySetInnerHTML={{ __html: installPromptScript }} />
         <style dangerouslySetInnerHTML={{ __html: choiceCss }} />
       </head>
       <body className="min-h-dvh antialiased">
         <PrefsSync />
+        <AppSetup />
         <a
           href="#main"
           className="sr-only rounded-full bg-accent px-4 py-2 text-accent-ink focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-50"

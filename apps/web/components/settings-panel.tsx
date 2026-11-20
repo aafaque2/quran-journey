@@ -7,11 +7,12 @@ import { resetProgress } from "@/lib/local-store";
 import { chosenScript, chosenTranslations, setPrefs, useHydrated, usePrefs } from "@/lib/prefs-client";
 import { DEFAULT_PREFS, SECTIONS } from "@/lib/reading-prefs";
 import { DepthPicker, ScholarPicker, ScriptPicker, ThemePicker, TranslationPicker } from "./choices";
+import { InstallApp, SaveForOffline } from "./pwa";
 import { ReaderControls } from "./reader-shell";
 import { SectionOrderEditor } from "./section-order-editor";
 
 /** Every reading preference in one place. Changes apply at once and are saved on this device only. */
-export function SettingsPanel({ catalog }: { catalog: Catalog }) {
+export function SettingsPanel({ catalog, partPaths }: { catalog: Catalog; partPaths: string[] }) {
   const hydrated = useHydrated();
   const prefs = usePrefs();
   const [confirmProgress, setConfirmProgress] = useState(false);
@@ -96,6 +97,13 @@ export function SettingsPanel({ catalog }: { catalog: Catalog }) {
             Reset progress
           </button>
         )}
+      </Group>
+
+      <Group id="install" title="On your phone" lead="Install the journey like an app, and keep Parts for reading without a connection.">
+        <div className="space-y-5">
+          <InstallApp />
+          {partPaths.length > 0 && <SaveForOffline paths={partPaths} />}
+        </div>
       </Group>
 
       <Group id="start-over" title="Start over">
