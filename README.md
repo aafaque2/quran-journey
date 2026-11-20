@@ -8,7 +8,9 @@ A guided, sequential path through the Qur'an in short, connected **Parts**. Each
 
 and each connects to the Part before and after. Rules for AI agents working in this repo: [`AGENTS.md`](AGENTS.md).
 
-**Pilot scope:** Al-Fatihah and Al-Baqarah 2:1–20, in 4 Parts. All four are `AI_GENERATED` drafts awaiting human review.
+**Pilot scope:** Al-Fatihah and Al-Baqarah 2:1–66, in 10 Parts. All ten are `AI_GENERATED` drafts awaiting human review.
+
+**Reading your way** ([`docs/personalisation.md`](docs/personalisation.md)): a depth switch on every page (**Read · Understand · Study**), a section rail you can reorder, a first-visit setup at `/welcome`, `/settings`, and light/dark mode. Readers choose the Arabic script (Uthmani or Simple) and one or more translations (Saheeh International, Rowwad, Junagarhi Urdu, al-Omari Hindi). All of it is stored on the device only.
 
 ## Run it
 
@@ -20,7 +22,7 @@ pnpm dev            # http://localhost:3000
 | Command | What it does |
 |---|---|
 | `pnpm schema:validate` | Raw-layer integrity, schema and cross-file rules for all content |
-| `pnpm test` | 32 tests, including negative tests that prove each content rule actually fires |
+| `pnpm test` | 45 tests, including negative tests that prove each content rule actually fires |
 | `pnpm build` | Production build (shows only reviewed Parts by default, see below) |
 | `pnpm raw:fetch` | Re-download Qur'an text / translation verbatim and re-pin their hashes |
 | `pnpm content:status <part> <STATUS> --by "Name"` | Record a review step (human-only, interactive terminal) |
@@ -57,12 +59,13 @@ The production build hides anything below `EDITOR_REVIEW` (`CONTENT_VISIBILITY=r
 
 To let a closed group test unreviewed drafts, build with `CONTENT_VISIBILITY=drafts`. That is a deliberate editorial choice: every Part keeps its review-status banner.
 
-Issue reports are written to `apps/web/.data/reports.jsonl`. That works on your machine or a single server; for serverless hosting (e.g. Vercel), move reports to a database first.
+Issue reports are written to `apps/web/.data/reports.jsonl` locally, or to Supabase/Postgres when `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set (needed on serverless hosts such as Vercel; table in `supabase/migrations/`). Configuration: [`apps/web/.env.example`](apps/web/.env.example).
 
 ## Sources & licensing (read before any public launch)
 
 - **Qur'an text:** Tanzil Project, Uthmani v1.1, CC BY 3.0. Verbatim only, credit Tanzil with a link (done in the footer). Its notice is kept inside the stored file.
-- **Translation:** Saheeh International via QuranEnc.com. Republish only unmodified, credit the publisher + QuranEnc + version, and **keep it updated** (`pnpm raw:fetch --force` when QuranEnc publishes a new version). Commercial use isn't addressed by their terms; ask them before monetising.
+- **Qur'an text, Simple script:** Tanzil Project, Simple v1.1, same terms as above.
+- **Translations:** Saheeh International (default), Rowwad Translation Center, Muhammad Junagarhi (Urdu) and Azizul Haq al-Omari (Hindi), all via QuranEnc.com. Republish only unmodified, credit the publisher + QuranEnc + version, and **keep them updated** (`pnpm raw:fetch --force` when QuranEnc publishes a new version). Commercial use isn't addressed by their terms; ask them before monetising. Which translations and scripts are offered is set in `content/journey.json`.
 - **Tafsir:**
   - Ibn Kathir, al-Tabari and al-Qurtubi (Arabic originals) are public domain; short Arabic excerpts are quoted for verification.
   - Al-Sa'di (d. 1956), Tafheem-ul-Qur'an and Ma'arif al-Qur'an are treated as copyrighted: cited and summarized only. **Get written permission for Tafheem and Ma'arif before a public launch.**
@@ -72,7 +75,6 @@ Issue reports are written to `apps/web/.data/reports.jsonl`. That works on your 
 
 - `pnpm pipeline:generate`: the LLM drafting script.
 - Accounts and cross-device sync.
-- Database-backed reports.
 - Narration audio.
 - Recitation audio.
-- Deployment.
+- A live deployment.

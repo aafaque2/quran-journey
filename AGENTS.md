@@ -28,11 +28,11 @@ If a task seems to require bending any of these seven rules to "make the feature
 - **Data layer (MVP):** content lives in git, not a database.
   - Raw layer = `content/raw/`: downloaded verbatim by `pnpm raw:fetch`, sha256-pinned in `content/raw/manifest.json`. The validator fails on any byte change.
   - Editorial layer = `content/parts/*.json` + `content/works.json` (bibliography) + `content/journey.json`. Parts reference verses by surah + ayah range and never copy verse text.
-  - User progress and reading preferences are per-device (localStorage). Issue reports go to `apps/web/.data/reports.jsonl`.
-  - Postgres/Supabase is the planned next step for reports and accounts, not yet used.
+  - User progress and reading preferences are per-device (localStorage). Issue reports go to `apps/web/.data/reports.jsonl`, or to Supabase/Postgres when `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` are set (`supabase/migrations/`).
+  - Part boundaries follow the traditional rukus where possible: cite them as `{ "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 3 (2:21–29)" }`; the validator checks the range against the raw metadata.
 - **Shared schema:** Zod schemas in `packages/schema` are the single source of truth — used to validate both LLM pipeline output and app-level types. Don't hand-roll parallel TypeScript interfaces that can drift from these. Cross-file rules (contiguity, citations, excerpt rights, raw integrity) live in `packages/content/src/validate.ts`.
 - **Content pipeline:** standalone scripts in `apps/pipeline`, run offline/manually, never part of the user-facing runtime request path
-- **Hosting:** not deployed yet. Static pages work anywhere; issue reports need persistent storage (a self-hosted server, or a database before using serverless hosting such as Vercel).
+- **Hosting:** not deployed yet; Vercel + Supabase, or a single Node server. Configuration is documented in `apps/web/.env.example`; `/internal-review` needs `REVIEW_PASSWORD` in production (`apps/web/proxy.ts`).
 
 ## Conventions
 
@@ -53,6 +53,7 @@ If a task seems to require bending any of these seven rules to "make the feature
 - Tests: `pnpm test` · Typecheck: `pnpm typecheck`
 - Change a Part's review status: `pnpm content:status <part> <STATUS> --by "Name"`. **Human-only:** it refuses to run without an interactive terminal. Agents must never run it or edit `status`/`review.history` by hand (rule 6).
 - Not built yet: `pnpm pipeline:generate` (the LLM drafting script). The four pilot Parts were drafted in a Claude Code session from the cited sources.
+- Reader preferences (depth, section order, script, translations, scholars first, theme) are client-only and mirrored onto `<html>` before first paint: see `docs/personalisation.md` and `apps/web/lib/reading-prefs.ts`. Preferences may change emphasis and order, never substance: a `scholarly_disagreement` always shows every view.
 
 (Update this section as real scripts are added — keep it accurate, this is what the agent will actually run.)
 
