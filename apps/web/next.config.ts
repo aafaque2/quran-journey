@@ -16,9 +16,10 @@ const nextConfig: NextConfig = {
   // Workspace packages ship TypeScript source.
   transpilePackages: ["@quran-journey/schema", "@quran-journey/content"],
   outputFileTracingRoot: repoRoot,
-  // Pages are pre-rendered at build time, but /internal-review reads content/ on each request:
-  // ship those files with its serverless function.
-  outputFileTracingIncludes: { "/internal-review": ["../../content/**/*"] },
+  // Pages are pre-rendered at build time, but /internal-review renders on each request and reads
+  // content/ then: ship those files with its serverless function, plus pnpm-workspace.yaml, the
+  // marker that findRepoRoot() (packages/content/src/paths.ts) uses to locate content/.
+  outputFileTracingIncludes: { "/internal-review": ["../../content/**/*", "../../pnpm-workspace.yaml"] },
   turbopack: { root: repoRoot },
   poweredByHeader: false,
   async headers() {
