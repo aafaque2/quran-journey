@@ -12,6 +12,8 @@ and each connects to the Part before and after. Rules for AI agents working in t
 
 **Reading your way** ([`docs/personalisation.md`](docs/personalisation.md)): a depth switch on every page (**Read · Understand · Study**), a section rail you can reorder, a first-visit setup at `/welcome`, `/settings`, and light/dark mode. Readers choose the Arabic script (Uthmani or Simple) and one or more translations (Saheeh International, Rowwad, Junagarhi Urdu, al-Omari Hindi). All of it is stored on the device only.
 
+**On phones:** the site installs like an app (home-screen icon, full-screen), and every Part a reader has opened stays readable offline. Settings → *On your phone* saves all Parts at once.
+
 ## Run it
 
 ```bash
@@ -57,9 +59,19 @@ Every claim in a Part is tagged with one of five types: `established`, `scholarl
 
 The production build hides anything below `EDITOR_REVIEW` (`CONTENT_VISIBILITY=reviewed`).
 
-To let a closed group test unreviewed drafts, build with `CONTENT_VISIBILITY=drafts`. That is a deliberate editorial choice: every Part keeps its review-status banner.
+To let a closed group test unreviewed drafts, build with `CONTENT_VISIBILITY=drafts`. That is a deliberate editorial choice: every Part keeps its review-status banner, and every page is marked `noindex` so search engines leave the drafts out.
 
-Issue reports are written to `apps/web/.data/reports.jsonl` locally, or to Supabase/Postgres when `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set (needed on serverless hosts such as Vercel; table in `supabase/migrations/`). Configuration: [`apps/web/.env.example`](apps/web/.env.example).
+Issue reports are written to `apps/web/.data/reports.jsonl` locally, or to Supabase/Postgres when `SUPABASE_URL` and `SUPABASE_SECRET_KEY` are set (needed on serverless hosts such as Vercel; table in `supabase/migrations/`). Configuration: [`apps/web/.env.example`](apps/web/.env.example).
+
+## Deploying
+
+The app is set up for **Vercel** (pre-rendered pages on the CDN, two small server routes) with **Supabase** for issue reports.
+
+1. **Supabase:** create a project and run `supabase/migrations/0001_reports.sql` in its SQL editor.
+2. **Vercel:** import the repository with **Root Directory `apps/web`**. [`apps/web/vercel.json`](apps/web/vercel.json) runs the server routes in Mumbai (`bom1`) and calls `/api/keepalive` once a day, so a free Supabase project is never paused for inactivity.
+3. Set the environment variables listed in [`apps/web/.env.example`](apps/web/.env.example), then deploy. Parts are pre-rendered, so redeploy after a review-status change.
+
+Any Node host works too (`pnpm build && pnpm start`); without Supabase, reports are written to `apps/web/.data/reports.jsonl`.
 
 ## Sources & licensing (read before any public launch)
 
@@ -77,4 +89,3 @@ Issue reports are written to `apps/web/.data/reports.jsonl` locally, or to Supab
 - Accounts and cross-device sync.
 - Narration audio.
 - Recitation audio.
-- A live deployment.

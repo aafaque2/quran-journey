@@ -28,11 +28,12 @@ If a task seems to require bending any of these seven rules to "make the feature
 - **Data layer (MVP):** content lives in git, not a database.
   - Raw layer = `content/raw/`: downloaded verbatim by `pnpm raw:fetch`, sha256-pinned in `content/raw/manifest.json`. The validator fails on any byte change.
   - Editorial layer = `content/parts/*.json` + `content/works.json` (bibliography) + `content/journey.json`. Parts reference verses by surah + ayah range and never copy verse text.
-  - User progress and reading preferences are per-device (localStorage). Issue reports go to `apps/web/.data/reports.jsonl`, or to Supabase/Postgres when `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` are set (`supabase/migrations/`).
+  - User progress and reading preferences are per-device (localStorage). Issue reports go to `apps/web/.data/reports.jsonl`, or to Supabase/Postgres when `SUPABASE_URL` + `SUPABASE_SECRET_KEY` are set (the legacy `SUPABASE_SERVICE_ROLE_KEY` also works; table and grants in `supabase/migrations/`).
   - Part boundaries follow the traditional rukus where possible: cite them as `{ "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 3 (2:21–29)" }`; the validator checks the range against the raw metadata.
 - **Shared schema:** Zod schemas in `packages/schema` are the single source of truth — used to validate both LLM pipeline output and app-level types. Don't hand-roll parallel TypeScript interfaces that can drift from these. Cross-file rules (contiguity, citations, excerpt rights, raw integrity) live in `packages/content/src/validate.ts`.
 - **Content pipeline:** standalone scripts in `apps/pipeline`, run offline/manually, never part of the user-facing runtime request path
-- **Hosting:** not deployed yet; Vercel + Supabase, or a single Node server. Configuration is documented in `apps/web/.env.example`; `/internal-review` needs `REVIEW_PASSWORD` in production (`apps/web/proxy.ts`).
+- **Hosting:** Vercel (project Root Directory `apps/web`) + Supabase, or any single Node server. `apps/web/vercel.json` runs the server routes in Mumbai (`bom1`) and calls `/api/keepalive` daily so a free Supabase project isn't paused. Configuration is documented in `apps/web/.env.example`; `/internal-review` needs `REVIEW_PASSWORD` in production (`apps/web/proxy.ts`).
+- **Installable app / offline reading:** `apps/web/app/manifest.ts`, the service worker `apps/web/public/sw.js` (production builds only) and `apps/web/components/pwa.tsx`. Pages are network-first, so online readers always get the current text; saved copies are only used offline.
 
 ## Conventions
 
@@ -41,6 +42,7 @@ If a task seems to require bending any of these seven rules to "make the feature
 - Prefer editing/extending existing components over creating near-duplicate ones — check `apps/web/components` before adding new UI.
 - Every new content-facing field added to the schema needs a one-line comment explaining what layer it belongs to (raw vs. editorial) and whether it's user-visible.
 - Commit messages: short, imperative, scoped (`content-pipeline: add source-citation validation`).
+- Service worker: bump `VERSION` in `apps/web/public/sw.js` whenever you change what it caches or how, and never let it cache `/api/*` or `/internal-review`.
 
 ## Commands
 
