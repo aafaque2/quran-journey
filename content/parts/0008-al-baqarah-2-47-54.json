@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0008",
+  "partNumber": 8,
+  "surah": 2,
+  "startAyah": 47,
+  "endAyah": 54,
+  "title": "Rescued, Then Forgiven: Pharaoh, the Sea and the Calf",
+  "subtitle": "Remember the favours: deliverance from Pharaoh, the parted sea, the Book given to Moses, and forgiveness after the calf",
+  "estimatedMinutes": 13,
+  "learningObjectives": [
+    "Know the favours this passage recalls, from the rescue from Pharaoh to the giving of the Book.",
+    "Understand the warning of 2:48: on the Day of Judgement, no one can carry another.",
+    "See how the passage sets a grave wrong beside forgiveness, and what it teaches about repentance."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "The call is repeated: remember My favour, and how I preferred you over the worlds (2:47). Fear a Day when no soul will avail another, and no intercession, ransom or help will be accepted (2:48). Remember when We saved you from Pharaoh's people, who slaughtered your sons and spared your women (2:49), and parted the sea, saved you and drowned Pharaoh's people before your eyes (2:50). When Moses was called for forty nights, you took the calf in his absence; yet We forgave you, so that you might be grateful (2:51–52). We gave Moses the Book and the Criterion, so that you might be guided (2:53). Moses told his people that they had wronged themselves, to repent to their Creator and 'kill yourselves', and Allah accepted their repentance (2:54).",
+    "sources": [{ "work": "quran", "locator": "2:47-54" }]
+  },
+  "context": [
+    {
+      "id": "episodes-everyone-knew",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an notes that from here the surah recalls the best-known episodes of the Israelites' history. It tells them briefly, because every listener already knew them, to recall both the favours they received and how those favours were answered. Al-Sa'di likewise marks 2:49 as the start of a detailed list of favours.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 64" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:49" }
+      ],
+      "sensitive": ["historical"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-the-call-repeated",
+    "category": "editorial_synthesis",
+    "text": "Part 7 opened the address with 'remember My favour' and the covenant's commands (2:40–46). This passage repeats the call word for word (2:47) and now recounts the favours themselves.",
+    "sources": [{ "work": "quran", "locator": "2:40" }, { "work": "quran", "locator": "2:47" }]
+  },
+  "connectionToNext": {
+    "id": "next-the-wilderness",
+    "category": "editorial_synthesis",
+    "text": "The calf was forgiven. Yet the next passage begins with the people refusing to believe until they see Allah openly (2:55), and goes on into the years in the wilderness, where favour after favour meets complaint.",
+    "sources": [{ "work": "quran", "locator": "2:55-61" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "preferred-over-the-worlds",
+      "category": "scholarly_interpretation",
+      "text": "'I preferred you over the worlds' (2:47). Ibn Kathir explains it as over the peoples of their own time, through the prophets, scriptures and kingship they were given. He reports this from Abu al-'Aliyah, Mujahid, al-Rabi' and Qatadah, and says it must be read this way because the Qur'an calls the Muslim community 'the best community brought out for people' (3:110). Tafheem-ul-Qur'an refers it to the period when they alone held revealed knowledge and were entrusted with guiding others.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:47" },
+        { "work": "quran", "locator": "3:110" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 62" }
+      ],
+      "sensitive": ["interfaith"]
+    },
+    {
+      "id": "no-soul-can-carry-another",
+      "category": "scholarly_interpretation",
+      "text": "On the Day described in 2:48, al-Sa'di explains, no soul avails another, not even a prophet for a close relative. No intercession is accepted except with Allah's permission and His approval of the one interceded for. The lesson, he says, is to stop hanging the heart on created beings and hang it on Allah alone. Ibn Kathir explains the rejected intercession as intercession for those who reject faith, citing 74:48. Tafheem-ul-Qur'an names the illusion the verse breaks: that descent from prophets and saints would save people regardless of their own conduct.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:48" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:48" },
+        { "work": "quran", "locator": "74:48" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 63" }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "a-great-bala",
+      "category": "scholarly_disagreement",
+      "text": "'In that was a great bala' from your Lord' (2:49). The word's root means testing, which can come through good or through hardship (21:35), so 'that' can point in two directions.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:49" }, { "work": "quran", "locator": "21:35" }],
+      "views": [
+        {
+          "holder": "Al-Tabari; Ibn 'Abbas, Mujahid, Abu al-'Aliyah, al-Suddi and others (as reported by Ibn Kathir); al-Sa'di",
+          "text": "A great favour: 'that' is the rescue from Pharaoh, which calls for gratitude.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:49", "excerpt": "أي : نعمة عظيمة عليكم في ذلك" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:49" }
+          ]
+        },
+        {
+          "holder": "Tafheem-ul-Qur'an",
+          "text": "A tremendous trial: whether they would come out of persecution as pure gold or as dross, and whether, once rescued, they would become grateful servants.",
+          "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 66" }]
+        }
+      ]
+    },
+    {
+      "id": "the-calf-knowingly",
+      "category": "scholarly_interpretation",
+      "text": "The forty nights (2:51) are the thirty completed by ten in 7:142, as Ibn Kathir notes; Moses was called so that the Torah could be given. Al-Sa'di observes that the people could not wait until the term was over before they worshipped the calf, 'while you were wrongdoers': they knew it was wrong, and the proof had reached them, which made it graver.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:51-52" },
+        { "work": "quran", "locator": "7:142" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:51" }
+      ],
+      "sensitive": ["historical"]
+    },
+    {
+      "id": "the-criterion",
+      "category": "scholarly_interpretation",
+      "text": "With the Book, Moses was given al-Furqan, 'the Criterion' (2:53). Ibn Kathir explains it as what separates truth from falsehood and guidance from error. Tafheem-ul-Qur'an describes it as the understanding of religion that makes truth and falsehood each stand out distinctly.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:53" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 69" }
+      ]
+    },
+    {
+      "id": "kill-yourselves",
+      "category": "scholarly_disagreement",
+      "text": "What did 'kill yourselves' mean in 2:54? Al-Qurtubi records two readings and holds the first to be correct.",
+      "sources": [{ "work": "tafsir-al-qurtubi", "locator": "on 2:54", "excerpt": "والصحيح أنه قتل على الحقيقة هنا" }],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas (as reported by Ibn Kathir) and al-Zuhri (as reported by al-Qurtubi); held correct by al-Qurtubi",
+          "text": "A real punishment, carried out among them. Reports differ on how it happened: in one, those who had not worshipped the calf killed those who had; in another, two ranks fought until they were told to stop. Ibn 'Abbas adds that Allah then forgave both the killer and the killed. Al-Sa'di and Tafheem-ul-Qur'an read it in the same way.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:54", "excerpt": "فغفر الله تعالى للقاتل والمقتول" },
+            { "work": "tafsir-al-qurtubi", "locator": "on 2:54" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:54" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 70" }
+          ]
+        },
+        {
+          "holder": "Those who look for inner meanings (arbab al-khawatir, as reported by al-Qurtubi)",
+          "text": "Subdue the self through obedience and restrain it from its desires. Al-Qurtubi records this reading but rejects it as the meaning of this verse.",
+          "sources": [{ "work": "tafsir-al-qurtubi", "locator": "on 2:54" }]
+        }
+      ],
+      "sensitive": ["historical"]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "the-day-of-ashura",
+      "category": "scholarly_interpretation",
+      "text": "The rescue at the sea is remembered in Muslim practice. Ibn Kathir quotes the hadith from Ibn 'Abbas, in al-Bukhari and Muslim. The Prophet ﷺ came to Madinah, found the Jews fasting the day of 'Ashura and asked why; they said it was the day Allah saved the Children of Israel from their enemy, and that Moses had fasted it. He said, 'I have more right to Moses than you', fasted it, and told others to fast it.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:50" },
+        { "work": "sahih-al-bukhari", "locator": "as quoted by Ibn Kathir on 2:50" },
+        { "work": "sahih-muslim", "locator": "as quoted by Ibn Kathir on 2:50" }
+      ],
+      "sensitive": ["hadith", "fiqh"]
+    },
+    {
+      "id": "to-your-creator",
+      "category": "scholarly_interpretation",
+      "text": "Moses says 'repent to your Creator' (bari'ikum), not simply 'to your Lord' (2:54). Ibn Kathir sees a pointed reminder in the word: turn back to the One who created you, after you worshipped something else beside Him. The name itself shows how grave the wrong was.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:54", "excerpt": "وفي قوله هاهنا : ( إلى بارئكم ) تنبيه على عظم جرمهم" }]
+    },
+    {
+      "id": "the-gift-of-easy-repentance",
+      "category": "scholarly_interpretation",
+      "text": "Al-Qurtubi quotes Sufyan ibn 'Uyaynah: repentance is a favour Allah granted this community; the repentance of the Children of Israel was by killing. Set beside Adam's words of repentance (2:37), it is a reminder of how much is given in simply being able to turn back.",
+      "sources": [
+        {
+          "work": "tafsir-al-qurtubi",
+          "locator": "on 2:54",
+          "excerpt": "التوبة نعمة من الله أنعم الله بها على هذه الأمة دون غيرها من الأمم وكانت توبة بني إسرائيل القتل"
+        },
+        { "work": "quran", "locator": "2:37" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-allah-rescues",
+      "category": "established",
+      "text": "Allah rescued the oppressed: Pharaoh's people drowned while those they had enslaved looked on (2:49–50).",
+      "sources": [{ "work": "quran", "locator": "2:49-50" }]
+    },
+    {
+      "id": "takeaway-no-one-carries-you",
+      "category": "established",
+      "text": "On the Day of Judgement no soul can avail another; what you bring is your own (2:48).",
+      "sources": [{ "work": "quran", "locator": "2:48" }]
+    },
+    {
+      "id": "takeaway-not-lineage",
+      "category": "editorial_synthesis",
+      "text": "Don't lean on lineage or pious connections in place of your own faith and deeds.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 63" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:48" }
+      ]
+    },
+    {
+      "id": "takeaway-forgiveness",
+      "category": "editorial_synthesis",
+      "text": "No wrong is beyond sincere repentance: even the calf was forgiven, so that they might be grateful (2:52).",
+      "sources": [{ "work": "quran", "locator": "2:52" }, { "work": "quran", "locator": "2:54" }]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "suicide-command",
+      "misreading": "In 2:54 Moses ordered each person who had worshipped the calf to take his own life.",
+      "clarification": {
+        "id": "not-by-his-own-hand",
+        "category": "scholarly_interpretation",
+        "text": "Al-Qurtubi reports that scholars agreed no calf-worshipper was ordered to kill himself with his own hand. 'Yourselves' here means your own people, one another, as al-Sa'di explains it ('that some of you kill others'). Tafheem-ul-Qur'an reads it as putting to death those among them who had worshipped the calf. It was a punishment within the community, followed by forgiveness (2:54).",
+        "sources": [
+          { "work": "tafsir-al-qurtubi", "locator": "on 2:54" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:54" },
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 70" },
+          { "work": "quran", "locator": "2:54" }
+        ],
+        "sensitive": ["historical"]
+      },
+      "addressedBy": [
+        { "work": "tafsir-al-qurtubi", "locator": "on 2:54", "excerpt": "وأجمعوا على أنه لم يؤمر كل واحد من عبدة العجل بأن يقتل نفسه بيده" }
+      ]
+    }
+  ],
+  "reflectionQuestions": [
+    "If you were asked to 'remember My favour', which rescue in your own life would you recall first?",
+    "Is there anything you lean on, such as a family name, a teacher or a community, in place of your own deeds?",
+    "Is there a wrong you have felt too ashamed to repent of? What does 2:52 say to you about it?"
+  ],
+  "segmentationRationale": {
+    "text": "The sixth and seventh rukus of Al-Baqarah (2:47–59 and 2:60–61) form one long recollection of the Israelites' history, too long for a single sitting. This Part takes its first movement: the call to remember and the warning of the Day (2:47–48), the rescue from Pharaoh, and the calf and its forgiveness (2:49–54). It ends where Allah accepts their repentance; the next verse moves to a new episode, the demand to see Allah openly (2:55).",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 6 (2:47–59)" },
+      { "work": "tafsir-al-sadi", "locator": "on 2:49" },
+      { "work": "quran", "locator": "2:55" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Qurtubi and al-Sa'di (quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0007",
+  "partNumber": 7,
+  "surah": 2,
+  "startAyah": 40,
+  "endAyah": 46,
+  "title": "O Children of Israel: Keep Your Covenant",
+  "subtitle": "A long address to an earlier people of scripture begins, with commands that speak to every community given guidance",
+  "estimatedMinutes": 13,
+  "learningObjectives": [
+    "Understand who is addressed from 2:40, and why the address matters to Muslim readers too.",
+    "Know the covenant and the commands of 2:40–44: remember, fulfil, believe, do not hide the truth, pray and give.",
+    "Learn the help the passage offers, patience and prayer, and what makes prayer light (2:45–46)."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "The surah now addresses the Children of Israel by name: remember My favour, fulfil My covenant and I will fulfil yours, and fear Me alone (2:40). Believe in what I have sent down, confirming what you already have; do not be the first to reject it, or sell My signs for a small price (2:41). Do not cover truth with falsehood, or hide the truth knowingly (2:42). Establish prayer, give zakah and bow with those who bow (2:43). Do you order others to do right and forget yourselves, while you recite the Book (2:44)? Seek help through patience and prayer, which is heavy except for the humble, who are certain they will meet their Lord and return to Him (2:45–46).",
+    "sources": [{ "work": "quran", "locator": "2:40-46" }]
+  },
+  "context": [
+    {
+      "id": "a-long-address-begins",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an notes that the verses so far were addressed to all humanity. From here to 2:121 the discourse speaks mainly to the Children of Israel, with occasional words to others. Among its purposes, it explains, are to invite them to a message that continues their own prophets' message, to show through their history what happens when guidance is held or let go, and to warn the followers of Muhammad ﷺ not to fall into the same failings. Al-Sa'di adds that the address was to the Israelite communities in and around Madinah, and includes those who came after them.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 56" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:40" }
+      ],
+      "sensitive": ["interfaith", "historical"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-guidance-promised",
+    "category": "editorial_synthesis",
+    "text": "Part 6 ended with a promise to all of Adam's children: guidance will come from Me (2:38). Now the surah turns to a people who had received that guidance for generations, and asks them to recognise it once more (2:40–41).",
+    "sources": [{ "work": "quran", "locator": "2:38-41" }]
+  },
+  "connectionToNext": {
+    "id": "next-the-favours",
+    "category": "editorial_synthesis",
+    "text": "This passage gives the commands. The next opens with the same call, 'remember My favour' (2:47), and recalls the favours themselves: rescue from Pharaoh, the parting of the sea, and forgiveness after the calf.",
+    "sources": [{ "work": "quran", "locator": "2:47-54" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "remembering-a-favour",
+      "category": "scholarly_interpretation",
+      "text": "What does it mean to 'remember' a favour (2:40)? Al-Sa'di answers: to acknowledge it in the heart, to praise Allah for it with the tongue, and to use it in what He loves and is pleased with. The favour here, he notes, covers all their blessings, some of which the surah goes on to recount.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:40" }]
+    },
+    {
+      "id": "two-covenants",
+      "category": "scholarly_interpretation",
+      "text": "'Fulfil My covenant and I will fulfil yours' (2:40). Ibn Kathir reports Ibn 'Abbas explaining Allah's covenant as their pledge to follow the Prophet ﷺ when he came. Allah's side was to lift the burdens and shackles that had been placed on them. Al-Hasan al-Basri explained it by 5:12: establishing prayer, giving zakah and believing in Allah's messengers. Al-Sa'di cites the same verse, and adds that the command to fear Allah alone (2:40) is what moves a person to keep such a covenant.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:40" },
+        { "work": "quran", "locator": "5:12" },
+        { "work": "quran", "locator": "7:157" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:40" }
+      ],
+      "sensitive": ["interfaith"]
+    },
+    {
+      "id": "confirming-what-you-have",
+      "category": "scholarly_interpretation",
+      "text": "The Qur'an is described as 'confirming what is with you' (2:41). Al-Sa'di explains why that matters. It agrees with their scriptures rather than contradicting them, so nothing stands in the way of believing it. And since it brings what Moses, Jesus and the other prophets brought, rejecting it would mean rejecting what they themselves hold. Tafheem-ul-Qur'an makes the same point: what the Prophet ﷺ brought was not foreign to them, but their own message entrusted anew.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:41" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 56" }
+      ],
+      "sensitive": ["interfaith"]
+    },
+    {
+      "id": "the-first-to-reject",
+      "category": "scholarly_interpretation",
+      "text": "'Do not be the first to reject it' (2:41). Ibn Kathir reports Ibn 'Abbas: because you have knowledge of it that others lack. Abu al-'Aliyah, al-Hasan and others: the first among the People of the Book to reject the Prophet ﷺ after hearing of him. Al-Tabari took 'it' to mean the Qur'an. Al-Sa'di explains why 'the first' is stronger than simply 'do not reject': those who lead the way in rejection carry their own burden and the burden of all who follow them.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:41" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:41" }
+      ],
+      "sensitive": ["interfaith"]
+    },
+    {
+      "id": "the-small-price",
+      "category": "scholarly_interpretation",
+      "text": "'Do not sell My signs for a small price' (2:41). Al-Sa'di identifies the price as the positions and income people feared they would lose if they believed. Tafheem-ul-Qur'an generalises: whatever is gained in exchange for the truth, even all the treasure in the world, is small, because the truth is of supreme value.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:41" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 57" }
+      ]
+    },
+    {
+      "id": "mixing-and-hiding",
+      "category": "scholarly_interpretation",
+      "text": "2:42 forbids two things: dressing truth in falsehood, and hiding truth. Al-Sa'di explains that the role of people of knowledge is to separate truth from falsehood and make it plain, so the sincere are guided and the proof is established. Those who do this are successors of the messengers; those who blur it knowingly mislead the people who follow them. Tafheem-ul-Qur'an describes the setting: when people asked scholars of the time about the Prophet ﷺ, they neither denied his message nor affirmed it, but raised doubts instead.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:42" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 58" }
+      ],
+      "sensitive": ["historical", "interfaith"]
+    },
+    {
+      "id": "bow-with-those-who-bow",
+      "category": "scholarly_disagreement",
+      "text": "'Bow with those who bow' (2:43) is read as praying with others, in congregation. Al-Qurtubi notes that some scholars of interpretation took it that way, since the earlier command to pray did not itself require the congregation. Scholars then differ on how binding praying in congregation is.",
+      "sources": [{ "work": "tafsir-al-qurtubi", "locator": "on 2:43 (twelfth issue)" }],
+      "views": [
+        {
+          "holder": "The majority (as reported by al-Qurtubi)",
+          "text": "It is a confirmed sunnah; someone who habitually stays away without excuse is at fault.",
+          "sources": [
+            {
+              "work": "tafsir-al-qurtubi",
+              "locator": "on 2:43 (twelfth issue)",
+              "excerpt": "وقد اختلف العلماء في شهود الجماعة على قولين فالذي عليه الجمهور أن ذلك من السنن المؤكدة"
+            }
+          ]
+        },
+        {
+          "holder": "Some scholars, a view Ibn 'Abd al-Barr called correct (as reported by al-Qurtubi)",
+          "text": "It is a communal obligation: the mosques must never be left without congregations, though once a congregation is held, a person praying alone at home has prayed validly.",
+          "sources": [{ "work": "tafsir-al-qurtubi", "locator": "on 2:43 (twelfth issue)", "excerpt": "وقد أوجبها بعض أهل العلم فرضا على الكفاية" }]
+        },
+        {
+          "holder": "Al-Sa'di",
+          "text": "The verse commands praying in congregation and shows it to be obligatory. It also shows that bowing (ruku') is a pillar of prayer, since the prayer is named after it.",
+          "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:43" }]
+        }
+      ],
+      "sensitive": ["fiqh"]
+    },
+    {
+      "id": "patience-and-prayer",
+      "category": "scholarly_interpretation",
+      "text": "'Seek help through patience and prayer' (2:45). Al-Sa'di names three kinds of patience: in carrying out what Allah commands, in staying away from what He forbids, and with painful decrees, without resentment. Prayer, he adds, is the measure of faith. Ibn Kathir quotes Hudhayfah: whenever something distressed the Prophet ﷺ, he turned to prayer. Tafheem-ul-Qur'an explains sabr as holding oneself steady on the path one has chosen, against temptation within and opposition without, and reinforcing that strength through prayer.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:45" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:45" },
+        { "work": "sunan-abi-dawud", "locator": "as quoted by Ibn Kathir on 2:45", "note": "The hadith of Hudhayfah ibn al-Yaman" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 60" }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "zann-as-certainty",
+      "category": "scholarly_interpretation",
+      "text": "2:46 describes the humble as those who yazunnun that they will meet their Lord, a verb that often means 'to suppose'. Al-Sa'di explains it here as being certain. Ibn Kathir quotes al-Tabari: the Arabs use zann both for doubt and for certainty, as they use some words for a thing and its opposite. He gives examples from Arabic poetry and 18:53, where the guilty 'zannu' they will fall into the Fire.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:46" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:46", "excerpt": "العرب قد تسمي اليقين ظنا ، والشك ظنا" },
+        { "work": "quran", "locator": "18:53" }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "children-of-a-righteous-father",
+      "category": "scholarly_interpretation",
+      "text": "Why 'Children of Israel'? Israel is the prophet Jacob (Ya'qub), son of Isaac and grandson of Abraham. Ibn Kathir explains that calling them by their father's name is itself an appeal: 'O children of the righteous servant who obeyed Allah, be like your father in following the truth', as one says 'O son of the generous, be generous'. Tafheem-ul-Qur'an notes that the name itself means 'servant of God'.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:40", "excerpt": "يا بني العبد الصالح المطيع لله كونوا مثل أبيكم في متابعة الحق" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 56" }
+      ]
+    },
+    {
+      "id": "a-mirror-for-muslims",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an asks Muslim readers to read these passages as a mirror. It recalls the Prophet's ﷺ warning in al-Bukhari and Muslim that his community would follow the ways of the communities before it so closely that if they entered a lizard's hole, they would enter it too. The failings named here, such as preaching without practising or hiding truth for gain, are warnings for any community that holds a scripture.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 56" },
+        { "work": "sahih-al-bukhari", "locator": "as cited by Tafheem-ul-Qur'an, Al-Baqarah, note 56 (Kitab al-I'tisam)" },
+        { "work": "sahih-muslim", "locator": "as cited by Tafheem-ul-Qur'an, Al-Baqarah, note 56 (Kitab al-'Ilm)" }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "what-makes-prayer-light",
+      "category": "scholarly_interpretation",
+      "text": "Prayer is 'heavy, except for the humble' (2:45). Al-Sa'di explains humility (khushu') as the heart's submission, stillness and brokenness before Allah, together with certainty of meeting Him. It is that certainty, he says, which makes worship light and consoles in hardship. Tafheem-ul-Qur'an puts it from the other side: for someone who obeys Allah and knows they will stand before Him, it is missing a prayer, not praying it, that feels unbearable.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:45" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:46" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 61" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-remember-and-keep",
+      "category": "established",
+      "text": "Remember Allah's favours, and keep your side of His covenant (2:40).",
+      "sources": [{ "work": "quran", "locator": "2:40" }]
+    },
+    {
+      "id": "takeaway-small-price",
+      "category": "editorial_synthesis",
+      "text": "Nothing is worth trading the truth for: whatever it buys is a small price (2:41).",
+      "sources": [
+        { "work": "quran", "locator": "2:41" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 57" }
+      ]
+    },
+    {
+      "id": "takeaway-do-not-blur",
+      "category": "established",
+      "text": "Do not blur the truth with falsehood, or hide it when you know it (2:42).",
+      "sources": [{ "work": "quran", "locator": "2:42" }]
+    },
+    {
+      "id": "takeaway-practise-and-call",
+      "category": "editorial_synthesis",
+      "text": "Practise what you call others to, and don't stop calling to good just because you still fall short.",
+      "sources": [
+        { "work": "quran", "locator": "2:44" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:44" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:44" }
+      ]
+    },
+    {
+      "id": "takeaway-patience-prayer",
+      "category": "established",
+      "text": "Seek help through patience and prayer; humility makes prayer light (2:45–46).",
+      "sources": [{ "work": "quran", "locator": "2:45-46" }]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "only-the-perfect-may-advise",
+      "misreading": "2:44 means you should not tell others to do good unless you already do it yourself.",
+      "clarification": {
+        "id": "both-duties-remain",
+        "category": "scholarly_interpretation",
+        "text": "Ibn Kathir explains that the verse blames them for neglecting the good, not for calling others to it. Calling to good and doing it are both obligations, and failing in one does not cancel the other. He quotes Sa'id ibn Jubayr: if a person could only command good once free of every fault, no one would ever command good. Malik agreed, asking, 'Who is free of fault?' Al-Sa'di likewise says the verse rebukes failing either duty, and neglecting one is no licence to drop the other, though people follow deeds more than words.",
+        "sources": [
+          { "work": "tafsir-ibn-kathir", "locator": "on 2:44" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:44" },
+          { "work": "quran", "locator": "11:88" }
+        ]
+      },
+      "addressedBy": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:44", "excerpt": "وليس المراد ذمهم على أمرهم بالبر مع تركهم له ، بل على تركهم له" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:44" }
+      ]
+    }
+  ],
+  "reflectionQuestions": [
+    "Which favour in your own life most needs remembering as al-Sa'di describes it: in the heart, on the tongue and in how you use it?",
+    "Is there a truth you know but keep quiet about, or blur, to avoid discomfort?",
+    "When something weighs on you, do you turn to patience and prayer first, or last?"
+  ],
+  "segmentationRationale": {
+    "text": "These seven verses are the fifth ruku of Al-Baqarah: the opening of the address to the Children of Israel, with its call to remember, its covenant and its commands. The next verse repeats the opening call, 'O Children of Israel, remember My favour' (2:47), and moves from commands to the favours of their history, so the boundary falls here.",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 5 (2:40–46)" },
+      { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 56" },
+      { "work": "quran", "locator": "2:47" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir, al-Qurtubi and al-Sa'di (quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

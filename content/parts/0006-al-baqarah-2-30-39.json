@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0006",
+  "partNumber": 6,
+  "surah": 2,
+  "startAyah": 30,
+  "endAyah": 39,
+  "title": "Adam: A Successor on Earth",
+  "subtitle": "The angels' question, the names, Iblis's refusal, the slip, the repentance, and a promise of guidance",
+  "estimatedMinutes": 17,
+  "learningObjectives": [
+    "Know the story of Adam as these verses tell it, from the angels' question to the descent to earth.",
+    "Understand what scholars say about the khalifah, the names, Iblis and the tree, and where they differ.",
+    "See how the passage ends with the promise of guidance that links back to Al-Fatihah."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "Allah tells the angels He is placing a successor (khalifah) on the earth. They ask whether He will place there one who will spread corruption and shed blood, while they glorify Him; He answers that He knows what they do not (2:30). He teaches Adam the names of all things; the angels cannot give them, Adam can (2:31–33). The angels prostrate to Adam, except Iblis, who refuses in arrogance (2:34). Adam and his wife live in the garden, forbidden only one tree, until Satan makes them slip and they are sent down to earth (2:35–36). Adam receives words from his Lord and is forgiven (2:37). Guidance will come: whoever follows it will have no fear or grief, and whoever rejects it will be among the people of the Fire (2:38–39).",
+    "sources": [{ "work": "quran", "locator": "2:30-39" }]
+  },
+  "context": [
+    {
+      "id": "why-this-story-now",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an explains why the story comes here. The previous passage called people to serve Allah because He created and sustains them. This one supports the same call on a further ground: Allah made the human being His khalifah, who must therefore act by His guidance, and who will face the consequences of following Satan instead. Al-Sa'di opens the passage simply as the beginning of Adam's honour, announced to the angels before he was created.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 36" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:30" }
+      ]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-created-for-you",
+    "category": "editorial_synthesis",
+    "text": "Part 5 ended with Allah creating all that is on earth for people (2:29). This passage tells how people were first placed on that earth, and why (2:30).",
+    "sources": [{ "work": "quran", "locator": "2:29-30" }]
+  },
+  "connectionToNext": {
+    "id": "next-the-children-of-israel",
+    "category": "editorial_synthesis",
+    "text": "Adam's story ends with a promise: guidance will come from Allah (2:38). The next passage turns to a people who had long received that guidance, and calls them by name: 'O Children of Israel' (2:40).",
+    "sources": [{ "work": "quran", "locator": "2:38-40" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "what-is-khalifah",
+      "category": "scholarly_disagreement",
+      "text": "What does 'khalifah' mean in 2:30? Two well-known explanations put the emphasis differently.",
+      "sources": [{ "work": "quran", "locator": "2:30" }],
+      "views": [
+        {
+          "holder": "Ibn Kathir",
+          "text": "A people who succeed one another, generation after generation, as in 6:165 and 27:62. It does not mean Adam alone, as some commentators say.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:30", "excerpt": "أي : قوما يخلف بعضهم بعضا قرنا بعد قرن وجيلا بعد جيل" },
+            { "work": "quran", "locator": "6:165" }
+          ]
+        },
+        {
+          "holder": "Tafheem-ul-Qur'an",
+          "text": "A vicegerent: one who exercises authority delegated to him by Allah, within the limits Allah sets. To treat that authority as one's own, or to obey another master with it, is rebellion.",
+          "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 38" }]
+        }
+      ]
+    },
+    {
+      "id": "how-did-the-angels-know",
+      "category": "scholarly_disagreement",
+      "text": "How could the angels say that the khalifah would 'spread corruption and shed blood'? Ibn Kathir records several explanations.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:30" }],
+      "views": [
+        {
+          "holder": "Ibn Kathir's own explanations",
+          "text": "They knew it through knowledge given to them, or understood it from human nature, since they were told this being would be made of clay.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:30", "excerpt": "وكأنهم علموا ذلك بعلم خاص ، أو بما فهموه من الطبيعة البشرية" }]
+        },
+        {
+          "holder": "Ibn 'Abbas (as reported by Ibn Kathir)",
+          "text": "They judged by those who came before: the jinn had lived on the earth first, spread corruption and shed blood.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:30", "excerpt": "أول من سكن الأرض الجن ، فأفسدوا فيها وسفكوا فيها الدماء" }]
+        },
+        {
+          "holder": "Qatadah",
+          "text": "Allah had already told them that such people would spread corruption in it.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:30", "excerpt": "قال قتادة : وقد تقدم إليهم أنهم يفسدون فيها" }]
+        }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "the-names",
+      "category": "scholarly_disagreement",
+      "text": "What were 'the names of all things' that Adam was taught (2:31)? Ibn Kathir records several early explanations and holds the first to be correct.",
+      "sources": [{ "work": "quran", "locator": "2:31" }],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas, Mujahid, Sa'id ibn Jubayr, Qatadah and others; preferred by Ibn Kathir",
+          "text": "The names of everything, large and small, things and actions alike. Ibn Kathir supports this with the hadith of intercession in Sahih al-Bukhari, where people say to Adam, 'He taught you the names of all things.' Al-Sa'di adds that Adam was taught both the words and what they refer to. Tafheem-ul-Qur'an explains that human knowledge is held through names, so to teach the names is to give knowledge of the things themselves.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:31", "excerpt": "والصحيح أنه علمه أسماء الأشياء كلها : ذواتها وأفعالها" },
+            { "work": "sahih-al-bukhari", "locator": "as quoted by Ibn Kathir on 2:31", "note": "The hadith of intercession, from Anas; Ibn Kathir notes Muslim also reports it" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:31" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 42" }
+          ]
+        },
+        {
+          "holder": "Al-Tabari",
+          "text": "The names of the angels and of Adam's descendants, because 'He presented them' (2:31) uses a pronoun for beings with reason. Ibn Kathir replies that such a pronoun can cover a mixed group, so it does not rule out other things.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:31", "excerpt": "واختار ابن جرير أنه علمه أسماء الملائكة وأسماء الذرية" }]
+        },
+        {
+          "holder": "Other early scholars",
+          "text": "The names of one kind of thing: of the angels (al-Rabi'), of the stars (Humayd al-Shami), or of all Adam's descendants ('Abd al-Rahman ibn Zayd).",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:31" }]
+        }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "was-iblis-an-angel",
+      "category": "scholarly_disagreement",
+      "text": "The angels prostrated 'except Iblis' (2:34), and the Qur'an says elsewhere that he 'was of the jinn' (18:50). Was he ever one of the angels? Ibn Kathir reports both positions.",
+      "sources": [{ "work": "quran", "locator": "18:50" }],
+      "views": [
+        {
+          "holder": "Al-Hasan al-Basri (and 'Abd al-Rahman ibn Zayd ibn Aslam)",
+          "text": "Iblis was never one of the angels, not for the blink of an eye. He is the origin of the jinn, as Adam is the origin of humankind. Ibn Kathir calls the chain of this report from al-Hasan authentic. Tafheem-ul-Qur'an also insists he was a jinn, not an angel, citing 18:50.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:34", "excerpt": "ما كان إبليس من الملائكة طرفة عين قط ، وإنه لأصل الجن ، كما أن آدم أصل الإنس" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 46" }
+          ]
+        },
+        {
+          "holder": "Ibn 'Abbas (via al-Dahhak, and via Tawus)",
+          "text": "He belonged to a tribe among the angels called 'the jinn', created from fire, and was among the most devoted of them in worship, until his pride led him to disobey.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:34", "excerpt": "كان إبليس من حي من أحياء الملائكة يقال لهم : الجن" }]
+        }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "the-tree",
+      "category": "scholarly_interpretation",
+      "text": "Which tree was forbidden? Ibn Kathir lists reports naming the vine, wheat and the fig, then quotes al-Tabari's conclusion. Allah forbade one particular tree, but He gave no evidence of which it was, in the Qur'an or the authentic Sunnah; knowing it would bring no benefit, and not knowing does no harm. Al-Sa'di and Tafheem-ul-Qur'an agree that the point was the test of obedience, not the tree.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:35", "excerpt": "ولا علم عندنا بأي شجرة كانت على التعيين", "note": "Al-Tabari's words, as quoted by Ibn Kathir" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:35" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 48" }
+      ]
+    },
+    {
+      "id": "an-enemy-to-each-other",
+      "category": "scholarly_interpretation",
+      "text": "'Some of you are enemies to others' (2:36): al-Sa'di explains this as Adam and his descendants on one side, Iblis and his on the other. An enemy works by every means to bring harm and to keep good away, so the verse carries a warning, as 35:6 says: 'Satan is an enemy to you, so take him as an enemy.' Tafheem-ul-Qur'an adds that befriending Satan does not end the enmity; it only means one side has trapped the other.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:36" },
+        { "work": "quran", "locator": "35:6" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 50" }
+      ]
+    },
+    {
+      "id": "the-words-of-repentance",
+      "category": "scholarly_interpretation",
+      "text": "Adam 'received words from his Lord' (2:37). Ibn Kathir reports from Mujahid, Sa'id ibn Jubayr, Abu al-'Aliyah, al-Hasan, Qatadah and others that they are the words of 7:23: 'Our Lord, we have wronged ourselves; if You do not forgive us and have mercy on us, we will surely be among the losers.' Al-Sa'di explains them the same way. Ibn Kathir also records other reports, such as one from Ibn 'Abbas that Adam was taught the rites of Hajj, and a longer supplication reported from Mujahid. Tafheem-ul-Qur'an adds that Adam wanted to return but could not find the words, so Allah, in His mercy, taught him how to ask.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:37", "excerpt": "روي هذا عن مجاهد ، وسعيد بن جبير ، وأبي العالية ، والربيع بن أنس ، والحسن ، وقتادة" },
+        { "work": "quran", "locator": "7:23" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:37" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 51" }
+      ]
+    },
+    {
+      "id": "two-turnings",
+      "category": "scholarly_interpretation",
+      "text": "Tawbah means turning. Al-Sa'di explains that Allah's turning to a servant comes in two stages: first He moves the servant to repent, then He accepts the repentance once it is genuine. Tafheem-ul-Qur'an describes the same two sides: the servant turns back from disobedience, and Allah turns to him in mercy.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:37" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 51" }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "knowledge-honoured",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di draws lessons from the scene. Allah showed the angels Adam's merit through knowledge, the best quality a servant can have, and they honoured him for it. And when Allah's wisdom in something is hidden from us, the right response is the angels' own: 'We have no knowledge except what You have taught us' (2:32).",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:34" },
+        { "work": "quran", "locator": "2:32" }
+      ]
+    },
+    {
+      "id": "fear-grief-misguidance-misery",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di reads 2:38 together with 20:123. Following Allah's guidance removes four things: fear of what is coming, grief over what has passed, going astray, and misery. What remains is their opposite: security, guidance and happiness, in this life and the next.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:38" },
+        { "work": "quran", "locator": "20:123" }
+      ]
+    },
+    {
+      "id": "the-answer-to-guide-us",
+      "category": "editorial_synthesis",
+      "text": "Notice where the surah's opening ends. Al-Fatihah asks 'guide us' (1:6); the surah begins 'a guidance for the mindful' (2:2); and the story of Adam closes with Allah's promise to all his children: 'guidance will come to you from Me' (2:38). Al-Sa'di notes that the command to descend is repeated precisely so that this promise can be attached to it.",
+      "sources": [
+        { "work": "quran", "locator": "1:6" },
+        { "work": "quran", "locator": "2:2" },
+        { "work": "quran", "locator": "2:38" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:38" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-placed-with-purpose",
+      "category": "established",
+      "text": "Humans were placed on earth by Allah's decision, and given knowledge by Him (2:30–31).",
+      "sources": [{ "work": "quran", "locator": "2:30-31" }]
+    },
+    {
+      "id": "takeaway-trust-his-knowledge",
+      "category": "editorial_synthesis",
+      "text": "When Allah's wisdom is hidden from you, trust His knowledge, as the angels did.",
+      "sources": [
+        { "work": "quran", "locator": "2:32" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:34" }
+      ]
+    },
+    {
+      "id": "takeaway-pride",
+      "category": "editorial_synthesis",
+      "text": "Iblis fell through arrogance, not ignorance: beware of pride in the face of Allah's command.",
+      "sources": [
+        { "work": "quran", "locator": "2:34" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:34" }
+      ]
+    },
+    {
+      "id": "takeaway-turn-back",
+      "category": "established",
+      "text": "The door of repentance is open: Adam turned to his Lord, and his Lord turned to him (2:37).",
+      "sources": [{ "work": "quran", "locator": "2:37" }]
+    },
+    {
+      "id": "takeaway-follow-guidance",
+      "category": "established",
+      "text": "Whoever follows the guidance Allah sends will have no fear and no grief (2:38).",
+      "sources": [{ "work": "quran", "locator": "2:38" }]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "angels-objecting",
+      "misreading": "The angels were objecting to Allah's decision, or were jealous of Adam.",
+      "clarification": {
+        "id": "angels-were-asking",
+        "category": "scholarly_interpretation",
+        "text": "Ibn Kathir explains that the angels' words were neither an objection to Allah nor envy of humankind, as some commentators imagined. They were asking to understand the wisdom behind it. Tafheem-ul-Qur'an agrees that it was an enquiry, since the angels could not object to any decision of Allah. Their very next words are a confession: 'Glory be to You; we have no knowledge except what You have taught us' (2:32).",
+        "sources": [
+          { "work": "tafsir-ibn-kathir", "locator": "on 2:30" },
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 39" },
+          { "work": "quran", "locator": "2:32" }
+        ]
+      },
+      "addressedBy": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:30", "excerpt": "وقول الملائكة هذا ليس على وجه الاعتراض على الله ، ولا على وجه الحسد لبني آدم ، كما قد يتوهمه بعض المفسرين" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 39" }
+      ]
+    },
+    {
+      "id": "earth-as-punishment",
+      "misreading": "Life on earth is a punishment for Adam's sin, and that sin passes to his descendants.",
+      "clarification": {
+        "id": "forgiven-then-sent-as-khalifah",
+        "category": "scholarly_interpretation",
+        "text": "Adam was forgiven (2:37) before the command to descend is repeated (2:38). Tafheem-ul-Qur'an draws two conclusions. No stain of that sin remains on Adam or his children, needing someone else to atone for it. And the earth was not made as a place of punishment: humans were placed there as Allah's vicegerents, as announced before Adam was created (2:30). Al-Sa'di adds that the descent is repeated so that the promise of guidance can be attached to it.",
+        "sources": [
+          { "work": "quran", "locator": "2:30" },
+          { "work": "quran", "locator": "2:37-38" },
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 53" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:38" }
+        ],
+        "sensitive": ["aqeedah", "interfaith"]
+      },
+      "addressedBy": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 53" }]
+    }
+  ],
+  "reflectionQuestions": [
+    "When you don't understand why something has happened, what helps you say, like the angels, 'we have no knowledge except what You have taught us'?",
+    "Adam slipped, then turned back. What keeps you from turning back quickly after a mistake?",
+    "Where does Satan's enmity show itself in your life, and how do you guard against it?"
+  ],
+  "segmentationRationale": {
+    "text": "These ten verses are the fourth ruku of Al-Baqarah and tell one continuous story, from the announcement to the angels to the promise of guidance and its warning (2:38–39). Kept whole, the story closes the surah's opening movement: the guidance asked for in Al-Fatihah and offered in 2:2 is promised to all of Adam's children. The next verse begins a new address, to the Children of Israel (2:40).",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 4 (2:30–39)" },
+      { "work": "quran", "locator": "2:38-40" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir and al-Sa'di (quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

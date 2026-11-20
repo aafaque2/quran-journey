@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "title": "The Qur'an Journey",
-  "scope": "Pilot: Al-Fatihah and Al-Baqarah 2:1–20",
+  "scope": "Pilot: Al-Fatihah and Al-Baqarah 2:1–66",
   "quranMetadataDataset": "tanzil-metadata",
   "scripts": [
     {
@@ -41,5 +41,16 @@
       "description": "A Hindi translation in Devanagari script, with explanatory footnotes."
     }
   ],
-  "parts": ["part-0001", "part-0002", "part-0003", "part-0004"]
+  "parts": [
+    "part-0001",
+    "part-0002",
+    "part-0003",
+    "part-0004",
+    "part-0005",
+    "part-0006",
+    "part-0007",
+    "part-0008",
+    "part-0009",
+    "part-0010"
+  ]
 }

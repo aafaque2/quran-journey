@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0005",
+  "partNumber": 5,
+  "surah": 2,
+  "startAyah": 21,
+  "endAyah": 29,
+  "title": "Worship Your Lord: A Call to All People",
+  "subtitle": "The surah turns to everyone at once: worship the One who created and provides, and see why the Qur'an can be trusted",
+  "estimatedMinutes": 17,
+  "learningObjectives": [
+    "See how the surah, having described three kinds of people, now calls all of them together (2:21).",
+    "Understand the reasoning given for worshipping Allah alone, and what 'rivals' to Him can include.",
+    "Know what the challenge to produce a surah means, and why the Qur'an is not ashamed of a humble parable."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "The passage turns to all people: worship your Lord, who created you and those before you, so that you may be mindful of Him (2:21). He made the earth a resting place and the sky a canopy, and sends down rain that brings out your provision, so do not knowingly set up rivals to Him (2:22). Anyone in doubt about the Qur'an is challenged to produce a single surah like it, and warned of the Fire (2:23–24); those who believe and do good are given glad tidings of gardens (2:25). Allah is not ashamed to strike a parable even of a gnat (2:26–27). How, then, can anyone disbelieve in Him, who gave life, will give death and life again, and created all that is on earth for us (2:28–29)?",
+    "sources": [{ "work": "quran", "locator": "2:21-29" }]
+  },
+  "context": [
+    {
+      "id": "one-address-to-all",
+      "category": "scholarly_interpretation",
+      "text": "The opening of the surah sorted people into three groups: the mindful believers, open rejecters and hypocrites. Ma'arif al-Qur'an reads 2:21 as the first address to all three together, presenting the message for which the Qur'an was revealed. Tafheem-ul-Qur'an makes the same link: having shown who can and cannot benefit from the Qur'an, the surah now states the heart of its invitation to all humanity.",
+      "sources": [
+        { "work": "maarif-ul-quran", "locator": "on 2:21-22 ('A review of verses linked together')" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 21" },
+        { "work": "quran", "locator": "2:2-21" }
+      ]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-the-three-groups",
+    "category": "editorial_synthesis",
+    "text": "Part 4 ended with the two parables of the hypocrites (2:17–20). With all three groups described, the surah speaks to everyone at once for the first time: 'O mankind, worship your Lord' (2:21).",
+    "sources": [
+      { "work": "quran", "locator": "2:17-21" },
+      { "work": "maarif-ul-quran", "locator": "on 2:21-22" }
+    ]
+  },
+  "connectionToNext": {
+    "id": "next-the-khalifah",
+    "category": "editorial_synthesis",
+    "text": "The passage closes by reminding people that Allah created everything on earth for them (2:29). The next passage tells how humanity's story on earth began: Allah tells the angels that He is placing a successor (khalifah) on the earth (2:30).",
+    "sources": [{ "work": "quran", "locator": "2:29-30" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "worship-and-mindfulness",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di explains the worship commanded here in its full sense: obeying Allah's commands, avoiding what He forbids and believing what He tells us, which is what He created people for (51:56). On 'so that you may be mindful' (la'allakum tattaqun) he gives two meanings: that worship shields you from His displeasure and punishment, or that by worshipping Him you become one of the mindful. Both are correct, he says, and each entails the other. Tafheem-ul-Qur'an puts the aim as being saved from false beliefs and wrong conduct in this life, and from Allah's punishment in the next.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:21" },
+        { "work": "quran", "locator": "51:56" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 22" }
+      ]
+    },
+    {
+      "id": "the-argument-from-provision",
+      "category": "scholarly_interpretation",
+      "text": "The call is not left as a bare command. Ibn Kathir notes that Allah begins to explain why He alone deserves worship by pointing to His favours: He brought people from non-existence into being, and gave them the earth, the sky and the rain. Al-Sa'di draws out the argument: people already accept that no one shares with Allah in creating, providing and governing, so they should likewise accept that no one shares with Him in worship.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:21", "excerpt": "شرع تبارك وتعالى في بيان وحدانية ألوهيته ، بأنه تعالى هو المنعم على عبيده" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:22" }
+      ]
+    },
+    {
+      "id": "hidden-rivals",
+      "category": "scholarly_interpretation",
+      "text": "What are the 'rivals' (andad) of 2:22? Ibn Kathir reports Ibn 'Abbas describing this kind of shirk as more hidden than the crawl of an ant on a black rock in the dark of night. His examples include saying 'if it weren't for this dog, the thieves would have come' or 'what Allah wills and you will'. Ibn Kathir also quotes a hadith in which a man said to the Prophet ﷺ, 'What Allah wills and you will', and he replied, 'Have you made me a rival to Allah?' Tafheem-ul-Qur'an explains the verse as forbidding anyone but Allah to be made the object of the worship, service and obedience owed to Him alone.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:22", "excerpt": "الأنداد هو الشرك ، أخفى من دبيب النمل على صفاة سوداء في ظلمة الليل", "note": "Reported from Ibn 'Abbas via 'Ikrimah, through Ibn Abi Hatim" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 23" }
+      ],
+      "sensitive": ["aqeedah", "hadith"]
+    },
+    {
+      "id": "the-challenge",
+      "category": "scholarly_interpretation",
+      "text": "Ibn Kathir notes that the opponents had already been challenged in Makkah, to produce a book (28:49), ten surahs (11:13), or anything like the Qur'an (17:88). The challenge was then repeated in Madinah in this verse. 'Like it' means like the Qur'an: so Mujahid and Qatadah explained it, and al-Tabari chose that reading over 'from a man like Muhammad'. Ibn Kathir's reason is that the challenge was addressed to all of them, though they were the most eloquent of peoples.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:23", "excerpt": "ثم تحداهم [ الله تعالى ] بذلك - أيضا - في المدينة" },
+        { "work": "quran", "locator": "28:49" },
+        { "work": "quran", "locator": "11:13" },
+        { "work": "quran", "locator": "17:88" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 24" }
+      ]
+    },
+    {
+      "id": "the-stones",
+      "category": "scholarly_disagreement",
+      "text": "The Fire's fuel is 'people and stones' (2:24). Which stones? Ibn Kathir records two explanations and holds the first to be stronger.",
+      "sources": [{ "work": "quran", "locator": "2:24" }],
+      "views": [
+        {
+          "holder": "'Abdullah ibn Mas'ud, and others of the early generations (as reported by Ibn Kathir)",
+          "text": "Stones of sulphur that Allah created and prepared for the disbelievers. Ibn Kathir adds that such stones burn hottest when lit, which suits a verse describing the Fire's intensity.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:24", "excerpt": "هي حجارة من كبريت ، خلقها الله يوم خلق السماوات والأرض في السماء الدنيا ، يعدها للكافرين" }
+          ]
+        },
+        {
+          "holder": "Recorded by al-Qurtubi and preferred by Fakhr al-Din al-Razi (as reported by Ibn Kathir)",
+          "text": "The stone idols that were worshipped besides Allah, in the light of 21:98: 'You and what you worship besides Allah are the fuel of Hell.' Tafheem-ul-Qur'an reads the verse in a similar direction, as a hint that the idols will share their worshippers' fate.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:24" },
+            { "work": "quran", "locator": "21:98" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 25" }
+          ]
+        }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "why-the-gnat",
+      "category": "scholarly_disagreement",
+      "text": "Why does the Qur'an say it is not ashamed of a parable 'even of a gnat' (2:26)? Ibn Kathir records different reports about what prompted the verse. He notes that al-Tabari preferred the first because it fits the surah more closely.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:26", "excerpt": "فهذا اختلافهم في سبب النزول ، وقد اختار ابن جرير ما حكاه السدي ؛ لأنه أمس بالسورة" }
+      ],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas, Ibn Mas'ud and others of the Companions (via al-Suddi)",
+          "text": "When Allah struck the two parables of the hypocrites (2:17 and 2:19), the hypocrites said Allah was too exalted to strike such parables, and this verse was revealed.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:26", "excerpt": "قال المنافقون : الله أعلى وأجل من أن يضرب هذه الأمثال" }]
+        },
+        {
+          "holder": "Qatadah, with something similar from Mujahid",
+          "text": "When Allah mentioned the spider and the fly in His Book, those who opposed the message asked what Allah could mean by mentioning such things. Ibn Kathir notes that one wording of this report implies the verse is Makkan, which it is not.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:26", "excerpt": "لما ذكر الله العنكبوت والذباب ، قال المشركون : ما بال العنكبوت والذباب يذكران ؟" }]
+        }
+      ],
+      "sensitive": ["sabab_al_nuzul"]
+    },
+    {
+      "id": "guided-and-misled-by-the-same-verses",
+      "category": "scholarly_interpretation",
+      "text": "'He misleads many by it and guides many by it' (2:26). Al-Sa'di explains that the same revelation increases believers in faith and the rejecters in rejection, as 9:124–125 describes. He then points to the verse's last words: Allah misleads by it only the fasiqin, those who have left His obedience until defiance has become their settled trait. That, he says, is His justice and wisdom, not arbitrariness. Tafheem-ul-Qur'an adds that people who are not seeking the truth get caught on surface questions, while seekers see the wisdom beneath.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:26" },
+        { "work": "quran", "locator": "9:124-125" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 29" }
+      ],
+      "sensitive": ["aqeedah"]
+    },
+    {
+      "id": "earth-then-heavens",
+      "category": "scholarly_interpretation",
+      "text": "2:29 mentions the earth and then the seven heavens. Ibn Kathir takes this to mean that Allah began with the earth. For 79:30, 'and after that He spread out the earth', he cites a report in Sahih al-Bukhari: Ibn 'Abbas was asked about exactly this, and answered that the earth was created before the heaven but spread out after it. On 'then He turned (istawa) to the heaven', al-Sa'di explains that istawa followed by 'ila' (to) carries the meaning of turning to and intending.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:29", "excerpt": "أن ابن عباس سئل عن هذا بعينه ، فأجاب بأن الأرض خلقت قبل السماء وأن الأرض إنما دحيت بعد خلق السماء" },
+        { "work": "sahih-al-bukhari", "locator": "as quoted by Ibn Kathir on 2:29" },
+        { "work": "quran", "locator": "79:30" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:29" }
+      ],
+      "sensitive": ["aqeedah", "hadith"]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "two-deaths-two-lives",
+      "category": "scholarly_interpretation",
+      "text": "'You were dead, and He gave you life' (2:28). Ibn Mas'ud linked this verse with 40:11, 'You caused us to die twice and gave us life twice'. Ibn 'Abbas explained the four stages: dust before creation is a death, being created is a life, dying into the grave is a second death, and the Resurrection is the second life. Ibn Kathir reports the same from many early scholars.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:28", "excerpt": "كنتم ترابا قبل أن يخلقكم ، فهذه ميتة ، ثم أحياكم فخلقكم فهذه حياة" },
+        { "work": "quran", "locator": "40:11" }
+      ]
+    },
+    {
+      "id": "our-servant",
+      "category": "scholarly_interpretation",
+      "text": "In the challenge, the Prophet ﷺ is called simply 'Our servant' (2:23). Al-Sa'di points out that he is described by servanthood at his greatest moments: here, in the Night Journey (17:1) and in the sending down of the Furqan (25:1). Servanthood to Allah, he concludes, is his greatest quality.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:23" },
+        { "work": "quran", "locator": "17:1" },
+        { "work": "quran", "locator": "25:1" }
+      ]
+    },
+    {
+      "id": "hope-beside-warning",
+      "category": "scholarly_interpretation",
+      "text": "The warning of the Fire (2:24) is followed at once by glad tidings (2:25). Al-Sa'di calls this Allah's way throughout the Qur'an: pairing encouragement with warning, so that the servant lives between hope and fear.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:25" },
+        { "work": "quran", "locator": "2:24-25" }
+      ]
+    },
+    {
+      "id": "what-allah-ordered-joined",
+      "category": "scholarly_interpretation",
+      "text": "The defiant 'cut what Allah has ordered to be joined' (2:27). Al-Sa'di lists what that covers: the bond with Allah through faith and worship, with His Messenger, with parents and relatives, and with all people through their rights. Tafheem-ul-Qur'an calls this short phrase one that embraces the whole of human morality and social life, from individuals to nations.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:27" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 32" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-worship-the-giver",
+      "category": "established",
+      "text": "Worship belongs to the One who created you and provides for you (2:21–22).",
+      "sources": [{ "work": "quran", "locator": "2:21-22" }]
+    },
+    {
+      "id": "takeaway-hidden-rivals",
+      "category": "editorial_synthesis",
+      "text": "Watch for hidden rivals: even everyday phrases can give others a share in what belongs to Allah alone.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:22" }]
+    },
+    {
+      "id": "takeaway-sincere-seeker",
+      "category": "editorial_synthesis",
+      "text": "Come to the Qur'an as a sincere seeker: the same verses that guide one person leave another more lost.",
+      "sources": [
+        { "work": "quran", "locator": "2:26" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:26" }
+      ]
+    },
+    {
+      "id": "takeaway-keep-ties",
+      "category": "editorial_synthesis",
+      "text": "Keep the ties Allah ordered to be joined: with Him, His Messenger, your family and all people.",
+      "sources": [
+        { "work": "quran", "locator": "2:27" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:27" }
+      ]
+    },
+    {
+      "id": "takeaway-return",
+      "category": "established",
+      "text": "You were lifeless, were given life, will die, will live again, and will return to Allah (2:28).",
+      "sources": [{ "work": "quran", "locator": "2:28" }]
+    }
+  ],
+  "commonMisunderstandings": [],
+  "reflectionQuestions": [
+    "Which of the gifts named in 2:22 (the ground, the sky, the rain, your food) do you most take for granted?",
+    "Is there a phrase or habit in your life that quietly gives credit to something other than Allah?",
+    "When a verse puzzles you, do you approach it like the believers in 2:26, or like those who only ask 'what is meant by this?'"
+  ],
+  "segmentationRationale": {
+    "text": "These nine verses are the third ruku of Al-Baqarah, and they read as one address to all people, opening with 'O mankind' (2:21). It runs from the call to worship, through the challenge of the Qur'an, its warning and glad tidings, and the answer to those who mocked its parables, to the reminder of life, death and return. A new subject, the story of Adam, begins at 2:30.",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 3 (2:21–29)" },
+      { "work": "maarif-ul-quran", "locator": "on 2:21-22" },
+      { "work": "quran", "locator": "2:30" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir and al-Sa'di (quran.com API v4), Ma'arif al-Qur'an (quran.com API v4, English) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

@@ -135,6 +135,17 @@
       "rightsNote": "Classical hadith collection. Numbering follows the widely used Fath al-Bari numbering."
     },
     {
+      "id": "sunan-abi-dawud",
+      "kind": "hadith_collection",
+      "title": "Sunan Abi Dawud",
+      "shortTitle": "Abu Dawud",
+      "author": "Abu Dawud al-Sijistani",
+      "authorDied": "275 AH / 889 CE",
+      "language": "ar",
+      "rights": "public_domain",
+      "rightsNote": "Classical hadith collection. Cited here as quoted by Ibn Kathir."
+    },
+    {
       "id": "jami-al-tirmidhi",
       "kind": "hadith_collection",
       "title": "Jami' al-Tirmidhi",

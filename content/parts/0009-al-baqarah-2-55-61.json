@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0009",
+  "partNumber": 9,
+  "surah": 2,
+  "startAyah": 55,
+  "endAyah": 61,
+  "title": "The Wilderness Years: Favour After Favour",
+  "subtitle": "Shade, manna and water from the rock, and a people who demanded to see Allah, changed a word of repentance and tired of what they were given",
+  "estimatedMinutes": 16,
+  "learningObjectives": [
+    "Know the favours of the wilderness years: shade, manna and quails, a town to enter, and water from the rock.",
+    "See how each favour was answered, and what the Qur'an says followed (2:59, 2:61).",
+    "Understand why a later generation is addressed for what its forebears did."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "Recall when you said, 'Moses, we will not believe you until we see Allah openly', and the thunderbolt seized you as you looked on; then We raised you after your death, so that you might be grateful (2:55–56). We shaded you with clouds and sent down manna and quails: eat of the good things We have given you. They did not wrong Us; they wronged themselves (2:57). Enter this town, eat freely, go through the gate bowing and say 'hittah' (relieve us of our sins), and We will forgive you (2:58); but the wrongdoers changed the word, and a punishment came down on them (2:59). Moses prayed for water; he struck the rock and twelve springs gushed out, each tribe knowing its place to drink (2:60). Then they said they could not bear one kind of food; Moses asked if they would exchange the better for the worse. Humiliation and poverty were laid on them, and they drew Allah's anger, because they rejected His signs and killed prophets unjustly (2:61).",
+    "sources": [{ "work": "quran", "locator": "2:55-61" }]
+  },
+  "context": [
+    {
+      "id": "the-wilderness",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di sets the scene of 2:57: the wilderness (al-tih), an empty land without shade or easy provision, through which the Israelites wandered after leaving Egypt. Tafheem-ul-Qur'an adds that a whole people crossed Sinai without even tents, and that without the shade Allah provided they would have been scorched by the sun.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:57" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 72" }
+      ],
+      "sensitive": ["historical"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-after-forgiveness",
+    "category": "editorial_synthesis",
+    "text": "Part 8 ended with forgiveness after the calf (2:54). The recollection goes on: a demand to see Allah openly, and then the long years in the wilderness (2:55–61).",
+    "sources": [{ "work": "quran", "locator": "2:54-55" }]
+  },
+  "connectionToNext": {
+    "id": "next-who-is-rewarded",
+    "category": "editorial_synthesis",
+    "text": "After this record of favours and failures, the next passage opens with a verse of a different kind, about who will be rewarded: whoever among the believers, the Jews, the Christians and the Sabians believes in Allah and the Last Day and does good (2:62). Scholars have discussed that verse at length.",
+    "sources": [{ "work": "quran", "locator": "2:62" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "we-will-not-believe-until-we-see",
+      "category": "scholarly_interpretation",
+      "text": "Ibn Kathir relates Ibn Ishaq's account that this demand came from the seventy men Moses chose to go with him after the calf (7:155). They died and were brought back to life. He points out that Moses himself asked to see Allah and was told he could not (7:143), so these seventy could not have seen Him either. Al-Sa'di calls the demand the height of wrongdoing and audacity, and allows that the thunderbolt brought either death or a great swoon.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:56", "excerpt": "فإن موسى الكليم ، عليه السلام ، قد سأل ذلك فمنع منه فكيف يناله هؤلاء السبعون ؟" },
+        { "work": "quran", "locator": "7:155" },
+        { "work": "quran", "locator": "7:143" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:55" }
+      ],
+      "sensitive": ["aqeedah", "historical"]
+    },
+    {
+      "id": "manna-and-quails",
+      "category": "scholarly_interpretation",
+      "text": "What was the manna? Al-Sa'di explains it as a name for every good provision that comes without toil. The quail (salwa) was a small bird with good meat. Ibn Kathir quotes the hadith in al-Bukhari and Muslim: 'Truffles are of the manna, and their water is a cure for the eye.'",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:57" },
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:57", "excerpt": "الكمأة من المن ، وماؤها شفاء للعين" },
+        { "work": "sahih-al-bukhari", "locator": "as quoted by Ibn Kathir on 2:57" },
+        { "work": "sahih-muslim", "locator": "as quoted by Ibn Kathir on 2:57" }
+      ],
+      "sensitive": ["hadith"]
+    },
+    {
+      "id": "which-town",
+      "category": "scholarly_disagreement",
+      "text": "Which town were they told to enter (2:58)? The verse does not name it, and scholars differ.",
+      "sources": [{ "work": "quran", "locator": "2:58" }],
+      "views": [
+        {
+          "holder": "Al-Suddi, al-Rabi' ibn Anas and Qatadah; held the sounder view by Ibn Kathir",
+          "text": "Jerusalem (Bayt al-Maqdis), the holy land they were told to enter in 5:21, entered after the forty years in the wilderness under Joshua (Yusha' ibn Nun).",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:58", "excerpt": "ولهذا كان أصح القولين أن هذه البلدة هي بيت المقدس" },
+            { "work": "quran", "locator": "5:21" }
+          ]
+        },
+        {
+          "holder": "Attributed to Ibn 'Abbas and 'Abd al-Rahman ibn Zayd (as reported by Ibn Kathir)",
+          "text": "Jericho (Ariha). Ibn Kathir thinks this unlikely, since Jericho was not where they were heading.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:58" }]
+        },
+        {
+          "holder": "Tafheem-ul-Qur'an",
+          "text": "Its identity is not settled. Since the events belong to the time in Sinai, it was probably a town there, or possibly Shittim, opposite Jericho across the Jordan.",
+          "sources": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 74" }]
+        }
+      ],
+      "sensitive": ["historical"]
+    },
+    {
+      "id": "the-changed-word",
+      "category": "scholarly_interpretation",
+      "text": "They were told to enter the gate bowing and say 'hittah', 'relieve us' of our sins (2:58). Ibn Kathir quotes the hadith of Abu Hurayrah in al-Bukhari and Muslim: they changed it, crawled in on their backsides and said instead 'a grain in a hair'. Al-Sa'di reads it as mockery of Allah's command: if they would change so light a word, they would more readily change the deed. Tafheem-ul-Qur'an explains the command as entering with the humility of servants of Allah, not the arrogance of conquerors, as the Prophet ﷺ later entered Makkah.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:59", "excerpt": "فبدلوا ، ودخلوا الباب يزحفون على استاههم ، فقالوا : حبة في شعرة" },
+        { "work": "sahih-al-bukhari", "locator": "as quoted by Ibn Kathir on 2:59" },
+        { "work": "sahih-muslim", "locator": "as quoted by Ibn Kathir on 2:59" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:59" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 75" }
+      ],
+      "sensitive": ["hadith", "historical"]
+    },
+    {
+      "id": "twelve-springs",
+      "category": "scholarly_interpretation",
+      "text": "Twelve springs for twelve tribes (2:60). Al-Sa'di and Tafheem-ul-Qur'an both explain the number as a mercy: each tribe knew its own place to drink, so no one had to crowd or quarrel over water. The verse ends with a charge that fits the gift: eat and drink of Allah's provision, and do not spread corruption on the earth.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:60" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 76" },
+        { "work": "quran", "locator": "2:60" }
+      ]
+    },
+    {
+      "id": "go-down-to-misr",
+      "category": "scholarly_disagreement",
+      "text": "'Go down to misr, and you will have what you asked for' (2:61). Misr can mean any town, or Egypt by name.",
+      "sources": [{ "work": "quran", "locator": "2:61" }],
+      "views": [
+        {
+          "holder": "Ibn 'Abbas (via 'Ikrimah), al-Suddi, Qatadah and al-Rabi'; al-Sa'di; Tafheem-ul-Qur'an",
+          "text": "Any town: such foods can be found in any settled place. The word is written with an alif and nunation in the Uthmani mushafs and read that way by the majority. Al-Tabari would not accept reading it otherwise.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:61", "excerpt": "وقال ابن عباس : ( اهبطوا مصرا ) قال : مصرا من الأمصار" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:61" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, 2:61 (translation)" }
+          ]
+        },
+        {
+          "holder": "Abu al-'Aliyah and al-Rabi' ibn Anas (as reported by Ibn Kathir)",
+          "text": "Egypt, the land of Pharaoh. The readings of Ubayy ibn Ka'b and Ibn Mas'ud have the word without nunation, and al-Tabari allows that Egypt may be meant even with it.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:61" }]
+        }
+      ],
+      "sensitive": ["historical"]
+    },
+    {
+      "id": "without-right",
+      "category": "scholarly_interpretation",
+      "text": "2:61 gives the reason for the anger: rejecting Allah's signs and 'killing the prophets without right'. Al-Sa'di notes that killing a prophet is never by right; the phrase stresses how grave it was, and shows it was not done in ignorance. He adds that sins draw one another along: heedlessness leads to small sins, small to great, and great to innovation and disbelief. Tafheem-ul-Qur'an describes three ways of rejecting Allah's signs: refusing teachings that go against one's desires, knowingly defying them, and distorting their meaning.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:61" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 78" }
+      ],
+      "sensitive": ["interfaith", "historical"]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "only-those-who-did-wrong",
+      "category": "scholarly_interpretation",
+      "text": "Notice the wording of 2:59: 'those who did wrong' changed the word, and the punishment came 'upon those who did wrong'. Al-Sa'di points out that the verse does not simply say 'they changed it', because not all of them did. Even in a passage of rebuke, the Qur'an is precise about who did what.",
+      "sources": [
+        { "work": "quran", "locator": "2:59" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:59" }
+      ]
+    },
+    {
+      "id": "they-did-not-wrong-us",
+      "category": "scholarly_interpretation",
+      "text": "'They did not wrong Us; they wronged themselves' (2:57). Al-Sa'di explains that the disobedience of the disobedient does not harm Allah, just as the obedience of the obedient does not benefit Him. The harm of a sin comes back on the one who commits it.",
+      "sources": [
+        { "work": "quran", "locator": "2:57" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:57" }
+      ]
+    },
+    {
+      "id": "why-address-the-descendants",
+      "category": "scholarly_interpretation",
+      "text": "These verses speak to the Israelites of the Prophet's ﷺ time about what their forebears did. Al-Sa'di gives several reasons. Favours given to the forebears reach their descendants too. A community bound together by one religion is like one body, so the good some do benefits all and the harm some do harms all. And whoever approves of a wrong shares in it. The same reasoning applies to any community, the Muslim community included.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:61" }],
+      "sensitive": ["interfaith"]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-sin-harms-the-sinner",
+      "category": "established",
+      "text": "Sin harms the sinner, never Allah: 'they did not wrong Us; they wronged themselves' (2:57).",
+      "sources": [{ "work": "quran", "locator": "2:57" }]
+    },
+    {
+      "id": "takeaway-gratitude-not-boredom",
+      "category": "editorial_synthesis",
+      "text": "Receive Allah's provision with gratitude, not with boredom or contempt.",
+      "sources": [
+        { "work": "quran", "locator": "2:61" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:61" }
+      ]
+    },
+    {
+      "id": "takeaway-enter-humbly",
+      "category": "editorial_synthesis",
+      "text": "Meet a blessing humbly and with a request for forgiveness, as they were told to at the town's gate.",
+      "sources": [
+        { "work": "quran", "locator": "2:58" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 75" }
+      ]
+    },
+    {
+      "id": "takeaway-small-sins",
+      "category": "editorial_synthesis",
+      "text": "Small neglect opens the way to greater wrongs; guard the small things.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:61" }]
+    },
+    {
+      "id": "takeaway-judge-fairly",
+      "category": "editorial_synthesis",
+      "text": "Be precise in blame, as the Qur'an is: it names 'those who did wrong', not everyone.",
+      "sources": [
+        { "work": "quran", "locator": "2:59" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:59" }
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "wanting-ordinary-food",
+      "misreading": "The fault in 2:61 was simply asking for ordinary vegetables instead of manna, so wanting variety in food is blameworthy.",
+      "clarification": {
+        "id": "the-fault-was-contempt",
+        "category": "scholarly_interpretation",
+        "text": "Tafheem-ul-Qur'an says explicitly that the fault was not asking for food that needs cultivating. It was caring so much for what pleased the palate that they could not set it aside, even for a while, for the great purpose they had been brought out for. Al-Sa'di describes the request as made out of weariness with Allah's favours and contempt for them. Moses' reply points to the same thing: would you exchange what is better for what is lower? (2:61).",
+        "sources": [
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 77" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:61" },
+          { "work": "quran", "locator": "2:61" }
+        ]
+      },
+      "addressedBy": [{ "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 77" }]
+    }
+  ],
+  "reflectionQuestions": [
+    "Which of Allah's regular gifts to you has started to feel ordinary, the way the manna did?",
+    "When something good comes to you, do you 'enter the gate humbly', or as if you had earned it?",
+    "Where do you see small neglect leading to bigger wrongs in your own life?"
+  ],
+  "segmentationRationale": {
+    "text": "This Part is the second movement of the long recollection in the sixth and seventh rukus of Al-Baqarah (2:47–59 and 2:60–61). It runs from the demand to see Allah, through the wilderness years, to their consequence (2:55–61), and ends where the seventh ruku ends. The next ruku opens with a verse of a different kind, a general statement about who will be rewarded (2:62).",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 7 (2:60–61)" },
+      { "work": "quran", "locator": "2:62" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir and al-Sa'di (quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}

@@ -35,6 +35,25 @@ export default function AboutPage() {
         </ul>
       </section>
 
+      <section id="parts" className="mt-14 scroll-mt-24">
+        <h2 className="font-serif text-2xl font-semibold">How the Qur&apos;an is divided into Parts</h2>
+        <p className="mt-3 leading-relaxed text-ink-2">
+          A Part is a passage that holds together as one unit of meaning. Our approach is inspired by the tradition of reading
+          the Qur&apos;an for its coherence (<em>nazm</em>), associated above all with Hamiduddin Farahi and with Amin Ahsan
+          Islahi&apos;s <em>Tadabbur-i-Qur&apos;an</em>: each surah is read as a whole, built of sections that carry its argument
+          forward. In practice, every boundary is checked against:
+        </p>
+        <ul className="mt-4 list-disc space-y-2 ps-5 leading-relaxed text-ink-2">
+          <li>the traditional ruku divisions, the passage breaks marked in the margins of South Asian mushafs;</li>
+          <li>the early commentators where they divide a passage, as Mujahid divided the opening of Al-Baqarah;</li>
+          <li>a length that can be read in one sitting.</li>
+        </ul>
+        <p className="mt-4 leading-relaxed text-ink-2">
+          Where we depart from a traditional break, the Part says so. Every Part ends with &ldquo;Why this passage is one
+          Part&rdquo;, which shows its reasons and sources.
+        </p>
+      </section>
+
       <section className="mt-14">
         <h2 className="font-serif text-2xl font-semibold">How AI is (and isn&apos;t) used</h2>
         <ul className="mt-4 list-disc space-y-2 ps-5 leading-relaxed text-ink-2">

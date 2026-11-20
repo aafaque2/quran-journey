@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "part-0010",
+  "partNumber": 10,
+  "surah": 2,
+  "startAyah": 62,
+  "endAyah": 66,
+  "title": "Not by Labels: The Mountain and the Sabbath",
+  "subtitle": "What Allah rewards is faith and good deeds, not a name; then a covenant taken under the mountain, and those who broke the Sabbath",
+  "estimatedMinutes": 12,
+  "learningObjectives": [
+    "Understand what 2:62 says about reward, and how scholars read it alongside the rest of the Qur'an.",
+    "Know the covenant the people were told to 'hold firmly' under the raised mountain (2:63–64).",
+    "Know the account of those who broke the Sabbath, the scholars' views on it, and why it was made a lesson (2:65–66)."
+  ],
+  "summary": {
+    "id": "summary",
+    "category": "editorial_synthesis",
+    "text": "Those who believe, the Jews, the Christians and the Sabians: whoever believes in Allah and the Last Day and does good will have their reward with their Lord, and no fear will be on them, nor will they grieve (2:62). Remember when We took your covenant and raised the mountain above you: hold firmly to what We have given you and remember what is in it, so that you may be mindful (2:63). Then you turned away, and but for Allah's grace and mercy you would have been among the losers (2:64). You know of those among you who broke the Sabbath, to whom We said, 'Be apes, despised' (2:65); We made it a deterrent for their own time and for those after, and an admonition for the mindful (2:66).",
+    "sources": [{ "work": "quran", "locator": "2:62-66" }]
+  },
+  "context": [
+    {
+      "id": "why-2-62-stands-here",
+      "category": "scholarly_interpretation",
+      "text": "Why does a verse about reward stand in the middle of so much rebuke? Al-Sa'di explains that, after the failings of the Children of Israel were recounted, some might think the blame covered every one of them. So the verse shows who is untouched by it, and states a rule for every community, so no one thinks it was about one people alone. This, he says, is the Qur'an's way: where a passage might leave a false impression, it supplies what removes it. Tafheem-ul-Qur'an puts the aim plainly: to remove the illusion that belonging to a community secures salvation.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:62" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 80" }
+      ],
+      "sensitive": ["interfaith"]
+    }
+  ],
+  "connectionToPrevious": {
+    "id": "previous-not-all-of-them",
+    "category": "editorial_synthesis",
+    "text": "Part 9 ended with humiliation and anger for those who rejected Allah's signs (2:61). The next verse makes sure that blame is not read as covering everyone: reward belongs to faith and good deeds, whoever holds them (2:62).",
+    "sources": [
+      { "work": "quran", "locator": "2:61-62" },
+      { "work": "tafsir-al-sadi", "locator": "on 2:62" }
+    ]
+  },
+  "connectionToNext": {
+    "id": "next-the-cow",
+    "category": "editorial_synthesis",
+    "text": "The Sabbath-breakers looked for a way around a clear command. The next passage tells of another response to a command: told to slaughter a cow, the people asked question after question, and in the end did it, though they almost did not (2:67–71).",
+    "sources": [{ "work": "quran", "locator": "2:67-71" }]
+  },
+  "tafsirInsights": [
+    {
+      "id": "faith-and-deeds-not-labels",
+      "category": "scholarly_interpretation",
+      "text": "Tafheem-ul-Qur'an explains that 2:62 is not listing every article of faith, which the Qur'an gives elsewhere. Its point is that Allah judges by true faith and good deeds, not by the community a person's name is listed under. Al-Sa'di reads it as Allah's judgement between the communities of scripture, describing them before the Prophet ﷺ was sent. Whoever among them believed in Allah, the Last Day and their own messengers has a great reward and security; whoever rejected them has the opposite.",
+      "sources": [
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 80" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:62" }
+      ],
+      "sensitive": ["interfaith", "aqeedah"]
+    },
+    {
+      "id": "salmans-companions",
+      "category": "scholarly_interpretation",
+      "text": "What prompted the verse? Ibn Kathir reports from Mujahid that Salman al-Farisi asked the Prophet ﷺ about the people of the religion he had been with before Islam, describing their prayer and worship, and the verse was revealed. Al-Suddi gives a fuller version: those companions had prayed, fasted and believed that a prophet would be sent.",
+      "sources": [
+        { "work": "tafsir-ibn-kathir", "locator": "on 2:62", "note": "Mujahid's report via Ibn Abi Najih, through Ibn Abi Hatim; and al-Suddi's" }
+      ],
+      "sensitive": ["sabab_al_nuzul", "interfaith"]
+    },
+    {
+      "id": "who-are-the-sabians",
+      "category": "scholarly_disagreement",
+      "text": "Who were the Sabians (al-sabi'un)? The early scholars disagreed, and Ibn Kathir records several views.",
+      "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:62" }],
+      "views": [
+        {
+          "holder": "Mujahid ('Ata' and Sa'id ibn Jubayr similar; Wahb ibn Munabbih); the most apparent view to Ibn Kathir",
+          "text": "A people who were neither Jews, Christians, Magians nor idolaters, but kept to their natural disposition (fitrah) without a settled religion. Ibn Kathir notes that the idolaters used to call anyone who became Muslim a 'sabi'' for this reason.",
+          "sources": [
+            {
+              "work": "tafsir-ibn-kathir",
+              "locator": "on 2:62",
+              "excerpt": "وأظهر الأقوال ، والله أعلم ، قول مجاهد ومتابعيه ، ووهب بن منبه : أنهم قوم ليسوا على دين اليهود ولا النصارى ولا المجوس ولا المشركين"
+            }
+          ]
+        },
+        {
+          "holder": "Abu al-'Aliyah, al-Rabi' ibn Anas, al-Suddi, Jabir ibn Zayd and al-Dahhak",
+          "text": "A group among the People of the Book who read the Psalms (al-Zabur).",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:62", "excerpt": "الصابئون فرقة من أهل الكتاب يقرؤون الزبور" }]
+        },
+        {
+          "holder": "Al-Hasan al-Basri",
+          "text": "A people who worshipped the angels.",
+          "sources": [{ "work": "tafsir-ibn-kathir", "locator": "on 2:62", "excerpt": "هم قوم يعبدون الملائكة" }]
+        },
+        {
+          "holder": "Al-Sa'di",
+          "text": "A sect of the Christians, which he considers the correct view.",
+          "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:62" }]
+        }
+      ],
+      "sensitive": ["interfaith", "historical"]
+    },
+    {
+      "id": "hold-it-firmly",
+      "category": "scholarly_interpretation",
+      "text": "Al-Sa'di explains the covenant of 2:63 as a weighty one, sealed with awe by raising the mountain above them. 'Hold firmly' means with seriousness, effort and patience in Allah's commands, and 'remember what is in it' means reciting and learning it. Even after so emphatic a covenant they turned away, deserving the gravest punishment, but for Allah's grace and mercy (2:64). Tafheem-ul-Qur'an cautions that after so many centuries the exact nature of the event cannot be stated with certainty. What can be said, with 7:171, is that at the foot of the mountain they felt as though it would fall on them.",
+      "sources": [
+        { "work": "tafsir-al-sadi", "locator": "on 2:63-64" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 81" },
+        { "work": "quran", "locator": "7:171" }
+      ],
+      "sensitive": ["historical"]
+    },
+    {
+      "id": "be-apes",
+      "category": "scholarly_disagreement",
+      "text": "'Be apes, despised' (2:65): was this a change of body, or of heart?",
+      "sources": [{ "work": "quran", "locator": "2:65" }],
+      "views": [
+        {
+          "holder": "Qatadah, Ibn 'Abbas (in al-'Awfi's report) and others; the apparent meaning according to Ibn Kathir; Tafheem-ul-Qur'an; al-Sa'di",
+          "text": "A real transformation. Ibn Kathir points to 5:60, which speaks of those among whom Allah 'made apes and pigs'. Tafheem-ul-Qur'an judges that both the wording and the way the event is told suggest a physical change: in its view, their minds remained while their bodies became those of apes.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:65" },
+            { "work": "quran", "locator": "5:60" },
+            { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 83" },
+            { "work": "tafsir-al-sadi", "locator": "on 2:65" }
+          ]
+        },
+        {
+          "holder": "Mujahid",
+          "text": "Their hearts were transformed, not their bodies; it is a parable, like 'the donkey carrying books' (62:5). Ibn Kathir accepts that this is reliably reported from Mujahid but calls it an unusual view, against the apparent meaning of this passage and others.",
+          "sources": [
+            { "work": "tafsir-ibn-kathir", "locator": "on 2:65", "excerpt": "مسخت قلوبهم ، ولم يمسخوا قردة ، وإنما هو مثل ضربه الله" },
+            { "work": "quran", "locator": "62:5" }
+          ]
+        }
+      ],
+      "sensitive": ["historical", "interfaith"]
+    },
+    {
+      "id": "a-lesson-for-the-mindful",
+      "category": "scholarly_interpretation",
+      "text": "The punishment was made 'a deterrent for what was before it and what came after, and an admonition for the mindful' (2:66). Al-Sa'di explains: a deterrent for the people of that time who witnessed it or heard of it, and for those after them, so that Allah's proof stands against all. But it only benefits as an admonition those who are mindful of Allah; others draw nothing from signs.",
+      "sources": [{ "work": "tafsir-al-sadi", "locator": "on 2:66" }]
+    }
+  ],
+  "keyInsights": [
+    {
+      "id": "the-believers-are-listed-too",
+      "category": "editorial_synthesis",
+      "text": "Notice who is named first in 2:62: 'those who believe'. The principle cuts every way. Tafheem-ul-Qur'an explains it as the end of salvation by affiliation, and 4:123 states it directly to Muslims and the People of the Book alike: 'It is not by your wishful thinking, nor by the wishful thinking of the People of the Book: whoever does wrong will be recompensed for it.'",
+      "sources": [
+        { "work": "quran", "locator": "2:62" },
+        { "work": "quran", "locator": "4:123" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 80" }
+      ]
+    },
+    {
+      "id": "the-test-of-the-sabbath",
+      "category": "established",
+      "text": "Surah al-A'raf tells the fuller story, to which al-Sa'di points: a town by the sea whose fish came to them openly on the Sabbath, and not on other days, 'thus We tested them because they were defiantly disobedient' (7:163). The test came exactly where obedience was hardest to keep.",
+      "sources": [
+        { "work": "quran", "locator": "7:163" },
+        { "work": "tafsir-al-sadi", "locator": "on 2:65" }
+      ]
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "takeaway-faith-and-deeds",
+      "category": "established",
+      "text": "Reward is for believing in Allah and the Last Day and doing good, not for a name or a label (2:62).",
+      "sources": [{ "work": "quran", "locator": "2:62" }]
+    },
+    {
+      "id": "takeaway-no-guarantee",
+      "category": "editorial_synthesis",
+      "text": "Belonging to a believing community guarantees nothing by itself: faith and deeds are asked of each person.",
+      "sources": [
+        { "work": "quran", "locator": "4:123" },
+        { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 80" }
+      ]
+    },
+    {
+      "id": "takeaway-hold-firmly",
+      "category": "established",
+      "text": "Hold firmly to what Allah has given you, and keep remembering what is in it (2:63).",
+      "sources": [{ "work": "quran", "locator": "2:63" }]
+    },
+    {
+      "id": "takeaway-no-tricks",
+      "category": "editorial_synthesis",
+      "text": "Don't look for clever ways around Allah's commands; the Sabbath-breakers were made a lesson.",
+      "sources": [
+        { "work": "quran", "locator": "2:65-66" },
+        { "work": "quran", "locator": "7:163" }
+      ]
+    }
+  ],
+  "commonMisunderstandings": [
+    {
+      "id": "any-community-now",
+      "misreading": "2:62 means that, after the Prophet ﷺ was sent, belonging to any of these communities is enough without believing in him.",
+      "clarification": {
+        "id": "before-and-after-the-mission",
+        "category": "scholarly_interpretation",
+        "text": "Ibn Kathir reports Ibn 'Abbas saying that after this verse Allah revealed 3:85: 'Whoever seeks a religion other than Islam, it will never be accepted from him.' He explains that the two do not conflict. Before the Prophet ﷺ was sent, whoever followed the messenger of their own time was rightly guided, like the followers of Moses who judged by the Torah in his time. After he was sent, nothing is accepted that does not agree with what he brought. Al-Sa'di likewise reads 2:62 as describing these communities before the Prophet's ﷺ mission. Tafheem-ul-Qur'an notes that the verse does not list the articles of faith, which the Qur'an sets out elsewhere.",
+        "sources": [
+          { "work": "tafsir-ibn-kathir", "locator": "on 2:62" },
+          { "work": "quran", "locator": "3:85" },
+          { "work": "tafsir-al-sadi", "locator": "on 2:62" },
+          { "work": "tafheem-ul-quran", "locator": "Al-Baqarah, note 80" }
+        ],
+        "sensitive": ["interfaith", "aqeedah"]
+      },
+      "addressedBy": [
+        {
+          "work": "tafsir-ibn-kathir",
+          "locator": "on 2:62",
+          "excerpt": "فأما قبل ذلك فكل من اتبع الرسول في زمانه فهو على هدى وسبيل ونجاة"
+        },
+        { "work": "tafsir-al-sadi", "locator": "on 2:62" }
+      ]
+    }
+  ],
+  "reflectionQuestions": [
+    "Do you ever rely on being from a Muslim family in a way that 2:62 and 4:123 would question?",
+    "What would it look like for you to 'hold firmly' to the Qur'an, as the people were told to hold the Torah (2:63)?",
+    "Are there commands you keep in form but get around in substance?"
+  ],
+  "segmentationRationale": {
+    "text": "These five verses open the eighth ruku of Al-Baqarah (2:62–71). That ruku goes on into the story of the cow, which itself runs past the ruku's end (2:67–73) and is best read whole in a Part of its own. 2:62–66 stand together as one movement: a general rule about who is rewarded, then two reminders of covenants given to be held firmly, and broken: the mountain and the Sabbath.",
+    "basis": "classical_and_editorial",
+    "sources": [
+      { "work": "ruku-divisions", "locator": "Al-Baqarah, ruku 8 (2:62–71)" },
+      { "work": "quran", "locator": "2:67-73" }
+    ]
+  },
+  "audioScript": null,
+  "status": "AI_GENERATED",
+  "review": {
+    "generatedBy": "claude-opus-5-5 (Claude Code)",
+    "history": [
+      {
+        "at": "2026-11-20T14:00:00.000Z",
+        "by": "claude-opus-5-5",
+        "actor": "ai",
+        "from": null,
+        "to": "AI_GENERATED",
+        "note": "Drafted from Ibn Kathir and al-Sa'di (quran.com API v4) and Tafheem-ul-Qur'an (islamicstudies.info). Arabic excerpts checked verbatim against the fetched text by script. Not yet reviewed by a human."
+      }
+    ]
+  }
+}
