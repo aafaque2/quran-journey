@@ -3,6 +3,7 @@ import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { Report, type ReportInput } from "@quran-journey/schema";
+import { supabaseProjectUrl } from "./supabase-url";
 
 /**
  * Where "Report an issue" submissions are kept.
@@ -20,8 +21,8 @@ const FILE = path.join(process.cwd(), ".data", "reports.jsonl");
 
 function supabase(): { url: string; key: string } | null {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
-  return url && key ? { url: url.replace(/\/$/, ""), key } : null;
+  const key = (process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY)?.trim();
+  return url && key ? { url: supabaseProjectUrl(url), key } : null;
 }
 
 /**
