@@ -6,7 +6,7 @@ import { DepthSwitch, PrefsSync, ThemeToggle } from "@/components/header-control
 import { AppSetup } from "@/components/pwa";
 import { installPromptScript } from "@/lib/install-prompt";
 import { OctagramIcon, SlidersIcon } from "@/components/icons";
-import { getContent } from "@/lib/content";
+import { getContent, getVisibility } from "@/lib/content";
 import { bootConfig, bootScript, DEFAULT_DEPTH } from "@/lib/reading-prefs";
 import { SITE, SITE_URL } from "@/lib/site";
 import "./globals.css";
@@ -34,6 +34,8 @@ export const metadata: Metadata = {
   formatDetection: { telephone: false },
   openGraph: { type: "website", siteName: SITE.name, title: SITE.name, description: SITE.description, locale: "en" },
   twitter: { card: "summary", title: SITE.name, description: SITE.description },
+  // A drafts build shows unreviewed AI drafts to a closed group: keep every page out of search results.
+  ...(getVisibility() === "drafts" ? { robots: { index: false, follow: false } } : {}),
 };
 
 export const viewport: Viewport = {
